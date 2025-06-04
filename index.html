@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cardinal Insights</title>
+  <link href="https://fonts.googleapis.com/css2?family=Helvetica:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: Helvetica, sans-serif;
+      background-color: #ffffff;
+      color: #383838;
+    }
+    header {
+      background-color: #FFFAFA;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header img.logo {
+      height: 50px;
+    }
+    header img.tagline {
+      height: 30px;
+    }
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      header img.logo {
+        margin-bottom: 10px;
+      }
+      .tagline-wrapper {
+        display: none;
+      }
+    }
+    main {
+      padding: 100px 20px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0a48b6;
+      font-weight: bold;
+      font-stretch: condensed;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .button {
+      display: inline-block;
+      background-color: #b11002;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .principle {
+      display: flex;
+      margin-bottom: 15px;
+    }
+    .principle-title {
+      color: #25a95e;
+      font-weight: bold;
+      font-stretch: condensed;
+      width: 200px;
+      flex-shrink: 0;
+    }
+    .principle-desc {
+      flex: 1;
+      font-weight: 300;
+    }
+    .carousel {
+      overflow: hidden;
+      position: relative;
+      height: 250px;
+    }
+    .carousel-track {
+      display: flex;
+      width: 500%;
+      animation: scroll 40s linear infinite;
+    }
+    .testimonial {
+      flex: 0 0 100%;
+      box-sizing: border-box;
+      padding: 20px;
+    }
+    .testimonial-source {
+      color: #25a95e;
+      font-weight: bold;
+      font-stretch: condensed;
+      margin-bottom: 10px;
+    }
+    .testimonial-content {
+      font-weight: 300;
+    }
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      20% { transform: translateX(0); }
+      25% { transform: translateX(-100%); }
+      45% { transform: translateX(-100%); }
+      50% { transform: translateX(-200%); }
+      70% { transform: translateX(-200%); }
+      75% { transform: translateX(-300%); }
+      95% { transform: translateX(-300%); }
+      100% { transform: translateX(-400%); }
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Cardinal Insights Logo" class="logo" />
+    <div class="tagline-wrapper">
+      <img src="tagline.png" alt="Tagline" class="tagline" />
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <p>
+        Cardinal provides the evidence base that lets our customers act with confidence. Human intelligence is central to our work. We turn information into actionable insight by harnessing original thought, deep topic knowledge, and real-world practical experience. This intelligence is often unpublished and otherwise inaccessible. It comes from our network of Expert Associates, and our ability to identify and engage with Subject Matter Experts. Our work informs policy and operations for government departments, regulators, security & policing, and others.
+      </p>
+      <a href="mailto:info@cardinalinsights.co.uk" class="button">Contact Us</a>
+    </section>
+
+    <section>
+      <h2>Our Services</h2>
+      <ul>
+        <li>Problem definition, research design, and delivery team assembly.</li>
+        <li>Secondary research. Including AI discovery, market assessment, OSINT, and academic and grey literature reviews.</li>
+        <li>Qualitative primary research. Iterative depth interviews with identified independent experts with specific experience of topics, companies, or technologies.</li>
+        <li>Rapid intelligence. Briefing notes or informal conversations on breaking news and hot-take intelligence findings.</li>
+        <li>Analysis. Including scorecards, foresight, scenarios, horizon scanning, vulnerability prioritisation and policy recommendations.</li>
+        <li>Colloquys. Convening stakeholders and experts in fireside chats, workshops, and Delphis.</li>
+        <li>Pithy easy-to-consume deliverables designed for seniors, backed up by readable depth reports.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Our Principles</h2>
+      <div class="principle">
+        <div class="principle-title">Personable & conscientious</div>
+        <div class="principle-desc">We form partnerships with our customers, taking on their challenges as our own, and acting as trusted advisors and critical friends...</div>
+      </div>
+      <div class="principle">
+        <div class="principle-title">Collaborative & human</div>
+        <div class="principle-desc">We’re adept at engaging the right minds to address the questions at hand, bringing diversity of expertise for our customers...</div>
+      </div>
+      <div class="principle">
+        <div class="principle-title">Streamlined & nimble</div>
+        <div class="principle-desc">With low overheads, risk-appropriate assurance, and the ability to scale up and down in response to requirements...</div>
+      </div>
+      <div class="principle">
+        <div class="principle-title">Direct, perceptive & articulate</div>
+        <div class="principle-desc">We get to the heart of the matter, probing hype and filtering noise to reveal what’s really going on...</div>
+      </div>
+      <div class="principle">
+        <div class="principle-title">Flexible</div>
+        <div class="principle-desc">There is rarely a one-size-fits-all approach. We are skilled at delineating the problem, and developing the best research...</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>What Our Clients Say</h2>
+      <div class="carousel">
+        <div class="carousel-track">
+          <div class="testimonial">
+            <div class="testimonial-source">Annie Estlin, Science Research Manager, NPCC</div>
+            <div class="testimonial-content">Dan brought deep subject expertise, a strong network of relevant contacts...</div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-source">Sam Brooks, Head of F&I, ACE</div>
+            <div class="testimonial-content">I'm amazed at the quality of the deliverable and how much you were able to advance the knowledge base within just 20 days.</div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-source">Graedon Crouch, MOD Futures Lab</div>
+            <div class="testimonial-content">I had the privilege of working with Dan for several years... Dan is a master of this art.</div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-source">Andy Etherington, NCA / NCMEC</div>
+            <div class="testimonial-content">His research is meticulous and detail orientated... This work is invaluable.</div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-source">Russell Bagnall, Home Office</div>
+            <div class="testimonial-content">Dan undertook a difficult and sensitive research project, and delivered truly outstanding results...</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Copyright Cardinal Insights Limited, 2025. All rights reserved. Registered company number 16460890.
+  </footer>
+</body>
+</html>

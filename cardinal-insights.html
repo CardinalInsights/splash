@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cardinal Insights</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Helvetica, sans-serif;
+      background: #ffffff;
+      color: #383838;
+      font-weight: 300;
+    }
+
+    h1, h2, h3 {
+      font-family: Helvetica, sans-serif;
+      font-weight: 700;
+      font-stretch: condensed;
+      color: #0a48b6;
+      margin-top: 0;
+    }
+
+    header {
+      background-color: #FFFAFA;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+    }
+
+    .logo, .tagline {
+      max-height: 60px;
+    }
+
+    .intro {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .contact-button {
+      display: inline-block;
+      background-color: #b11002;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .services {
+      padding: 2rem;
+      background: #f9f9f9;
+    }
+
+    .services ul {
+      padding-left: 1.5rem;
+    }
+
+    .carousel {
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .carousel-track {
+      display: flex;
+      transition: transform 0.5s ease;
+      width: 100%;
+    }
+
+    .testimonial {
+      min-width: 100%;
+      box-sizing: border-box;
+      padding: 1rem;
+    }
+
+    .carousel-controls {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .carousel-button {
+      background: #b11002;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      margin: 0 0.25rem;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .carousel {
+      max-height: 220px;
+    }
+
+    .testimonial {
+      height: 200px;
+      overflow-y: auto;
+    }
+
+    .carousel-dots {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .dot {
+      height: 10px;
+      width: 10px;
+      margin: 0 4px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background-color: #b11002;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #f2f2f2;
+      font-size: 0.875rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .logo, .tagline {
+        max-width: 100%;
+        margin-bottom: 0.5rem;
+      }
+
+      .carousel-track {
+        flex-direction: column;
+      }
+
+      .testimonial {
+        min-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Cardinal Insights Logo" class="logo">
+    <img src="tagline.png" alt="Tagline" class="tagline">
+  </header>
+
+  <section class="intro">
+    <h2>Welcome to Cardinal Insights</h2>
+    <p>Your 50-word introduction goes here. Briefly explain what Cardinal Insights offers and the value clients can expect. Make it clear, professional, and compelling to encourage users to explore more or contact you directly.</p>
+    <a class="contact-button" href="mailto:info@cardinalinsights.com">Contact Us</a>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Strategic market research</li>
+      <li>Customer insight development</li>
+      <li>Competitor benchmarking</li>
+      <li>Product opportunity assessment</li>
+      <li>Go-to-market strategy</li>
+      <li>Executive presentations</li>
+      <li>Industry trend reporting</li>
+      <li>Data analysis & storytelling</li>
+    </ul>
+  </section>
+
+  <section class="carousel">
+    <h2>What Our Clients Say</h2>
+    <div class="carousel-track" id="carouselTrack">
+      <div class="testimonial">Testimonial 1 - up to 100 words.</div>
+      <div class="testimonial">Testimonial 2 - up to 100 words.</div>
+      <div class="testimonial">Testimonial 3 - up to 100 words.</div>
+      <div class="testimonial">Testimonial 4 - up to 100 words.</div>
+      <div class="testimonial">Testimonial 5 - up to 100 words.</div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-button" onclick="manualSlide(-1)">‹</button>
+      <button class="carousel-button" onclick="manualSlide(1)">›</button>
+    </div>
+    <div class="carousel-dots" id="carouselDots"></div>
+  </section>
+
+  <footer>
+    &copy; Cardinal Insights Limited, 2025. All rights reserved. Registered company number 16460890.
+  </footer>
+
+  <script>
+    let currentSlide = 0;
+    const track = document.getElementById('carouselTrack');
+    const totalSlides = track.children.length;
+    const dotsContainer = document.getElementById('carouselDots');
+
+    for (let i = 0; i < totalSlides; i++) {
+      const dot = document.createElement('span');
+      dot.className = 'dot' + (i === 0 ? ' active' : '');
+      dot.addEventListener('click', () => {
+        currentSlide = i;
+        updateSlide();
+        resetInterval();
+      });
+      dotsContainer.appendChild(dot);
+    }
+
+    let slideInterval = setInterval(() => moveSlide(1), 5000);
+
+    function moveSlide(direction) {
+      currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+      updateSlide();
+    }
+
+    function manualSlide(direction) {
+      moveSlide(direction);
+      resetInterval();
+    }
+
+    function updateSlide() {
+      track.style.transform = `translateX(-${currentSlide * 100}%)`;
+      document.querySelectorAll('.dot').forEach((dot, idx) => {
+        dot.classList.toggle('active', idx === currentSlide);
+      });
+    }
+
+    function resetInterval() {
+      clearInterval(slideInterval);
+      slideInterval = setInterval(() => moveSlide(1), 5000);
+    }
+
+    let startX = 0;
+    track.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX;
+    });
+
+    track.addEventListener('touchend', (e) => {
+      const endX = e.changedTouches[0].clientX;
+      const diff = startX - endX;
+      if (Math.abs(diff) > 50) {
+        diff > 0 ? manualSlide(1) : manualSlide(-1);
+      }
+    });
+  </script>
+</body>
+</html>

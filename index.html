@@ -30,6 +30,10 @@
       pointer-events: none;
     }
 
+    .container-wrapper {
+      display: block;
+    }
+    
     .container {
       display: flex;
       flex-direction: column;
@@ -92,8 +96,9 @@
 
     @media (min-width: 768px) {
       .container {
+        display: flex
         flex-direction: row;
-        height: 100vh;
+        height: auto;
       }
 
       .sidebar {
@@ -109,13 +114,14 @@
       .content {
         padding: 40px;
         margin: 0;
-        overflow-y: auto;
         flex: 1;
+        background-color: white;
       }
     }
   </style>
 </head>
 <body>
+  <div class="container-wrapper">
   <div class="container">
     <div class="sidebar">
       <img src="logo.png" alt="Cardinal Insights Logo" class="logo" />
@@ -134,7 +140,7 @@
 
       <a href="mailto:info@cardinalinsights.co.uk" class="contact-button">Contact Us</a>
     </div>
-
+</div>
          <footer>
         Copyright Cardinal Insights Limited, 2025. All rights reserved.
         Registered company number 16460890.

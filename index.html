@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cardinal Insights</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Helvetica, sans-serif;
+    }
+
+.grid-background {
+  background-color: white;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><rect width="100%" height="100%" fill="white"/><path d="M 20 0 L 0 0 0 20" fill="none" stroke="%23C3d7fc" stroke-width="1"/></svg>');
+}
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sidebar {
+      background: none;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .logo,
+    .tagline {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .main-content {
+      background-color: white;
+      padding: 20px 20px;
+    }
+
+    .main-content h1 {
+      color: #0a48b6;
+      font-weight: bold;
+      font-stretch: condensed;
+    }
+
+    .main-content p {
+      color: #383838;
+      font-weight: 300;
+      line-height: 1.6;
+    }
+
+    .contact-button {
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 12px 24px;
+      background-color: #b11002;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: left;
+      font-size: 0.7em;
+      color: #383838;
+      padding: 0px;
+      background-color: #FFFFFF;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        flex-direction: row;
+        min-height: 100vh;
+      }
+
+      .sidebar {
+        width: 302px;
+        height: 100vh;
+        border-right: 0px solid #C3d7fc;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 60px;
+      }
+
+      .main-section {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        min-height: 100vh;
+      }
+
+      .main-content {
+        flex: 1;
+        padding: 40px;
+      }
+
+      footer {
+        margin-left: 0px;
+        width: auto;
+      }
+    }
+  </style>
+</head>
+<body class="grid-background">
+  <div class="container">
+    <div class="sidebar">
+      <img src="logo.png" alt="Cardinal Logo" class="logo" />
+      <img src="tagline.png" alt="Cardinal Tagline" class="tagline" />
+    </div>
+
+    <div class="main-section">
+      <div class="main-content">
+        <h1>About Cardinal Insights</h1>
+        <p style="color: #25a95e; font-weight:normal;">Cardinal Insights provides the evidence base that allows you to act with confidence.</p>
+        <p>We focus on the implications of emerging technology for society.</p>
+        <p>Human intelligance is at the heart of our work. We turn information into actionable insight by harnessing original thought, deep topic knowledge, and real-world practical experience. We identify, engage, and challenge independent experts who can pierce the hype and get to the heart of the matter. We distil their expertise, combine it with futures-oriented analytical techniques, and make succinct recommendations. This human intelligence is often unpublished and otherwise inaccessible.</p>
+        <p style="color: #f89216; font-weight:normal;">We demand intellectual honesty and will share substantiated opinions even when they’re provocative.</p>
+        <p>We form partnerships with our customers, taking on their challenges as our own, acting as trusted advisors and critical friends, often providing rapid conversational insights in response to breaking news and new research. We clarify complexity without losing nuance.</p>
+        <p>While we are generalists at heart, we have extensive experience investigating deepfakes, misinformation, child safety online, and malicious applications of AI, as well as futures work on a wide variety of technologies and public safety threats.</p>
+        <p>Our work informs policy and operations for government departments, regulators, security & policing, and others.</p>
+         <p style="color: #fb4040; font-weight:normal;">Our lean distributed approach shortens time to value and maximises value for money.</p>
+               <p>Cardinal Insights provides expertise both direct and via the <a href="https://www.gov.uk/government/organisations/accelerated-capability-environment">Accelerated Capability Environment (ACE)</a>, a Home Office capability within the Homeland Security Group. We also collaborate with specialist consultants and market intelligence partners. We are part of the <a href="https://www.vivace.tech/">Vivace</a> community, and are <a href="https://hellios.com/joscar">JOSCAR</a> registered.</p>
+        <a href="mailto:info@cardinalinsights.co.uk" class="contact-button">Contact Us</a>
+
+        <footer>
+          <p>Copyright Cardinal Insights Limited, 2025. All rights reserved. Registered company number 16460890.</p>
+</footer>
+            
+      </div>
+   
+    </div>
+  </div>
+</body>
+</html>

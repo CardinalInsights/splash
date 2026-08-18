@@ -85,13 +85,13 @@ async function renderPublications() {
         <p class="pub-summary">${p.summary}</p>
         <button class="btn" onclick="togglePubForm('${p.id}')">Get the report</button>
         <div class="email-form" id="form-${p.id}" style="display:none; margin-top:12px;">
-          <form action="${p.formAction}" method="post" target="_blank" style="display:flex; flex-wrap:wrap; gap:8px; width:100%;">
-            <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address" />
-            <button type="submit" class="btn btn-secondary">Verify &amp; email me the link</button>
+          <form onsubmit="return requestReport(event, '${p.id}', '${p.title.replace(/'/g, "\\'")}')" style="display:flex; flex-wrap:wrap; gap:8px; width:100%;">
+            <input type="email" id="email-${p.id}" placeholder="you@example.com" required aria-label="Email address" />
+            <button type="submit" class="btn btn-secondary">Request report</button>
           </form>
         </div>
         <p class="form-note" id="note-${p.id}" style="display:none;">
-          Check your inbox to confirm your email — once confirmed you'll land on a page with the download link.
+          Your email app should open with a message ready to send — hit send and we'll get the report over to you directly.
         </p>
       </article>
     `).join("");
@@ -103,45 +103,27 @@ async function renderPublications() {
 
 function togglePubForm(id) {
   const form = document.getElementById(`form-${id}`);
-  const note = document.getElementById(`note-${id}`);
   if (!form) return;
-  const showing = form.style.display !== "none";
-  form.style.display = showing ? "none" : "block";
-  note.style.display = showing ? "none" : "block";
+  form.style.display = form.style.display !== "none" ? "none" : "block";
 }
 
-/* ---------- Unlock page (after confirmed email redirect) ---------- */
-
-async function renderUnlock() {
-  const target = document.getElementById("unlock-result");
-  if (!target) return;
-  const params = new URLSearchParams(window.location.search);
-  const docId = params.get("doc");
-  if (!docId) {
-    target.innerHTML = '<p class="status-message">No report specified. Return to the <a href="publications.html">Publications</a> page.</p>';
-    return;
-  }
-  try {
-    const pubs = await loadJSON("data/publications.json");
-    const pub = pubs.find(p => p.id === docId);
-    if (!pub) {
-      target.innerHTML = '<p class="status-message">We could not find that report. Return to the <a href="publications.html">Publications</a> page.</p>';
-      return;
-    }
-    target.innerHTML = `
-      <h2>${pub.title}</h2>
-      <p>Thanks for confirming your email — your report is ready.</p>
-      <a class="btn" href="${pub.pdf}" download>Download PDF</a>
-    `;
-  } catch (err) {
-    target.innerHTML = '<p class="status-message">Something went wrong loading your report.</p>';
-    console.error(err);
-  }
+function requestReport(event, pubId, title) {
+  event.preventDefault();
+  const emailInput = document.getElementById(`email-${pubId}`);
+  const visitorEmail = emailInput.value.trim();
+  const subject = `Request ${title} Report`;
+  const body = `Please could you send me a copy of the report "${title}".\n\nMy email address: ${visitorEmail}`;
+  const mailto = `mailto:info@cardinalinsights.co.uk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = mailto;
+  const note = document.getElementById(`note-${pubId}`);
+  if (note) note.style.display = "block";
+  return false;
 }
+
+
 
 document.addEventListener("DOMContentLoaded", () => {
   renderExperts();
   renderCommentary();
   renderPublications();
-  renderUnlock();
 });

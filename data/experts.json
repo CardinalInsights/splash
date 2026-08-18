@@ -1,0 +1,16 @@
+[
+  {
+    "id": "jane-example",
+    "name": "Dr Jane Example",
+    "role": "Associate, AI Policy",
+    "photo": "assets/experts/jane-example.jpg",
+    "bio": "Jane spent a decade leading horizon-scanning work for a UK regulator, focusing on the public safety implications of generative AI and synthetic media."
+  },
+  {
+    "id": "john-example",
+    "name": "John Example",
+    "role": "Associate, Online Harms",
+    "photo": "assets/experts/john-example.jpg",
+    "bio": "John advises policing and government on child safety online, with a background in platform trust & safety and open-source investigations."
+  }
+]

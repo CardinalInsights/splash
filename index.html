@@ -1,189 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cardinal Insights</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Helvetica, sans-serif;
-    }
-
-.grid-background {
-  background-color: white;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><rect width="100%" height="100%" fill="white"/><path d="M 20 0 L 0 0 0 20" fill="none" stroke="%23C3d7fc" stroke-width="1"/></svg>');
-}
-
-    .container {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .sidebar {
-      background: none;
-      text-align: center;
-      padding: 20px;
-    }
-
-.sidebar img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-    
-    .logo,
-    .tagline {
-      max-width: 280px;
-      height: auto;
-      margin-bottom: 10px;
-    }
-
-    .main-content {
-   max-width: 941px;
-      background-color: white;
-      flex: 1;
- padding-left: 20px; 
-  padding-right: 20px; 
-}
-
-    .content-wrapper {
-}
-    
-    .main-content h1 {
-      margin-top: 20px;
-      color: #0a48b6;
-      font-weight: bold;
-      font-stretch: condensed;
-    }
-
-    
-    .main-content p {
-      color: #383838;
-      font-weight: 300;
-      line-height: 1.6;
-    }
-
-    .contact-button {
-      display: inline-block;
-      margin: 0px auto;
-      padding: 12px 24px;
-      background-color: #b11002;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-      font-weight: bold;
-      text-align: center;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 0.7em;
-      color: #383838;
-      padding: 20px; 0px; 0px
-      background-color: #FFFFFF;
-    }
-
-    
-    @media (min-width: 768px) {
-      .container {
-        flex-direction: row;
-        min-height: 100vh;
-      }
-
-      .sidebar {
-        width: 300px;
-        height: 100vh;
-        border-right: 0px solid #C3d7fc;
-        flex-shrink: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        padding-top: 20px;
-      }
-
-      .main-section {
-        display: flex;
-        flex-direction: column;
-        flex: 1;
-        min-height: 100vh;
-        padding: 0px 20px;
-        
-      }
-
-      .main-content {
-      border-left: 0.25px solid #C3d7fc;
-        border-right: 0.25px solid #C3d7fc;
-        flex: 1;
-        padding: 0px 20px 0px 40px;
-      }
-
-      footer {
-        margin-left: 0px;
-        width: auto;
-      }
-    }
-
-
-  @media (max-width: 767px) {
-  .main-content h1 {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .main-section {
-    background-color: white;
-  }
-  .sidebar {
-    padding-bottom: 20px;
-  }
-  .tagline {
-    margin-bottom: 0;
-  }
-  }
-
-
-}
-    
-    
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cardinal Insights</title>
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body class="grid-background">
-  <div class="container">
-    <div class="sidebar">
-      <img src="logo.png" alt="Cardinal Logo" class="logo" />
-      <img src="tagline.png" alt="Cardinal Tagline" class="tagline" />
-    </div>
+<div class="container">
 
-    <div class="main-section">
-      <div class="main-content">
-         <div class="content-wrapper">
+  <div class="sidebar">
+    <img src="logo.png" alt="Cardinal Logo" class="logo" />
+    <img src="tagline.png" alt="Cardinal Tagline" class="tagline" />
+    <nav class="site-nav">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="commentary.html">Commentary</a>
+      <a href="experts.html">Experts</a>
+      <a href="publications.html">Publications</a>
+    </nav>
+  </div>
+
+  <div class="main-section">
+    <div class="main-content">
+      <div class="content-wrapper">
+
         <h1>Cardinal Insights</h1>
-           <p style="color: #25a95e; font-weight: normal;">A focus on emerging technologies and their public safety implications</p>
+        <p class="section-lede" style="color: var(--green);">A focus on emerging technologies and their public safety implications</p>
         <p>We have extensive experience investigating deepfakes, misinformation, child safety online, and malicious applications of AI, as well as horizon scanning for a wide variety of technologies, harms, and threats. This work informs policy and operations for government departments, regulators, policing, and others.</p>
-        <p style="color: #f89216; font-weight: normal;">Human intelligence for confident decision making</p>
-                <p>Human intelligence is central to our work. We complement our own experience by identifying, engaging, and challenging independent experts who cut through hype and spin to get to the heart of the matter. We harness original thought, deep topic knowledge, and real-world practical experience, combining it with futures thinking to develop actionable insight and succinct recommendations. This human intelligence is often unpublished and otherwise inaccessible.</p>
-        <p style="color: #fb4040; font-weight:normal;">Partnerships built on intellectual honesty</p>
-        <p>We form close partnerships with our customers, taking on their challenges as our own, acting as trusted advisors and critical friends. We prioritise intellectual honesty, even when findings are challenging or provocative. Alongside deep research, we help our customers interpret breaking news and emerging trends with rapid conversational insights, clarifying complexity without losing nuance.</p>
-              <p style="color: #89426a; font-weight: normal;">Collaborative delivery</p>
-         <p>Cardinal has developed a lean distributed approach that shortens time to value and maximises value for money. We provide expertise direct, with market intelligence partners, or via the <a href="https://www.gov.uk/government/organisations/accelerated-capability-environment">Accelerated Capability Environment (ACE)</a>, a Home Office capability within the Homeland Security Group. We are part of the <a href="https://www.vivace.tech/">Vivace</a> community, and are <a href="https://hellios.com/joscar">JOSCAR</a> registered.</p>
 
-           <div style="text-align: center;">
-  <a href="mailto:info@cardinalinsights.co.uk" class="contact-button">Contact Us</a>
-</div>
+        <p class="section-lede" style="color: var(--orange);">Human intelligence for confident decision making</p>
+        <p>Human intelligence is central to our work. We complement our own experience by identifying, engaging, and challenging independent experts who cut through hype and spin to get to the heart of the matter. We harness original thought, deep topic knowledge, and real-world practical experience, combining it with futures thinking to develop actionable insight and succinct recommendations. This human intelligence is often unpublished and otherwise inaccessible.</p>
+
+        <p class="section-lede" style="color: var(--red-accent);">Partnerships built on intellectual honesty</p>
+        <p>We form close partnerships with our customers, taking on their challenges as our own, acting as trusted advisors and critical friends. We prioritise intellectual honesty, even when findings are challenging or provocative. Alongside deep research, we help our customers interpret breaking news and emerging trends with rapid conversational insights, clarifying complexity without losing nuance.</p>
+
+        <p class="section-lede" style="color: var(--purple);">Collaborative delivery</p>
+        <p>Cardinal has developed a lean distributed approach that shortens time to value and maximises value for money. We provide expertise direct, with market intelligence partners, or via the <a href="https://www.gov.uk/government/organisations/accelerated-capability-environment">Accelerated Capability Environment (ACE)</a>, a Home Office capability within the Homeland Security Group. We are part of the <a href="https://www.vivace.tech/">Vivace</a> community, and are <a href="https://hellios.com/joscar">JOSCAR</a> registered.</p>
+
+        <div style="text-align: center;">
+          <a href="mailto:info@cardinalinsights.co.uk" class="contact-button">Contact Us</a>
+        </div>
+
+        <!-- Newsletter signup: swap the form action / embed code for your provider.
+             See README.md "Newsletter setup" for exact steps for Beehiiv or Mailchimp. -->
+        <div class="newsletter-panel">
+          <h2>Stay up to date</h2>
+          <p>Sign up for occasional updates on our research and commentary.</p>
+          <form class="email-form" action="https://cardinalinsights.beehiiv.com/subscribe" method="post" target="_blank">
+            <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address" />
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+          <p class="form-note">We'll never share your email. Unsubscribe anytime.</p>
+        </div>
 
         <footer>
           <p>Copyright Cardinal Insights Limited, 2025. All rights reserved. Registered company number 16460890.</p>
-</footer>
-            
-      </div>
+        </footer>
+
       </div>
     </div>
   </div>
+
+</div>
 </body>
 </html>

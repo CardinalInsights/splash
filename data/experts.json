@@ -1,11 +1,13 @@
 [
   {
-    "id": "jane-example",
-    "name": "Dr Jane Example",
+    "id": "paul-ridgewell",
+    "name": "Pane Ridgewell",
     "role": "Associate, AI Policy",
-    "photo": "assets/experts/jane-example.jpg",
-    "bio": "Jane spent a decade leading horizon-scanning work for a UK regulator, focusing on the public safety implications of generative AI and synthetic media.",
-    "linkedin": "https://www.linkedin.com/in/jane-example"
+    "photo": "assets/experts/paul-ridgewell.jpg",
+    "bio": "Paul is an independent technology research consultant with over 20 years of experience delivering commissioned research for UK government clients and commercial organisations. He is author AI Crime Insights, a monthly horizon-scanning newsletter covering AI-enabled crime and law enforcement responses, distributed to a government and law enforcement audience.
+    For commercial clients, he delivers thought leadership reports, market assessments, competitive analysis and independent expert assessments across the technology and financial services sectors. Prior to going freelance, he spent 20 years as a technology sector equity analyst at OTR Global, a New York-based investment research firm, covering 5G networks, hyperscale cloud and connected devices for institutional investor clients on Wall Street and in the City of London.
+    Key areas of expertise: artificial intelligence, cybersecurity, cybercrime, emerging technology, internet architecture, data-enabled law enforcement, communications technology, financial services technology research.",
+    "linkedin": "https://www.linkedin.com/in/paulridgewell/"
   },
   {
     "id": "john-example",

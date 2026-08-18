@@ -33,6 +33,7 @@ async function renderExperts() {
         <h3>${e.name}</h3>
         <div class="expert-role">${e.role}</div>
         <p class="expert-bio">${e.bio}</p>
+        ${e.linkedin ? `<a class="expert-linkedin" href="${e.linkedin}" target="_blank" rel="noopener">View LinkedIn profile ↗</a>` : ""}
       </div>
     `).join("");
   } catch (err) {

@@ -1,4 +1,12 @@
 [
+{
+    "id": "dan-hawkins",
+    "name": "Dan Hawkins",
+    "role": "Founder Cardinal Insights",
+    "photo": "assets/experts/dan-hawkins.jpg",
+    "bio": "Dan works for government and law enforcement on the implications of future tech for public safety. His work informs policy, operations, and strategy,\n\nKey areas: Foresight | Clarifying complexity | Grounding innovation | Malicious uses of AI | Disinformation | Deepfakes | Online trust & safety",
+    "profile": "https://www.linkedin.com/in/danielbhawkins/"
+  },
   {
     "id": "jessica-figueras",
     "name": "Jessica Figueras",
@@ -12,7 +20,7 @@
     "name": "Broderick McDonald",
     "role": "AI Safety & Online Harms",
     "photo": "assets/experts/broderick-mcdonald.png",
-    "bio": "Broderick is Director of the Oxford Disinformation & Extremism Lab, a CETaS fellow at the Turing Institute, and a Research Fellow at KCL's XCEPT Research Programme.\n\nKey areas: AI security | Online harms | hybrid warfare | disinformation | terrorism | scams & fraud | child safety | geopolitical risk | counterintelligence | OSINT.",
+    "bio": "Broderick is Director of the Oxford Disinformation & Extremism Lab, a CETaS fellow at the Turing Institute, and a Research Fellow at KCL's XCEPT Research Programme among other roles.\n\nKey areas: AI security | Online harms | Hybrid warfare | Disinformation | Terrorism | Fraud | Geopolitical risk | Counterintelligence | OSINT.",
     "profile": "https://www.broderickjamesmcdonald.com"
   },
   {

@@ -9,7 +9,7 @@
   --orange: #f89216;
   --red-accent: #fb4040;
   --purple: #89426a;
-  --button-red: #b11002;
+  --button-red: #a22617;
   --grid-line: #C3d7fc;
   --text-body: #383838;
   --border-line: #C3d7fc;
@@ -273,10 +273,9 @@ footer {
 }
 
 .newsletter-panel {
-  border-radius: 6px;
-  padding: 20px;
-  margin: 30px 0;
-  background-color: white;
+  padding: 20px 0 0 0;
+  margin: 30px 0 0 0;
+  border-top: 1px solid var(--grid-line);
 }
 
 .newsletter-panel h2 {

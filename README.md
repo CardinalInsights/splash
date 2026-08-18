@@ -71,12 +71,17 @@ Edit `data/experts.json`. Each entry:
   "name": "Full Name",
   "role": "Their title",
   "photo": "assets/experts/filename.jpg",
-  "bio": "Two or three sentences."
+  "bio": "Two or three sentences.",
+  "linkedin": "https://www.linkedin.com/in/their-profile"
 }
 ```
 Upload the headshot to `assets/experts/`. If a photo is missing or fails to
 load, a neutral placeholder silhouette shows automatically so the page never
-breaks. To remove someone, delete their JSON block.
+breaks. The `linkedin` field is optional — if present, a "View LinkedIn
+profile" link appears on their card; leave it out (or delete the line) for
+anyone who'd rather not be linked. Get their permission before adding a
+link, same as you would for the photo and bio. To remove someone, delete
+their whole JSON block.
 
 *If you'd like a proper visual admin panel instead of editing JSON directly*
 (useful if someone non-technical will maintain this), **Decap CMS** is a

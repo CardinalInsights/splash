@@ -202,6 +202,7 @@ footer {
   color: var(--text-body);
   font-weight: 300;
   line-height: 1.5;
+ text-align: left;
 }
 
 .post-card,

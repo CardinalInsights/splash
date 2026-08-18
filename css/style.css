@@ -203,6 +203,7 @@ footer {
   font-weight: 300;
   line-height: 1.5;
  text-align: left;
+   white-space: pre-wrap;
 }
 
 .post-card,

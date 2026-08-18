@@ -6,7 +6,7 @@
     "photo": "assets/experts/jessica-figueras.png",
     "bio": "Jessica works at the intersection of tech, government and civil society in the fields of cyber security and trust, online safety, risk, regulation, and social impact.\n\nKey areas: Strategy and leadership | Growth, market development and innovation | Cybersecurity | Data/AI and digital transformation | board perspective, risk and governance | Government, politics & policy | Regulated industries",
     "profile": "https://www.linkedin.com/in/jessicafigueras/"
-  }
+  },
    {
     "id": "broderick-mcdonald",
     "name": "Broderick McDonald",
@@ -14,7 +14,7 @@
     "photo": "assets/experts/broderick-mcdonald.png",
     "bio": "Broderick is Director of the Oxford Disinformation & Extremism Lab, a CETaS fellow at the Turing Institute, and a Research Fellow at KCL's XCEPT Research Programme.\n\nKey areas: AI security | Online harms | hybrid warfare | disinformation | terrorism | scams & fraud | child safety | geopolitical risk | counterintelligence | OSINT.",
     "profile": "https://www.broderickjamesmcdonald.com"
-  }
+  },
   {
     "id": "paul-ridgewell",
     "name": "Paul Ridgewell",

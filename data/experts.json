@@ -4,15 +4,15 @@
     "name": "Paul Ridgewell",
     "role": "Technology Research",
     "photo": "assets/experts/paul-ridgewell.jpg",
-    "bio": "Key areas of expertise: research, foresight, artificial intelligence, cybersecurity, cybercrime, emerging technology, internet architecture, data-enabled law enforcement, communications technology, financial services technology research. Paul authors AI Crime Insights, a monthly horizon-scanning newsletter covering AI-enabled crime and law enforcement responses.",
+    "bio": "Paul is an experienced expert analyst, and author of AI Crime Insights, a monthly horizon-scanning newsletter covering AI-enabled crime and law enforcement responses. Key areas: *Research, *Foresight, *Artificial intelligence, *Cybersecurity & cybercrime, *Emerging technology, *Internet architecture, *Data-enabled law enforcement, *Communications technology, *Financial services technology. Paul authors AI Crime Insights, a monthly horizon-scanning newsletter covering AI-enabled crime and law enforcement responses.",
     "linkedin": "https://www.linkedin.com/in/paulridgewell/"
   },
   {
-    "id": "john-example",
-    "name": "John Example",
+    "id": "jessica-figueras",
+    "name": "Jessica Figueras",
     "role": "Associate, Online Harms",
-    "photo": "assets/experts/john-example.jpg",
-    "bio": "John advises policing and government on child safety online, with a background in platform trust & safety and open-source investigations.",
-    "linkedin": "https://www.linkedin.com/in/john-example"
+    "photo": "assets/experts/jessica-figueras.png",
+    "bio": "Jessica works at the intersection of tech, government and civil society in the fields of cyber security and trust, online safety, risk, regulation, and social impact. Key areas: *Strategy and leadership, *Growth, market development and innovation, *Cybersecurity, *Data/AI and digital transformation, *board perspective, risk and governance, *Government, politics & policy, *Regulated industries.",
+    "linkedin": "https://www.linkedin.com/in/jessicafigueras/"
   }
 ]

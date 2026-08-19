@@ -226,6 +226,14 @@ footer {
   letter-spacing: 0.03em;
 }
 
+.post-excerpt {
+  font-size: 0.9em;
+  color: var(--text-body);
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 4px 0 0 0;
+}
+
 .post-card h3 a,
 .pub-card h3 {
   color: var(--blue);

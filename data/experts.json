@@ -4,7 +4,7 @@
     "name": "Dan Hawkins",
     "role": "Founder Cardinal Insights",
     "photo": "assets/experts/dan-hawkins.jpg",
-    "bio": "Dan works for government and law enforcement on the implications of future tech for public safety. His work informs policy, operations, and strategy,\n\nKey areas: Foresight | Clarifying complexity | Grounding innovation | Malicious uses of AI | Disinformation | Deepfakes | Online trust & safety",
+    "bio": "Dan works for government and law enforcement on the implications of future tech for public safety. His work informs policy, operations, and strategy,\n\nKey areas: Foresight | Clarifying complexity | Grounding innovation | Malicious uses of AI | Disinformation | Deepfakes | Online trust & safety.",
     "profile": "https://www.linkedin.com/in/danielbhawkins/"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Jessica Figueras",
     "role": "Cybersecurity Leader",
     "photo": "assets/experts/jessica-figueras.png",
-    "bio": "Jessica works at the intersection of tech, government and civil society in the fields of cyber security and trust, online safety, risk, regulation, and social impact.\n\nKey areas: Strategy and leadership | Growth, market development and innovation | Cybersecurity | Data/AI and digital transformation | board perspective, risk and governance | Government, politics & policy | Regulated industries",
+    "bio": "Jessica works at the intersection of tech, government and civil society in the fields of cyber security and trust, online safety, risk, regulation, and social impact.\n\nKey areas: Strategy and leadership | Growth, market development and innovation | Cybersecurity | Data/AI and digital transformation | board perspective, risk and governance | Government, politics & policy | Regulated industries.",
     "profile": "https://www.linkedin.com/in/jessicafigueras/"
   },
    {
@@ -28,7 +28,15 @@
     "name": "Paul Ridgewell",
     "role": "Technology Research",
     "photo": "assets/experts/paul-ridgewell.jpg",
-    "bio": "Paul is an experienced expert analyst, and author of AI Crime Insights, a monthly horizon-scanning newsletter covering AI-enabled crime and law enforcement responses.\n\nKey areas: Research | Foresight | Artificial intelligence | Cybersecurity & cybercrime | Emerging technology | Internet architecture | Data-enabled law enforcement | Communications technology | Financial services technology",
+    "bio": "Paul is an experienced expert analyst, and author of AI Crime Insights, a monthly horizon-scanning newsletter covering AI-enabled crime and law enforcement responses.\n\nKey areas: Research | Foresight | Artificial intelligence | Cybersecurity & cybercrime | Emerging technology | Internet architecture | Data-enabled law enforcement | Communications technology | Financial services technology.",
     "profile": "https://www.linkedin.com/in/paulridgewell/"
+  },
+    {
+    "id": "windsor-holden",
+    "name": "Windsor Holden",
+    "role": "Technology Consultant",
+    "photo": "assets/experts/windsor-holden.jpg",
+    "bio": "Windosr has over 27 years’ experience as a technology consultant and analyst, specialising in actionable insight for government and enterprise.\n\nKey areas: Emerging Technologies | Digital ID | AI Security | Telecom Resilience | Payments | Drones | Internet of Space | Hazard detection.",
+    "profile": "https://www.linkedin.com/in/windsor-holden-ba9765/"
   }
 ]

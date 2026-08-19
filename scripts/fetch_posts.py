@@ -11,6 +11,7 @@ import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
+import html as html_module
 
 # Get this from Beehiiv: Settings > Publication > RSS > New RSS Feed.
 # It looks like https://rss.beehiiv.com/feeds/xxxxxxxxxx.xml
@@ -28,6 +29,17 @@ def strip_query(url: str) -> str:
     return url.split("?")[0]
 
 
+import html as html_module
+
+def clean_excerpt(raw_html: str, max_len: int = 220) -> str:
+    text = re.sub(r"<[^>]+>", " ", raw_html or "")   # strip HTML tags
+    text = html_module.unescape(text)                 # decode entities like &amp;
+    text = re.sub(r"\s+", " ", text).strip()           # collapse whitespace
+    if len(text) > max_len:
+        text = text[:max_len].rsplit(" ", 1)[0] + "…"
+    return text
+
+
 def parse_items(xml_text: str):
     root = ET.fromstring(xml_text)
     posts = []
@@ -35,9 +47,15 @@ def parse_items(xml_text: str):
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
         pub_date = (item.findtext("pubDate") or "").strip()
+        description = item.findtext("description") or ""
         if not title or not link:
             continue
-        posts.append({"title": title, "url": strip_query(link), "date": pub_date})
+        posts.append({
+            "title": title,
+            "url": strip_query(link),
+            "date": pub_date,
+            "excerpt": clean_excerpt(description),
+        })
     return posts
 
 

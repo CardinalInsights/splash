@@ -38,5 +38,21 @@
     "photo": "assets/experts/windsor-holden.jpg",
     "bio": "Windsor has over 27 years’ experience as a technology consultant and analyst, specialising in actionable insight for government and enterprise.\n\nKey areas: Emerging Technologies | Digital ID | AI Security | Telecom Resilience | Payments | Drones | Internet of Space | Hazard detection.",
     "profile": "https://www.linkedin.com/in/windsor-holden-ba9765/"
+  },
+      {
+    "id": "harriet-pierpooint",
+    "name": "Harriet Pierpoint",
+    "role": "Vulnerability Research",
+    "photo": "assets/experts/harriet-pierpoint.jpg",
+    "bio": "Harriet is Co-Founder and Chair of the Vulnerability Research Network and a widely recognised leader in ethical and inclusive social research, evidence reviews, and impact work.\n\nKey areas: Criminology | Social Policy | Youth justice | Legal AI | Homelessness | Qual & quant research.",
+    "profile": "https://www.linkedin.com/in/harrietpierpoint/"
+  },
+   {
+    "id": "angus-marshall",
+    "name": "Angus Marshall",
+    "role": "Digital Forensics",
+    "photo": "",
+    "bio": "Angus is an educator, practitioner, and expert witness specialising in digital evidence.\n\nKey areas: Digital forensics | Cyber investigations | Encrypted communications | Prosecution & defence | Regulations & standards.",
+    "profile": "https://www.linkedin.com/in/angusmarshall/"
   }
 ]

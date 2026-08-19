@@ -14,7 +14,7 @@ from pathlib import Path
 
 # Get this from Beehiiv: Settings > Publication > RSS > New RSS Feed.
 # It looks like https://rss.beehiiv.com/feeds/xxxxxxxxxx.xml
-FEED_URL = "REPLACE_WITH_YOUR_BEEHIIV_RSS_URL"
+FEED_URL = https://rss.beehiiv.com/feeds/CKilvifks4.xml
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "data" / "posts.json"
 
 

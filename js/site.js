@@ -83,13 +83,10 @@ async function renderPublications() {
         <div class="pub-meta">${formatDate(p.date)}</div>
         <h3>${p.title}</h3>
         <p class="pub-summary">${p.summary}</p>
-        <button class="btn" onclick="togglePubForm('${p.id}')">Get the report</button>
-        <div class="email-form" id="form-${p.id}" style="display:none; margin-top:12px;">
-          <form onsubmit="return requestReport(event, '${p.id}', '${p.title.replace(/'/g, "\\'")}')" style="display:flex; flex-wrap:wrap; gap:8px; width:100%;">
-            <input type="email" id="email-${p.id}" placeholder="you@example.com" required aria-label="Email address" />
-            <button type="submit" class="btn btn-secondary">Request report</button>
-          </form>
-        </div>
+        <form class="email-form" onsubmit="return requestReport(event, '${p.id}', '${p.title.replace(/'/g, "\\'")}')">
+          <input type="email" id="email-${p.id}" placeholder="you@example.com" required aria-label="Email address" />
+          <button type="submit" class="btn">Request report</button>
+        </form>
         <p class="form-note" id="note-${p.id}" style="display:none;">
           Your email app should open with a message ready to send — hit send and we'll get the report over to you directly.
         </p>
@@ -99,12 +96,6 @@ async function renderPublications() {
     list.innerHTML = '<p class="status-message">Publications could not be loaded right now.</p>';
     console.error(err);
   }
-}
-
-function togglePubForm(id) {
-  const form = document.getElementById(`form-${id}`);
-  if (!form) return;
-  form.style.display = form.style.display !== "none" ? "none" : "block";
 }
 
 function requestReport(event, pubId, title) {

@@ -285,6 +285,12 @@ footer {
   margin: 0px 0 0 0;
 }
 
+.section-divider {
+  border: none;
+  border-top: 1px solid var(--grid-line);
+  margin: 30px 0;
+}
+
 .newsletter-panel h2 {
   margin-top: 0;
 }

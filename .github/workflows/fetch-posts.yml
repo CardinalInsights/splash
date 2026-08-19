@@ -1,1 +1,2 @@
-
+      - name: Fetch Beehiiv feed
+        run: python scripts/fetch_posts.py

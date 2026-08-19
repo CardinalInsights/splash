@@ -1,9 +1,20 @@
 [
+    {
+    "id": "ai-for-vawg",
+    "title": "Tackling VAWG with AI",
+    "date": "2025-12-01",
+    "summary": "A rapid evidence review exploring the challenges of system responses to violence against womena and girls, and how AI might be ethically and effectively used to tackle it. This work informed a series of workshops with policymakers, AI innovators, and the development of several AI pilots.",
+  },
   {
     "id": "deepfake-false-evidence",
     "title": "Deepfake False Evidence in the Justice System",
     "date": "2025-08-01",
-    "summary": "An assessment of the challenges deepfake false evidence brings the justice system with recommendations about what to do about it. Commissioned by the Office of the Police Chief Scientific Advisor, this work brought together months of research and contributions from dozens of subject matter experts from across policing, forensics, law, tech, and policy.",
-    "formAction": "https://cardinalinsights.beehiiv.com/subscribe?tag=pub-deepfake-false-evidence"
+    "summary": "An assessment of the challenges deepfake false evidence brings the justice system with recommendations about system responses. This work brought together months of research and contributions from dozens of subject matter experts from across policing, forensics, law, tech, and policy.",
+  },
+      {
+    "id": "deepfake-detection-taxonomy",
+    "title": "A Taxonomy for Deepfake Detection",
+    "date": "2024-07-01",
+    "summary": "A rapid evidence review, glossary, and taxonomy to create a common understanding to inform approaches to deepfake detection. This work underpinned a multi-year of deepfake detection research and investment.",
   }
 ]

@@ -50,8 +50,7 @@ async function renderCommentary() {
   try {
     const posts = await loadJSON("data/posts.json");
     if (!posts.length) {
-      list.innerHTML = '<p class="status-message">No posts yet — check back soon, or visit our <a href="https://medium.com/@cardinalinsights">Medium page</a> directly.</p>';
-      return;
+list.innerHTML = '<p class="status-message">No posts yet — check back soon, or visit our <a href="https://cardinalinsights.beehiiv.com">Beehiiv page</a> directly.</p>';      return;
     }
     const sorted = [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
     list.innerHTML = sorted.map(p => `

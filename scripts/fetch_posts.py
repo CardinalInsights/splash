@@ -7,6 +7,7 @@ Uses only the Python standard library so it runs on a plain GitHub Actions
 runner with no pip install step.
 """
 import json
+import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -27,9 +28,6 @@ def fetch_feed(url: str) -> str:
 
 def strip_query(url: str) -> str:
     return url.split("?")[0]
-
-
-import html as html_module
 
 def clean_excerpt(raw_html: str, max_len: int = 220) -> str:
     text = re.sub(r"<[^>]+>", " ", raw_html or "")   # strip HTML tags

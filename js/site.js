@@ -50,13 +50,17 @@ async function renderCommentary() {
   try {
     const posts = await loadJSON("data/posts.json");
     if (!posts.length) {
-list.innerHTML = sorted.map(p => `
-  <article class="post-card">
-    <div class="post-date">${formatDate(p.date)}</div>
-    <h3><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></h3>
-    ${p.excerpt ? `<p class="post-excerpt">${p.excerpt}</p>` : ""}
-  </article>
-`).join("");
+      list.innerHTML = '<p class="status-message">No posts yet — check back soon, or visit our <a href="https://cardinalinsights.beehiiv.com">Beehiiv page</a> directly.</p>';
+      return;
+    }
+    const sorted = [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
+    list.innerHTML = sorted.map(p => `
+      <article class="post-card">
+        <div class="post-date">${formatDate(p.date)}</div>
+        <h3><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></h3>
+        ${p.excerpt ? `<p class="post-excerpt">${p.excerpt}</p>` : ""}
+      </article>
+    `).join("");
   } catch (err) {
     list.innerHTML = '<p class="status-message">Commentary could not be loaded right now.</p>';
     console.error(err);
@@ -107,8 +111,6 @@ function requestReport(event, pubId, title) {
   if (note) note.style.display = "block";
   return false;
 }
-
-
 
 document.addEventListener("DOMContentLoaded", () => {
   renderExperts();

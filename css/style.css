@@ -55,6 +55,13 @@ body {
   margin-bottom: 10px;
 }
 
+.logo-link {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .site-nav {
   margin-top: 20px;
   display: flex;

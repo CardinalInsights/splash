@@ -31,14 +31,6 @@
     "bio": "Paul is an experienced expert analyst, and author of AI Crime Insights, a monthly horizon-scanning newsletter covering AI-enabled crime and law enforcement responses.\n\nKey areas: Research | Foresight | Artificial intelligence | Cybersecurity & cybercrime | Emerging technology | Internet architecture | Data-enabled law enforcement | Communications technology | Financial services technology.",
     "profile": "https://www.linkedin.com/in/paulridgewell/"
   },
-    {
-    "id": "windsor-holden",
-    "name": "Windsor Holden",
-    "role": "Technology Consultant",
-    "photo": "assets/experts/windsor-holden.jpg",
-    "bio": "Windsor has over 27 years’ experience as a technology consultant and analyst, specialising in actionable insight for government and enterprise.\n\nKey areas: Emerging Technologies | Digital ID | AI Security | Telecom Resilience | Payments | Drones | Internet of Space | Hazard detection.",
-    "profile": "https://www.linkedin.com/in/windsor-holden-ba9765/"
-  },
       {
     "id": "harriet-pierpooint",
     "name": "Harriet Pierpoint",
@@ -46,6 +38,14 @@
     "photo": "assets/experts/harriet-pierpoint.jpg",
     "bio": "Harriet is a leading expert on vulnerability, consultant researcher, Honorary Professor at the University of Birmingham, and co-founder of the Vulnerability Research Network. With more than 25 years' experience in criminology and social research, she specialises in participatory research, evidence reviews, stakeholder engagement, and research that informs policy and practice.\n\nKey areas: Vulnerability | Criminology | Social Policy | Youth Justice | Legal AI | Homelessness | Qualitative & Quantitative Research.",
     "profile": "https://www.linkedin.com/in/harrietpierpoint/"
+  },
+        {
+    "id": "windsor-holden",
+    "name": "Windsor Holden",
+    "role": "Technology Consultant",
+    "photo": "assets/experts/windsor-holden.jpg",
+    "bio": "Windsor has over 27 years’ experience as a technology consultant and analyst, specialising in actionable insight for government and enterprise.\n\nKey areas: Emerging Technologies | Digital ID | AI Security | Telecom Resilience | Payments | Drones | Internet of Space | Hazard detection.",
+    "profile": "https://www.linkedin.com/in/windsor-holden-ba9765/"
   },
           {
     "id": "jonathan-tee",

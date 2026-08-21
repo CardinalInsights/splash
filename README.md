@@ -4,64 +4,66 @@ A static site — no build step, no server, no framework. Every page is plain
 HTML/CSS/JS, and everyday content updates (new blog posts, experts,
 publications) happen by editing a JSON file, not code.
 
+Live at **https://cardinalinsights.co.uk** (custom domain, HTTPS enforced —
+the underlying host is still GitHub Pages, repo `CardinalInsights/splash`).
+
 ```
 /
-├── index.html                 Landing / About page
-├── commentary.html            Blog index (auto-pulled from Medium)
-├── experts.html                Headshots + bios
-├── publications.html          Reports, gated behind a verified email
-├── publications-unlocked.html Shown after a subscriber confirms their email
-├── css/style.css              Shared styles (fonts, palette, graph-paper bg)
-├── js/site.js                 Renders experts/publications/commentary from JSON
+├── index.html              Landing / About page — nav: Home, Commentary, Experts
+├── commentary.html         Blog index (auto-pulled from Beehiiv) + newsletter signup
+├── experts.html            Headshots + bios
+├── publications.html       Request-a-report page — built and working, but not
+│                           linked from the nav on any page (see section 4)
+├── favicon.ico             Favicon — must stay at repo root
+├── CNAME                   Contains "cardinalinsights.co.uk" — auto-created by
+│                           GitHub when the custom domain was set up; don't delete
+├── css/style.css           Shared styles (fonts, palette, graph-paper bg)
+├── js/site.js               Renders experts/commentary/publications from JSON
 ├── data/
-│   ├── experts.json           <- edit to add/remove an expert
-│   ├── publications.json      <- edit to add/remove a report
-│   └── posts.json             Auto-generated cache of Medium posts — don't hand-edit
-├── scripts/fetch_medium.py    Pulls the Medium RSS feed into data/posts.json
-├── .github/workflows/fetch-medium.yml   Runs the script on a daily schedule
-├── publications/              PDF files live here
-├── assets/                    Images (logo, tagline, expert headshots, placeholder)
-├── logo.png, tagline.png      Existing brand assets (unchanged)
+│   ├── experts.json         <- edit to add/remove an expert
+│   ├── publications.json    <- edit to add/remove a report
+│   └── posts.json           Auto-generated cache of Beehiiv posts — don't hand-edit
+├── scripts/fetch_posts.py  Pulls the Beehiiv RSS feed into data/posts.json
+├── .github/workflows/fetch-posts.yml   Runs the script daily (06:00 UTC) + on demand
+├── assets/                  Logo, tagline, expert headshots, favicon PNGs, placeholder
+├── logo.png, tagline.png    Brand assets — logo is wrapped in a link to index.html
 ```
 
 Look and feel — font (Helvetica), the blue/green/orange/red/purple accent
-palette, and the graph-paper background — are all carried over exactly from
-the current site's `index.html` into `css/style.css`, so every new page
-matches automatically.
+palette, and the graph-paper background — all live as CSS variables at the
+top of `css/style.css`, so a colour tweak only needs to happen in one place.
+Current brand red is `#a22617` (`--button-red`).
 
 ---
 
-## 1. Hosting (free — GitHub Pages, same as today)
+## 1. Hosting and domain
 
-You're already on GitHub Pages, so there's nothing new to sign up for.
+Hosted on **GitHub Pages**, free, from the `CardinalInsights/splash` repo.
+The custom domain `cardinalinsights.co.uk` points at it via DNS (four A
+records at your registrar pointing to GitHub's servers, plus a CNAME for
+`www`) — set up once, no ongoing maintenance needed. If DNS or HTTPS ever
+needs revisiting: repo → **Settings → Pages**, custom domain field, "Enforce
+HTTPS" checkbox.
 
-1. Replace the contents of the `CardinalInsights/splash` repo with these
-   files (keep `logo.png` and `tagline.png` at the repo root, as they are
-   now — the pages reference them there).
-2. Commit and push to `main`.
-3. In the repo: **Settings → Pages → Build and deployment → Source** should
-   already be set to "Deploy from a branch" with branch `main` / root. If
-   not, set it — this is free for public repos.
-4. Your site is live at the same URL: `https://cardinalinsights.github.io/splash/`.
+**Important:** the same domain also handles `info@cardinalinsights.co.uk`
+email via MX records at the registrar. Those are separate from the site's A/
+CNAME records — if you ever touch DNS settings again, leave anything with
+"MX" in the record type alone.
 
-**Optional custom domain** (e.g. `cardinalinsights.co.uk`): add a `CNAME`
-file at the repo root containing the domain, and add a `CNAME` DNS record
-with your domain registrar pointing to `cardinalinsights.github.io`. Free —
-GitHub Pages issues an HTTPS certificate automatically.
-
-Housekeeping: the repo currently has several stray files (`backup.html`,
-`bu2.html`, `bu3.html`, `index working.html`, `oldalternate.html`,
-`taglineold.png`, `logo cap.png`). Worth deleting these once the new site is
-live so `git clone` / Pages builds stay clean — none of the new pages
-reference them.
+To deploy any change: edit files directly on GitHub (pencil icon → edit →
+commit), or upload files via **Add file → Upload files**. GitHub keeps full
+history, so any change can be undone via the **Revert** option on that
+commit if something goes wrong. Hard refresh (`Ctrl/Cmd+Shift+R`) after
+deploying — GitHub Pages caches aggressively, especially for CSS, JSON, and
+favicons.
 
 ---
 
 ## 2. Updating content (no code required)
 
 All of these are plain-text edits via GitHub's web editor (pencil icon on
-the file) or any text editor if you clone the repo. Save/commit and the
-live site updates within a minute or two.
+the file). Save/commit and the live site updates within a minute or two
+(plus your own browser cache — hard refresh to check).
 
 ### Add or remove an expert
 Edit `data/experts.json`. Each entry:
@@ -71,23 +73,21 @@ Edit `data/experts.json`. Each entry:
   "name": "Full Name",
   "role": "Their title",
   "photo": "assets/experts/filename.jpg",
-  "bio": "Two or three sentences.",
-  "linkedin": "https://www.linkedin.com/in/their-profile"
+  "bio": "Two or three sentences. Use \n\n inside the string for a paragraph break.",
+  "profile": "https://www.linkedin.com/in/their-profile"
 }
 ```
 Upload the headshot to `assets/experts/`. If a photo is missing or fails to
-load, a neutral placeholder silhouette shows automatically so the page never
-breaks. The `linkedin` field is optional — if present, a "View LinkedIn
-profile" link appears on their card; leave it out (or delete the line) for
-anyone who'd rather not be linked. Get their permission before adding a
-link, same as you would for the photo and bio. To remove someone, delete
-their whole JSON block.
+load, a neutral placeholder silhouette shows automatically. `profile` is
+optional and doesn't have to be LinkedIn — a personal site works too; leave
+it out for anyone who'd rather not be linked, and always get permission
+before adding one. To remove someone, delete their whole `{ }` block.
 
-*If you'd like a proper visual admin panel instead of editing JSON directly*
-(useful if someone non-technical will maintain this), **Decap CMS** is a
-free, open-source option that adds a `/admin` login screen backed by your
-GitHub repo — form fields instead of raw JSON, image upload built in. Happy
-to wire this up as a follow-up if useful.
+**Every entry except the last one in the array needs a comma after its
+closing `}`. No entry should have a trailing comma after its last property
+line.** This has been the single most common editing mistake across this
+project — when in doubt, paste the file into
+[jsonlint.com](https://jsonlint.com) before committing.
 
 ### Add or remove a publication
 Edit `data/publications.json`:
@@ -96,95 +96,100 @@ Edit `data/publications.json`:
   "id": "unique-slug",
   "title": "Report title",
   "date": "2026-06-01",
-  "summary": "One or two sentence summary.",
-  "pdf": "publications/filename.pdf",
-  "formAction": "https://your-provider-form-url-for-this-report"
+  "summary": "One or two sentence summary."
 }
 ```
-Upload the PDF to `publications/`. See section 4 below for what
-`formAction` needs to point to.
+No PDF to upload — reports aren't hosted on the site (see section 4). Same
+comma rules as above apply.
 
-### Blog / Commentary posts
-Nothing to do — `commentary.html` reads `data/posts.json`, which a GitHub
-Action refreshes daily from your Medium RSS feed
-(`medium.com/feed/@cardinalinsights`). See section 5.
+### Landing page and Commentary page intro copy
+Body paragraphs on `index.html` and the intro text on `commentary.html` are
+plain HTML — edit the text between `<p>...</p>` tags directly, leave tags
+and attributes alone.
 
----
-
-## 3. Newsletter signup (Beehiiv or Mailchimp — free tiers)
-
-You mentioned an existing **Beehiiv** account and openness to Mailchimp.
-Beehiiv's free plan supports up to 2,500 subscribers, so it comfortably
-covers your >100-subscriber target; Mailchimp's free plan tops out at 500
-contacts. **Beehiiv is the better fit given your numbers** — go with that
-unless you have another reason to prefer Mailchimp.
-
-Steps for Beehiiv:
-1. In Beehiiv, go to **Subscribe Forms** and create an embed form (or use
-   your publication's default subscribe page).
-2. Copy the form's action URL and replace the placeholder in
-   `index.html`'s `<form action="...">` (currently
-   `https://cardinalinsights.beehiiv.com/subscribe`).
-3. Test with your own email to confirm it lands in your Beehiiv audience.
-
-Steps for Mailchimp instead: Audience → Signup forms → Embedded forms, copy
-the generated form's `action` URL and field names into the same spot.
+### Commentary posts
+Nothing to do manually — pulled automatically from Beehiiv (see section 3).
 
 ---
 
-## 4. Publications page: verified-email-gated PDFs
+## 3. Newsletter and Commentary (Beehiiv)
 
-Requirement: a visitor must **verify their email before** getting the PDF,
-for free, with no backend server. The approach here uses your newsletter
-provider's own **double opt-in** flow, so the "verification" is a real
-confirmation email — not just a client-side check:
+Beehiiv (free plan, up to 2,500 subscribers) runs both the newsletter
+signup and the Commentary content — **Medium is not used anywhere in this
+site.**
 
-1. Visitor clicks "Get the report" → a small form appears → they enter
-   their email and submit.
-2. This submits to a **separate signup form/tag in Beehiiv, one per
-   publication** (so Cardinal knows which report to unlock). Beehiiv lets
-   you create multiple embed forms or tag subscribers per source.
-3. Beehiiv sends its normal confirmation email (double opt-in).
-4. In that specific form's settings, set the **post-confirmation redirect
-   URL** to:
-   `https://cardinalinsights.github.io/splash/publications-unlocked.html?doc=<publication-id>`
-   (use the same `id` as in `publications.json`).
-5. When the visitor clicks the confirmation link in their inbox, Beehiiv
-   redirects them to that URL, `publications-unlocked.html` reads the
-   `doc` parameter, looks up the matching entry in `publications.json`, and
-   shows the **Download PDF** button — only reachable after a confirmed
-   email.
+**Newsletter signup box** (appears on both `index.html` and
+`commentary.html`): Beehiiv embeds are a `<script>` snippet, not a plain
+HTML form. To change the form itself, go to Beehiiv → **Subscribers →
+Subscribe forms**, edit or create a form, **Save & get embed code**, then
+paste the `<script>...</script>` it gives you into the
+`<div id="beehiiv-embed-placeholder">` on each page. Styling (colours,
+fonts, padding) is controlled inside Beehiiv's own form builder Style tab,
+not by this site's CSS — the form renders in an iframe your stylesheet
+can't reach into.
 
-**To add a new gated publication:** create a new Beehiiv form for it, set
-its redirect URL as above, then add the corresponding entry (with that
-form's action URL) to `data/publications.json`.
+**Commentary posts**: write and publish normally in Beehiiv. A GitHub
+Action (`.github/workflows/fetch-posts.yml`) runs `scripts/fetch_posts.py`
+once a day, which fetches your Beehiiv RSS feed and writes the result to
+`data/posts.json` — that's what `commentary.html` displays, including each
+post's **subtitle** as a short preview line beneath the title (set the
+Subtitle field in Beehiiv's post editor to control this).
 
-Caveat worth double-checking: whether the confirmation-redirect setting is
-available on Beehiiv's free tier (Mailchimp's equivalent — Audience → Signup
-forms → Form builder → "Confirmation thank you page" redirect — is on
-Mailchimp's free plan for the basic non-advanced form; a JS-embedded form
-needs "disable JavaScript" ticked for the redirect to fire). Worth a quick
-check in your account before relying on it; if it turns out to be paid-tier
-only, the fallback is a Google Form + Zapier/Make free-tier automation that
-emails the link on confirmed submission — more moving parts, so try the
-native route first.
+**To pull a new post in immediately** rather than waiting for the daily
+run: repo → **Actions** tab → "Fetch Beehiiv posts" → **Run workflow**. If
+a freshly-published post doesn't show up right away even after running it,
+Beehiiv's RSS feed can lag a few minutes behind the publish action — wait a
+bit and run again rather than assuming something's broken.
+
+The feed URL is hardcoded in `scripts/fetch_posts.py` (the `FEED_URL`
+line) — only needs changing if you ever regenerate the RSS feed URL in
+Beehiiv's settings.
 
 ---
 
-## 5. Medium auto-pull ("Commentary" page)
+## 4. Publications page — currently hidden, fully functional
 
-`scripts/fetch_medium.py` fetches `https://medium.com/feed/@cardinalinsights`
-and writes `data/posts.json` (title, link, date for each post). The GitHub
-Action in `.github/workflows/fetch-medium.yml` runs this automatically once
-a day and commits any changes — nothing to do once you start publishing on
-Medium.
+`publications.html` works end to end, but isn't linked from the site
+navigation on any page — it's reachable only by direct URL
+(`cardinalinsights.co.uk/publications.html`). This was a deliberate choice
+to take the section offline for now without losing any of the underlying
+work.
 
-To trigger it manually (e.g. right after publishing a new post rather than
-waiting for the daily run): go to the repo's **Actions** tab → "Fetch Medium
-posts" → **Run workflow**.
+**How the page itself works:** given low expected request volume, there's
+no PDF hosting or email-gating service involved at all. A visitor clicks
+"Request report," enters their email, and it opens a pre-filled `mailto:`
+to `info@cardinalinsights.co.uk` with the subject `Request <Title> Report`
+— they hit send in their own email app, it lands in your inbox as a normal
+email, and you reply with the PDF attached manually. Zero third-party
+services, nothing that can silently break.
 
-Until your first Medium post goes live, `commentary.html` shows a friendly
-"no posts yet" message with a link to your Medium profile — nothing breaks.
+**To bring the section back into the nav:** add this line to the
+`<nav class="site-nav">` block in `index.html`, `commentary.html`, and
+`experts.html` (and ideally `publications.html` itself, for consistency):
+```html
+<a href="publications.html">Publications</a>
+```
+Nothing else needs to change — the data file, JS rendering logic, and CSS
+were never removed, only the links pointing to the page.
+
+---
+
+## 5. Favicon
+
+`favicon.ico` lives at the **repo root** (same level as `index.html`) —
+browsers check that exact location by default. The PNG variants
+(`favicon-16x16.png`, `favicon-32x32.png`, `apple-touch-icon.png`, etc.)
+live in `assets/`. Every page's `<head>` needs these four lines for the
+favicon to show — if a new page is ever added, copy them in from an
+existing page:
+```html
+<link rel="icon" href="favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+```
+The icon is a white "C" (Liberation Sans Bold, a Helvetica-metric match) on
+the exact red sampled from `logo.png` (`#a81102`).
 
 ---
 
@@ -193,22 +198,17 @@ Until your first Medium post goes live, `commentary.html` shows a friendly
 | Need | Tool | Cost |
 |---|---|---|
 | Hosting | GitHub Pages | Free |
-| Newsletter / list management | Beehiiv (up to 2,500 subs) | Free |
-| Email verification for publications | Beehiiv double opt-in + redirect | Free |
-| Blog | Medium (`@cardinalinsights`) | Free |
+| Domain | cardinalinsights.co.uk (existing registration) | — |
+| Newsletter + blog | Beehiiv (up to 2,500 subs) | Free |
 | Blog auto-sync | GitHub Actions (scheduled workflow) | Free (public repo) |
-| Optional: friendlier admin UI for experts/publications | Decap CMS | Free |
+| Publication requests | `mailto:` link, sent manually | Free |
 
-No paid services are required for anything in this spec at your current
-scale. If subscriber count grows well past Beehiiv's free tier or PDF
-traffic gets heavy, that's the point to revisit — not before.
+No paid services are required for anything currently live on the site.
 
 ---
 
 ## 7. Responsiveness
 
-The layout keeps the original two-column approach (fixed sidebar + content)
-at ≥768px, and stacks to a single column below that, exactly as the current
-site does. The experts grid additionally reflows from 1 → 2 → 3 columns as
-width increases (mobile → tablet → desktop), and all forms and cards use
-fluid widths so nothing overflows on small screens.
+Two-column layout (fixed sidebar + content) at ≥768px width, stacking to a
+single column below that. The experts grid reflows 1 → 2 → 3 columns as
+width increases. All forms and cards use fluid widths.

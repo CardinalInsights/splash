@@ -1,0 +1,129 @@
+// Cardinal Insights — shared front-end logic.
+// Each page calls the relevant render function once its DOM is ready.
+// All content lives in /data/*.json so it can be updated without touching
+// this file.
+
+async function loadJSON(path) {
+  const res = await fetch(path, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
+  return res.json();
+}
+
+function formatDate(iso) {
+  const d = new Date(iso);
+  if (isNaN(d)) return iso;
+  return d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+}
+
+/* ---------- Experts page ---------- */
+
+async function renderExperts() {
+  const grid = document.getElementById("experts-grid");
+  if (!grid) return;
+  try {
+    const experts = await loadJSON("data/experts.json");
+    if (!experts.length) {
+      grid.innerHTML = '<p class="status-message">No experts listed yet.</p>';
+      return;
+    }
+    grid.innerHTML = experts.map(e => `
+      <div class="card expert-card">
+        <img class="expert-photo" src="${e.photo}" alt="${e.name}" loading="lazy"
+             onerror="this.onerror=null;this.src='assets/expert-placeholder.svg';" />
+        <h3>${e.name}</h3>
+        <div class="expert-role">${e.role}</div>
+        <p class="expert-bio">${e.bio}</p>
+        ${e.profile ? `<a class="expert-linkedin" href="${e.profile}" target="_blank" rel="noopener">View profile ↗</a>` : ""}
+      </div>
+    `).join("");
+  } catch (err) {
+    grid.innerHTML = '<p class="status-message">Experts could not be loaded right now.</p>';
+    console.error(err);
+  }
+}
+
+/* ---------- Commentary / blog page ---------- */
+
+async function renderCommentary() {
+  const list = document.getElementById("post-list");
+  if (!list) return;
+  try {
+    const posts = await loadJSON("data/posts.json");
+    if (!posts.length) {
+      list.innerHTML = '<p class="status-message">No posts yet — check back soon, or visit our <a href="https://cardinalinsights.beehiiv.com">Beehiiv page</a> directly.</p>';
+      return;
+    }
+    const sorted = [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
+    // Cover images are 1920x1080 (16:9). Width/height attributes plus the
+    // CSS aspect-ratio reserve the space so the list doesn't jump as they load.
+    // A cover that fails to load is removed, leaving a normal text card.
+    const attr = (v) => String(v).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+    list.innerHTML = sorted.map(p => `
+      <article class="post-card${p.image ? " has-cover" : ""}">
+        ${p.image ? `<a class="post-cover" href="${p.url}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+          <img src="${attr(p.image)}" width="1920" height="1080" loading="lazy" alt=""
+               onerror="this.closest('.post-card').classList.remove('has-cover');this.closest('.post-cover').remove();" />
+        </a>` : ""}
+        <div class="post-body">
+          <div class="post-date">${formatDate(p.date)}</div>
+          <h3><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></h3>
+          ${p.excerpt ? `<p class="post-excerpt">${p.excerpt}</p>` : ""}
+        </div>
+      </article>
+    `).join("");
+  } catch (err) {
+    list.innerHTML = '<p class="status-message">Commentary could not be loaded right now.</p>';
+    console.error(err);
+  }
+}
+
+/* ---------- Publications page ---------- */
+
+async function renderPublications() {
+  const list = document.getElementById("pub-list");
+  if (!list) return;
+  try {
+    const pubs = await loadJSON("data/publications.json");
+    if (!pubs.length) {
+      list.innerHTML = '<p class="status-message">No publications listed yet.</p>';
+      return;
+    }
+    const sorted = [...pubs].sort((a, b) => new Date(b.date) - new Date(a.date));
+    list.innerHTML = sorted.map(p => `
+      <article class="card pub-card">
+        <div class="pub-meta">${formatDate(p.date)}</div>
+        <h3>${p.title}</h3>
+        <p class="pub-summary">${p.summary}</p>
+        <form class="email-form" onsubmit="return requestReport(event, '${p.id}', '${p.title.replace(/'/g, "\\'")}')">
+          <input type="email" id="email-${p.id}" placeholder="you@example.com" required aria-label="Email address" />
+          <button type="submit" class="btn">Request report</button>
+        </form>
+        <p class="form-note" id="note-${p.id}" style="display:none;">
+          Your email app should open with a message ready to send — hit send and we'll get the report over to you directly.
+        </p>
+      </article>
+    `).join("");
+  } catch (err) {
+    list.innerHTML = '<p class="status-message">Publications could not be loaded right now.</p>';
+    console.error(err);
+  }
+}
+
+function requestReport(event, pubId, title) {
+  event.preventDefault();
+  const emailInput = document.getElementById(`email-${pubId}`);
+  const visitorEmail = emailInput.value.trim();
+  const subject = `Request ${title} Report`;
+  const body = `Please could you send me a copy of the report "${title}".\n\nMy email address: ${visitorEmail}`;
+  const mailto = `mailto:info@cardinalinsights.co.uk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = mailto;
+  const note = document.getElementById(`note-${pubId}`);
+  if (note) note.style.display = "block";
+  return false;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  renderExperts();
+  renderCommentary();
+  renderPublications();
+});

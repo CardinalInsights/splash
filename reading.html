@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex" />
+<title>Reading list — Cardinal Insights</title>
+<link rel="icon" href="favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+<link rel="stylesheet" href="css/style.css" />
+<style>
+  /* Reading-list-only styles, kept here so the shared stylesheet is untouched. */
+  .rl-note { font-size: 0.8em; color: var(--text-body); margin: 6px 0 0 0; }
+  .rl-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .rl-chip {
+    font: inherit; font-size: 0.8em; padding: 4px 10px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--border-line); background: white; color: var(--blue);
+  }
+  .rl-chip[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); color: white; }
+  .rl-day > summary, .rl-day-heading {
+    font-weight: bold; color: var(--blue); font-size: 1.05em; padding: 12px 0; cursor: pointer;
+  }
+  .rl-day-heading { cursor: default; }
+  .rl-count { font-weight: 300; color: var(--text-body); font-size: 0.85em; margin-left: 6px; }
+  .rl-entry { border-bottom: 1px solid var(--border-line); padding: 14px 0; }
+  .rl-entry h3 { margin: 4px 0 6px 0; font-size: 1.05em; line-height: 1.35; }
+  .rl-entry h3 a { color: var(--blue); text-decoration: none; }
+  .rl-entry h3 a:hover { text-decoration: underline; }
+  .rl-entry p { margin: 0; font-size: 0.92em; }
+  .rl-tags { margin-top: 6px; font-size: 0.75em; color: var(--green); font-weight: bold; }
+  .rl-empty { font-style: italic; font-size: 0.9em; color: var(--text-body); padding: 10px 0; }
+</style>
+</head>
+<body class="grid-background">
+<div class="container">
+
+  <div class="sidebar">
+    <a href="index.html" class="logo-link"><img src="logo.png" alt="Cardinal Logo" class="logo" /></a>
+    <img src="tagline.png" alt="Cardinal Tagline" class="tagline" />
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="commentary.html">Commentary</a>
+      <a href="experts.html">Experts</a>
+    </nav>
+  </div>
+
+  <div class="main-section">
+    <div class="main-content">
+      <div class="content-wrapper">
+
+        <div class="page-intro">
+          <h1>Reading list</h1>
+          <p class="section-lede" style="color: var(--green);">New research, reporting and policy, gathered each morning</p>
+          <p class="rl-note">Compiled automatically from a fixed list of sources. Summaries are written by AI and are not reviewed, so check the original before relying on them.</p>
+          <div class="rl-filters" id="filters" aria-label="Filter by topic"></div>
+        </div>
+
+        <div id="reading-list">
+          <p class="status-message">Loading the reading list…</p>
+        </div>
+
+        <footer id="rl-footer"></footer>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+<script>
+const DATA = "data/reading/";
+const DAYS_SHOWN = 7;
+let activeTopic = "";
+let loadedDays = [];
+
+function el(tag, cls, text) {
+  const node = document.createElement(tag);
+  if (cls) node.className = cls;
+  if (text !== undefined) node.textContent = text;   // textContent: feed text is never treated as HTML
+  return node;
+}
+
+function longDate(iso) {
+  const d = new Date(iso + "T12:00:00Z");
+  return isNaN(d) ? iso : d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+}
+
+function shortDate(iso) {
+  const d = new Date(iso + "T12:00:00Z");
+  return isNaN(d) ? "" : d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+}
+
+function safeUrl(url) {
+  return /^https?:\/\//i.test(url || "") ? url : "#";
+}
+
+function entryNode(entry) {
+  const card = el("article", "rl-entry");
+  card.appendChild(el("div", "post-date", [entry.source, shortDate(entry.date)].filter(Boolean).join(" · ")));
+  const h3 = el("h3");
+  const link = el("a", "", entry.title);
+  link.href = safeUrl(entry.url);
+  link.target = "_blank";
+  link.rel = "noopener";
+  h3.appendChild(link);
+  card.appendChild(h3);
+  if (entry.summary) card.appendChild(el("p", "", entry.summary));
+  if (entry.tags && entry.tags.length) card.appendChild(el("div", "rl-tags", entry.tags.join(" · ")));
+  return card;
+}
+
+function render() {
+  const list = document.getElementById("reading-list");
+  list.textContent = "";
+  loadedDays.forEach((day, index) => {
+    const entries = day.entries.filter(e => !activeTopic || (e.tags || []).includes(activeTopic));
+    const label = longDate(day.date);
+    const count = `${entries.length} ${entries.length === 1 ? "item" : "items"}`;
+    let holder;
+    if (index === 0) {
+      holder = el("section", "rl-day");
+      const heading = el("div", "rl-day-heading", label);
+      heading.appendChild(el("span", "rl-count", count));
+      holder.appendChild(heading);
+    } else {
+      holder = el("details", "rl-day");
+      const summary = el("summary", "", label);
+      summary.appendChild(el("span", "rl-count", count));
+      holder.appendChild(summary);
+    }
+    if (!entries.length) {
+      holder.appendChild(el("p", "rl-empty", activeTopic ? "Nothing on this topic that day." : "Nothing new matched your topics that day."));
+    }
+    entries.forEach(e => holder.appendChild(entryNode(e)));
+    list.appendChild(holder);
+  });
+}
+
+function renderFilters() {
+  const topics = new Set();
+  loadedDays.forEach(d => d.entries.forEach(e => (e.tags || []).forEach(t => topics.add(t))));
+  const bar = document.getElementById("filters");
+  bar.textContent = "";
+  ["", ...[...topics].sort()].forEach(topic => {
+    const chip = el("button", "rl-chip", topic || "All topics");
+    chip.type = "button";
+    chip.setAttribute("aria-pressed", String(topic === activeTopic));
+    chip.addEventListener("click", () => { activeTopic = topic; renderFilters(); render(); });
+    bar.appendChild(chip);
+  });
+}
+
+async function main() {
+  const list = document.getElementById("reading-list");
+  try {
+    const index = await (await fetch(DATA + "index.json", { cache: "no-store" })).json();
+    const days = (index.days || []).slice(0, DAYS_SHOWN);
+    if (!days.length) {
+      list.textContent = "";
+      list.appendChild(el("p", "status-message", "No reading list yet. The first one appears after the next morning run."));
+      return;
+    }
+    const results = await Promise.all(days.map(async d => {
+      try { return await (await fetch(`${DATA}${d}.json`, { cache: "no-store" })).json(); }
+      catch (e) { return null; }
+    }));
+    loadedDays = results.filter(d => d && Array.isArray(d.entries));
+    renderFilters();
+    render();
+    const newest = loadedDays[0];
+    if (newest && newest.generated_at) {
+      const when = new Date(newest.generated_at);
+      document.getElementById("rl-footer").appendChild(
+        el("p", "", `Last updated ${when.toLocaleString("en-GB", { dateStyle: "medium", timeStyle: "short" })}. Showing the latest ${loadedDays.length} day(s).`));
+    }
+  } catch (err) {
+    list.textContent = "";
+    list.appendChild(el("p", "status-message", "The reading list could not be loaded right now."));
+    console.error(err);
+  }
+}
+main();
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# Topics the reading list keeps. One per line.
+# Only used as a fallback: if the AIRTABLE_TOKEN secret is set, the list is
+# read live from the Tags field in your Airtable archive instead.
+AI Governance
+AI Risks
+Child Safety
+Future Crime
+Future Defence
+Future Policing
+Geopolitics
+Information Disorder
+Online Harms
+Privacy
+Resilience
+Terrorism
+VAWG

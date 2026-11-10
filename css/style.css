@@ -224,6 +224,43 @@ footer {
   border-bottom: none;
 }
 
+/* Commentary cards with a 16:9 cover image (1920x1080 from Beehiiv).
+   Image on the left on wider screens, stacked above the text on phones. */
+.post-card.has-cover {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.post-cover {
+  flex: 0 0 260px;
+  display: block;
+}
+
+.post-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 4px;
+  background: var(--grid-line);
+}
+
+.post-body {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 599px) {
+  .post-card.has-cover {
+    display: block;
+  }
+  .post-cover {
+    margin-bottom: 10px;
+  }
+}
+
 .post-date,
 .pub-meta {
   font-size: 0.8em;

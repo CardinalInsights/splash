@@ -28,7 +28,7 @@ from pathlib import Path
 
 import requests
 
-from feeds import read_sources, resolve_feed
+from feeds import is_news_search, read_sources, resolve_feed
 
 MODEL = "claude-haiku-4-5-20251001"
 MAX_ITEMS_PER_DAY = 40        # most stories shown for one day
@@ -146,12 +146,17 @@ def collect_new_items(sources, state, now):
                     continue
             elif first_time:
                 continue
+            text = clean_text(entry_text(entry), 2500)
+            if is_news_search(source["url"]):
+                # News-search headlines end " - Publisher" and carry no article text.
+                title = re.sub(r"\s+[-|]\s+[^-|]{2,60}$", "", title)
+                text = ""
             fresh.append({
                 "source": name,
                 "title": title,
                 "url": link,
                 "date": when.date().isoformat() if when else "",
-                "text": clean_text(entry_text(entry), 2500),
+                "text": text,
             })
         state["seen"][name] = seen_list[-600:]
         items.extend(fresh)

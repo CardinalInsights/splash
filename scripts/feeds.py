@@ -5,6 +5,9 @@ find each source's RSS/Atom feed.
 A source's address can be a feed already, or a normal web page. For a web
 page we look for the feed the site advertises in its HTML, then try the
 usual addresses (/feed, /rss, ...).
+
+An address written as  news:example.org  uses a Google News search of that
+site instead, for sites with no feed or that block automated readers.
 """
 
 import re
@@ -60,8 +63,35 @@ def advertised_feeds(html, base_url):
     return found
 
 
+def is_news_search(url):
+    return url.lower().startswith("news:")
+
+
+def news_search_feed(url):
+    """`news:example.org` -> a Google News feed of recent pages from that site.
+
+    For sites that have no feed of their own, or that refuse automated
+    readers. Coverage is whatever Google News has indexed, and the feed
+    carries headlines only (no article text).
+    """
+    domain = url.split(":", 1)[1].strip().replace("https://", "").replace("http://", "").strip("/")
+    if domain.startswith("www."):
+        domain = domain[4:]
+    return f"https://news.google.com/rss/search?q=site:{domain}+when:7d&hl=en-GB&gl=GB&ceid=GB:en"
+
+
 def resolve_feed(url):
     """Returns (feed_url, parsed_feed, note). feed_url is None if nothing worked."""
+    if is_news_search(url):
+        feed_url = news_search_feed(url)
+        try:
+            resp = fetch(feed_url)
+        except requests.RequestException as e:
+            return None, None, f"news search could not connect ({type(e).__name__})"
+        parsed = parse_feed(resp.content) if resp.status_code < 400 else None
+        if parsed:
+            return feed_url, parsed, "news search feed"
+        return None, None, f"news search answered {resp.status_code}"
     try:
         resp = fetch(url)
     except requests.RequestException as e:

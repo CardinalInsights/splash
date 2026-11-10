@@ -344,6 +344,29 @@ footer {
   color: var(--text-body);
 }
 
+/* ---------- Pinned page intro (Commentary, Experts) ---------- */
+/* Heading, intro text (and the newsletter sign-up) stay visible while the
+   list below scrolls. Desktop only: on phones it would fill the screen. */
+
+.page-intro {
+  background: white;
+  border-bottom: 1px solid var(--grid-line);
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) and (min-height: 600px) {
+  .page-intro {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    padding-top: 20px;
+  }
+  .page-intro h1 {
+    margin-top: 0;
+  }
+}
+
 /* ---------- Responsive layout (matches original breakpoints) ---------- */
 
 @media (min-width: 768px) {

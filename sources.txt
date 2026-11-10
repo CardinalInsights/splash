@@ -4,72 +4,77 @@
 # The address can be the site's home page or its feed address - the script
 # finds the feed either way. Lines starting with # are ignored, so put a #
 # in front of a source to switch it off without deleting it.
+#
+# For a site with no feed, or one that blocks automated readers, write
+#   Name | news:example.org
+# to use a Google News search of that site instead (headlines only).
 
 # --- Think tanks and institutes ---
-RAND | https://www.rand.org
+RAND research reports | https://www.rand.org/pubs/research_reports.xml
+RAND commentary | https://www.rand.org/blog.xml
 CSET Georgetown | https://cset.georgetown.edu
 RUSI | https://www.rusi.org
-Chatham House | https://www.chathamhouse.org
+Chatham House | news:chathamhouse.org
 Demos | https://demos.co.uk
 Institute for Strategic Dialogue | https://www.isdglobal.org
-NATO StratCom COE | https://stratcomcoe.org
-Tony Blair Institute | https://institute.global
+NATO StratCom COE | news:stratcomcoe.org
+Tony Blair Institute | news:institute.global
 Center for Democracy and Technology | https://cdt.org
 Tech Oversight Project | https://techoversight.org
 
 # --- Information disorder ---
 DFRLab | https://dfrlab.org
 EU DisinfoLab | https://www.disinfo.eu
-Graphika | https://graphika.com
+Graphika | news:graphika.com
 Reuters Institute | https://reutersinstitute.politics.ox.ac.uk
 Oxford Internet Institute | https://www.oii.ox.ac.uk
 HKS Misinformation Review | https://misinforeview.hks.harvard.edu
-Indicator | https://indicator.media
+Indicator | news:indicator.media
 Bellingcat | https://www.bellingcat.com
-Council for Countering Online Disinformation | https://discussingdisinformation.substack.com
+Council for Countering Online Disinformation | news:discussingdisinformation.substack.com
 
 # --- AI risks and governance ---
-CETaS | https://cetas.turing.ac.uk
-UK AI Security Institute | https://www.aisi.gov.uk
+CETaS | news:cetas.turing.ac.uk
+UK AI Security Institute | news:aisi.gov.uk
 Ada Lovelace Institute | https://www.adalovelaceinstitute.org
 GovAI | https://www.governance.ai
-Centre for Long-Term Resilience | https://www.longtermresilience.org
+Centre for Long-Term Resilience | news:longtermresilience.org
 MIT Technology Review | https://www.technologyreview.com
-Lawfare | https://www.lawfaremedia.org
+Lawfare | news:lawfaremedia.org
 Transformer | https://www.transformernews.ai
 Pivot to AI | https://pivot-to-ai.com
 
 # --- Online harms, child safety and VAWG ---
-Ofcom | https://www.ofcom.org.uk
-Online Safety Network | https://www.onlinesafetynetwork.uk
-Internet Watch Foundation | https://www.iwf.org.uk
+Ofcom | news:ofcom.org.uk
+Online Safety Network | news:onlinesafetynetwork.uk
+Internet Watch Foundation | news:iwf.org.uk
 WeProtect Global Alliance | https://www.weprotect.org
-NSPCC | https://www.nspcc.org.uk
+NSPCC | news:nspcc.org.uk
 Journal of Online Trust and Safety | https://tsjournal.org
-Revenge Porn Helpline | https://revengepornhelpline.org.uk
+Revenge Porn Helpline | news:revengepornhelpline.org.uk
 Reclaim The Net | https://reclaimthenet.org
 
 # --- Future crime and policing ---
 Europol | https://www.europol.europa.eu
-National Crime Agency | https://www.nationalcrimeagency.gov.uk
-College of Policing | https://www.college.police.uk
+National Crime Agency | news:nationalcrimeagency.gov.uk
+College of Policing | news:college.police.uk
 Police Foundation | https://www.police-foundation.org.uk
-HMICFRS | https://hmicfrs.justiceinspectorates.gov.uk
-NCSC | https://www.ncsc.gov.uk
+HMICFRS | news:hmicfrs.justiceinspectorates.gov.uk
+NCSC | https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
 The Record | https://therecord.media
-Policing Insight | https://policinginsight.com
+Policing Insight | news:policinginsight.com
 Krebs on Security | https://krebsonsecurity.com
 CrimRxiv | https://www.crimrxiv.com
 
 # --- Terrorism and extremism ---
 GNET | https://gnet-research.org
-Tech Against Terrorism | https://techagainstterrorism.org
+Tech Against Terrorism | news:techagainstterrorism.org
 CREST Research | https://crestresearch.ac.uk
 
 # --- Defence and geopolitics ---
 War on the Rocks | https://warontherocks.com
 Small Wars Journal | https://smallwarsjournal.com
-IISS | https://www.iiss.org
+IISS | news:iiss.org
 ASPI | https://www.aspi.org.au
 
 # --- Technology press ---
@@ -78,12 +83,12 @@ Tech Policy Press | https://www.techpolicy.press
 Techdirt | https://www.techdirt.com
 Wired | https://www.wired.com
 The Verge | https://www.theverge.com
-Computer Weekly | https://www.computerweekly.com
+Computer Weekly | https://www.computerweekly.com/rss/All-Computer-Weekly-content.xml
 The Conversation (UK technology) | https://theconversation.com/uk/technology/articles.atom
 
 # --- Platform threat reports ---
 Microsoft On the Issues | https://blogs.microsoft.com/on-the-issues
-Google Threat Intelligence | https://cloud.google.com/blog/topics/threat-intelligence
+Google Threat Intelligence | https://cloud.google.com/blog/topics/threat-intelligence/rss/
 Meta Newsroom | https://about.fb.com/news
 OpenAI News | https://openai.com/news
-Anthropic News | https://www.anthropic.com/news
+Anthropic News | news:anthropic.com

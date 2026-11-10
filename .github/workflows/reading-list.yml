@@ -1,0 +1,60 @@
+name: Daily reading list
+
+on:
+  schedule:
+    # 7am UK time all year. GitHub schedules are UTC only, so there are two
+    # entries and the "UK time check" step below lets only the right one run:
+    # 06:00 UTC during British Summer Time, 07:00 UTC in winter.
+    - cron: "0 6 * * *"
+    - cron: "0 7 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reading-list
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: UK time check
+        id: uk
+        run: |
+          offset=$(TZ=Europe/London date +%z)   # +0100 in summer, +0000 in winter
+          run=yes
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            if [ "${{ github.event.schedule }}" = "0 6 * * *" ] && [ "$offset" != "+0100" ]; then run=no; fi
+            if [ "${{ github.event.schedule }}" = "0 7 * * *" ] && [ "$offset" != "+0000" ]; then run=no; fi
+          fi
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+          echo "UK offset $offset, trigger ${{ github.event.schedule || 'manual' }}: run=$run"
+      - uses: actions/checkout@v4
+        if: steps.uk.outputs.run == 'yes'
+      - uses: actions/setup-python@v5
+        if: steps.uk.outputs.run == 'yes'
+        with:
+          python-version: "3.12"
+      - run: pip install requests feedparser
+        if: steps.uk.outputs.run == 'yes'
+      - name: Build today's reading list
+        if: steps.uk.outputs.run == 'yes'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+        run: python scripts/reading_list.py
+      - name: Commit changes if any
+        if: steps.uk.outputs.run == 'yes'
+        run: |
+          git config user.name "cardinal-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/reading
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update daily reading list"
+            git pull --rebase
+            git push
+          fi

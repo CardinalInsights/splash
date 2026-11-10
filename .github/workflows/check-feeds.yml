@@ -1,0 +1,24 @@
+name: Check Reading List Feeds
+
+# Run by hand after editing sources.txt. Produces a report of which sources
+# have a working feed and which need a different address.
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests feedparser
+      - run: python scripts/check_feeds.py
+      - name: Show report in the run summary
+        run: cat feeds_report.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: feeds-report
+          path: feeds_report.md

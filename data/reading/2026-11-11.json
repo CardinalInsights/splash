@@ -1,10 +1,12 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T09:57:13+00:00",
+  "generated_at": "2026-11-11T14:54:09+00:00",
   "topics": [
     "AI Governance",
     "AI Risks",
     "Child Safety",
+    "Cyber",
+    "Drones",
     "Future Crime",
     "Future Defence",
     "Future Policing",
@@ -17,6 +19,161 @@
     "VAWG"
   ],
   "entries": [
+    {
+      "title": "Espionage, AI, and the Risks of Strategic Overreaction",
+      "url": "https://cset.georgetown.edu/article/espionage-ai-and-the-risks-of-strategic-overreaction/",
+      "source": "CSET Georgetown",
+      "date": "2026-11-11",
+      "summary": "Recent allegations that Nvidia's CEO was targeted by Chinese intelligence raised concerns about US-China technology competition. However, the public record remains incomplete and doesn't prove technology transfer or warrant specific policy changes. The piece warns against strategic overreaction that could weaken the AI ecosystem whilst failing to protect sensitive capabilities.",
+      "tags": [
+        "AI Governance",
+        "Geopolitics",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "The Rebirth of Neo-Nazi Ideology in Russia and Its Appeal to Young People",
+      "url": "https://gnet-research.org/2026/11/11/the-rebirth-of-neo-nazi-ideology-in-russia-and-its-appeal-to-young-people/",
+      "source": "GNET",
+      "date": "2026-11-11",
+      "summary": "Russia's neo-Nazi violence, previously suppressed through enforcement, has resurged since 2022's Ukraine invasion. Hate-motivated crimes spiked from under 100 victims in 2015 to over 250 in 2024, with perpetrators often aged 13-14. The NS/WP Crew online group actively recruits young people to neo-Nazi ideology through Russian-language social media.",
+      "tags": [
+        "Terrorism",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "NCSC scheme will help critical organisations test their cyber defences",
+      "url": "https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences",
+      "source": "NCSC",
+      "date": "2026-11-11",
+      "summary": "NCSC launches a new Cyber Adversary Simulation scheme enabling critical organisations to test their cybersecurity resilience through rigorous, real-world exercises conducted by trusted external providers.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "url": "https://openai.com/index/cogent-security",
+      "source": "OpenAI News",
+      "date": "2026-11-10",
+      "summary": "Cogent integrates OpenAI models with enterprise data to enable automated vulnerability remediation using AI agents, creating cyber defence capabilities for businesses.",
+      "tags": [
+        "AI Governance",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "The supermarket fridge hack exposes the cracks in tech vision of an ‘internet of things’",
+      "url": "https://theconversation.com/the-supermarket-fridge-hack-exposes-the-cracks-in-tech-vision-of-an-internet-of-things-296314",
+      "source": "The Conversation (UK technology)",
+      "date": "2026-11-11",
+      "summary": "Hackers remotely compromised refrigeration systems at hundreds of European supermarkets in October-November 2026, spoiling food worth millions of euros. France accused Iran; others suspect Russia. The incident reveals internet-connected devices' vulnerability and raises questions about responsibility for securing interconnected physical systems.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Poland shuts down government services platform ePUAP following cyberattack",
+      "url": "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
+      "source": "The Record",
+      "date": "2026-11-11",
+      "summary": "Poland shut down its ePUAP government services platform following a cyberattack. The system allows citizens to submit documents, communicate with agencies and complete administrative procedures online.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Britain, France set out first guidelines for commercial hacking firms",
+      "url": "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
+      "source": "The Record",
+      "date": "2026-11-11",
+      "summary": "Britain and France released initial guidelines for commercial hacking firms, requiring customer vetting, technical safeguards against misuse and systems for monitoring and reporting abuse.",
+      "tags": [
+        "Cyber",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+      "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
+      "source": "Wired",
+      "date": "2026-11-11",
+      "summary": "A 13-year-old used Google's Gemini AI via her school Chromebook to plan suicide, but the school's monitoring systems failed to flag the activity for weeks, according to her parents' allegations.",
+      "tags": [
+        "Child Safety",
+        "Online Harms",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Google Cloud pins London outage on PLC misconfiguration",
+      "url": "https://www.computerweekly.com/news/366654638/Google-Cloud-pins-London-outage-on-PLC-misconfiguration",
+      "source": "Computer Weekly",
+      "date": "2026-11-11",
+      "summary": "<p>Google has traced the 20 October power failure that knocked out <a href=\"https://www.computerweekly.com/news/366652539/Google-Cloud-power-event-knocks-out-UK-banks-courts-and-couriers\">UK banks, courts and couriers</a> to a programmable logic controller (PLC) that measured mains voltage on the wrong side of a circuit breaker – a single sensing error that stopped the site’s emergency generators from starting and let…",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "source": "OpenAI News",
+      "date": "2026-11-10",
+      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "tags": [
+        "AI Governance",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source": "OpenAI News",
+      "date": "2026-11-10",
+      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "tags": [
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Jensen Huang: The Spy Who Shagged Me (allegedly)",
+      "url": "https://pivot-to-ai.com/2026/11/10/jensen-huang-the-spy-who-shagged-me-allegedly/",
+      "source": "Pivot to AI",
+      "date": "2026-11-10",
+      "summary": "Nvidia CEO Jensen Huang has been getting around a bit. He had a girlfriend on the side and it’s hit the papers. This is not anyone’s business — except that the alleged girlfriend is allegedly a spy for China. And the US alleges she got Jensen to sell Nvidia chips…",
+      "tags": [
+        "Geopolitics",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "I asked every TV manufacturer 17 questions about how they spy on you",
+      "url": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+      "source": "The Verge",
+      "date": "2026-11-11",
+      "summary": "Every TV company is spying on you , not just LG. Like other tech companies, they collect lots of information, and while some is necessary for products to work, not all of it is - and could include details you'd prefer to keep private. Many customers are concerned about how…",
+      "tags": [
+        "Privacy",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "Duolingo, Strava, and Ticketmaster Are All Caught Up in EU’s New Digital Fairness Rules",
+      "url": "https://www.wired.com/story/duolingo-strava-and-ticketmaster-are-all-caught-up-in-eus-new-digital-fairness-rules/",
+      "source": "Wired",
+      "date": "2026-11-11",
+      "summary": "Winning streaks can be turned off and influencers will be forced to reveal when they’re being paid under the new Digital Fairness Act aimed at tackling “dark patterns” on platforms and services.",
+      "tags": [
+        "Online Harms",
+        "AI Governance"
+      ]
+    },
     {
       "title": "Diluting Poisoned Fine-Tuning Data Can Strengthen Its Effect",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pT3BQSS05MGNNbk1LLTc3SXExY3paYnBObEs1S2d3MDk3UEE2N29VenZFWlRtZm5RNXlKdE8xRlowXzY4NHN0TnRJQUhkYk9ZS191dnR6S3A1N1RKMWdGa0JYY0pubWJiRHc?oc=5",
@@ -361,27 +518,6 @@
       "tags": [
         "Online Harms",
         "Child Safety"
-      ]
-    },
-    {
-      "title": "Closing the AI guidance gap in education",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "source": "OpenAI News",
-      "date": "2026-11-10",
-      "summary": "ThinkYoung research and OpenAI's EMEA education partnerships address supporting teachers, AI literacy, and independent learning to close the AI guidance gap in education.",
-      "tags": [
-        "AI Governance"
-      ]
-    },
-    {
-      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-      "url": "https://openai.com/index/cogent-security",
-      "source": "OpenAI News",
-      "date": "2026-11-10",
-      "summary": "Cogent integrates OpenAI models with enterprise context to automatically remediate vulnerabilities using agents for cybersecurity defence.",
-      "tags": [
-        "AI Governance",
-        "AI Risks"
       ]
     },
     {

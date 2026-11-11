@@ -43,7 +43,6 @@ jobs:
         if: steps.uk.outputs.run == 'yes'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
         run: python scripts/reading_list.py
       - name: Commit changes if any
         if: steps.uk.outputs.run == 'yes'

@@ -10,11 +10,9 @@ Each run:
   5. Writes data/reading/<date>.json for reading.html to display, and
      deletes days older than RETENTION_DAYS.
 
-Topics come live from the Tags field in the Airtable archive when the
-AIRTABLE_TOKEN secret is set, otherwise from topics.txt.
+Topics are read from topics.txt - edit that file to add or remove one.
 
 Required secret:  ANTHROPIC_API_KEY
-Optional secret:  AIRTABLE_TOKEN  (needs the schema.bases:read scope)
 """
 
 import datetime as dt
@@ -39,9 +37,6 @@ SUMMARY_WORDS = 50
 FILTER_BATCH = 40             # items per topic-filter request
 SUMMARY_BATCH = 8             # items per summary request
 
-AIRTABLE_BASE_ID = "appIGt0AfE0O7Da4c"
-AIRTABLE_TABLE_ID = "tbliNdl6iyEOGlsez"
-
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "reading"
 STATE_FILE = DATA_DIR / "state.json"      # feed addresses and links already seen
@@ -51,25 +46,6 @@ TOPICS_FILE = ROOT / "topics.txt"
 # ---------- topics ----------
 
 def load_topics():
-    token = os.environ.get("AIRTABLE_TOKEN", "").strip()
-    if token:
-        try:
-            resp = requests.get(
-                f"https://api.airtable.com/v0/meta/bases/{AIRTABLE_BASE_ID}/tables",
-                headers={"Authorization": f"Bearer {token}"}, timeout=30,
-            )
-            resp.raise_for_status()
-            for table in resp.json().get("tables", []):
-                if table.get("id") != AIRTABLE_TABLE_ID:
-                    continue
-                for field in table.get("fields", []):
-                    if field.get("name") == "Tags":
-                        names = [c["name"] for c in field.get("options", {}).get("choices", [])]
-                        if names:
-                            print(f"Topics: {len(names)} read live from Airtable Tags.")
-                            return names
-        except Exception as e:  # fall back rather than fail the whole run
-            print(f"Could not read Airtable tags ({type(e).__name__}); using topics.txt.")
     names = [l.strip() for l in TOPICS_FILE.read_text(encoding="utf-8").splitlines()
              if l.strip() and not l.strip().startswith("#")]
     print(f"Topics: {len(names)} read from topics.txt.")

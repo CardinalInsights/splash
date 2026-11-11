@@ -30,7 +30,7 @@ from feeds import is_news_search, read_sources, resolve_feed
 
 MODEL = "claude-haiku-4-5-20251001"
 MAX_ITEMS_PER_DAY = 20        # most stories shown for one day
-MAX_PER_SOURCE = 6            # stops one busy source filling the page
+MAX_PER_SOURCE = 4            # stops one busy source filling the page
 NEW_WINDOW_DAYS = 2           # how far back a dated item still counts as new
 RETENTION_DAYS = 7            # days of reading lists kept on the site
 SUMMARY_WORDS = 50

@@ -1,0 +1,452 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T09:57:13+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "Diluting Poisoned Fine-Tuning Data Can Strengthen Its Effect",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pT3BQSS05MGNNbk1LLTc3SXExY3paYnBObEs1S2d3MDk3UEE2N29VenZFWlRtZm5RNXlKdE8xRlowXzY4NHN0TnRJQUhkYk9ZS191dnR6S3A1N1RKMWdGa0JYY0pubWJiRHc?oc=5",
+      "source": "Anthropic News",
+      "date": "2026-11-10",
+      "summary": "Title covers diluting poisoned fine-tuning data and its effects on AI models. No text supplied; unable to provide specific findings or claims.",
+      "tags": [
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "The U.S.–China AI Competition: Two Paths to Artificial General Intelligence",
+      "url": "https://cset.georgetown.edu/article/the-u-s-china-ai-competition-two-paths-to-artificial-general-intelligence/",
+      "source": "CSET Georgetown",
+      "date": "2026-11-09",
+      "summary": "Report comparing US and Chinese approaches to artificial general intelligence. US focuses on human-level reasoning across tasks; China emphasises embodied AI grounded in physical and social systems. US leads in semiconductors and frontier models; China has engineering capacity and deployment scale.",
+      "tags": [
+        "AI Governance",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Europe faces faster cyberattacks than ever. But many of the solutions are long known",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPc3ZHeFZRZzZ5QW5IQW1ybUJuN0ZzVHF6LTEwR1ROUUx2U2lpVDZWdDE1eVRZY3RkX2FPRDNad1J4bl9HektVVFRBYk5aZk1BY0Z3TzcxWWRJRm5NUmF3SU9MQkx0OHkwM0YyTEZqTzBtdDYySjJpX2V3OGI2aDdhSzl0NTNRLXRDUG1VRU03Uko0MkNpTHdtSWc0MVN3OE41RHBteHJPSQ?oc=5",
+      "source": "Chatham House",
+      "date": "2026-11-10",
+      "summary": "Title indicates Europe faces accelerating cyberattacks but established solutions exist. No text supplied; unable to provide specific findings or claims.",
+      "tags": [
+        "AI Risks",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Data dive: Mapping UK councils’ hyperscale dependence",
+      "url": "https://www.computerweekly.com/news/366654752/Data-dive-Mapping-UK-councils-hyperscale-dependence",
+      "source": "Computer Weekly",
+      "date": "2026-11-10",
+      "summary": "DNS scan of 382 UK councils' infrastructure finds near-universal dependence on US hyperscalers. 99% of council domains route to Microsoft, AWS or Google; 51% of routable records sit on these providers, with Microsoft accounting for roughly 70%.",
+      "tags": [
+        "AI Governance",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "A chilling warning of AI-powered cyber attacks",
+      "url": "https://www.computerweekly.com/ezine/Computer-Weekly/A-chilling-warning-of-AI-powered-cyber-attacks",
+      "source": "Computer Weekly",
+      "date": "2026-11-10",
+      "summary": "Issue covers National Cyber Security Centre warning on AI-powered cyber attacks, public cloud carbon footprint and costs, and lessons from Ukraine's tech sector during wartime.",
+      "tags": [
+        "AI Risks",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Anti-Technology Narratives That May Lead to Violence Spread Online",
+      "url": "https://gnet-research.org/2026/11/09/anti-technology-narratives-that-may-lead-to-violence-spread-online/",
+      "source": "GNET",
+      "date": "2026-11-09",
+      "summary": "Anti-technology and anti-AI sentiments online can radicalise toward violence, with AI becoming a focal point for extremist ideologies. Content spreads via social media as radicalisation pathway, ranging from anarcho-primitivism to targeted violence against AI technology.",
+      "tags": [
+        "AI Risks",
+        "Information Disorder",
+        "Terrorism"
+      ]
+    },
+    {
+      "title": "Anthropic’s Safety Mission vs. Public-Company Pressure, November 10",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMk1odGtYUExjMThWSVdDZzg1MXEwNV81aUxXWlRYNW42UTFJU24talZ2Q2VMRk53ZVZiQkw2R3phLWZEUlloNXFZOUxxa3FVM2E4alotUUFVQnNEXy12VXFmYXNsQ1VrZkNnSEJqOExqT1IwVWxodUc1eVRkTGh6azlwZG5LTC0xSy04R3hnZGVIeUxOdnFPSlNQMEM5QWNfeVFnV19GN1h4TXhaakdXYWhRd3lnN2xBZThv?oc=5",
+      "source": "Lawfare",
+      "date": "2026-11-10",
+      "summary": "Title addresses tension between Anthropic's safety mission and public-company pressures. No text supplied; unable to provide specific findings or claims.",
+      "tags": [
+        "AI Risks",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "source": "MIT Technology Review",
+      "date": "2026-11-09",
+      "summary": "Scott Wiener, newly elected California congressman, prioritises AI regulation, citing recursive self-improvement concerns. Previously authored California AI bills; received funding from AI regulation nonprofit; advocates slowing AI development through federal legislation.",
+      "tags": [
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "The incidence of con- tent that is harmful to children on regulated services",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOOTJXMjE4SVQwR3JYa0pnRGJoWmxxUTVCSXR3aUJ2ZHBxc1VTOUtuWXNmNVptYmdieHd2cml4UVpEOXJWRThUc3E0N3FyOElXbzVDRTNUREdWMWJjc3I3OWJvZ0hfSHlaZzEzZF8yU1MyRy1HMVgxam16NXNZVXVYS3VhYk00bnFsOXhGd1lJeVBGNU5rUUNuMzBRdjlhbUhkajhUYXVjZ3hvMXpvLXViTVZRYzV3VG5TS2gweHFMOEtzQ0cxM0VlRGI3RjhXdktmUnUwcWRaYXlEUENud3BzNDN0dDVSdDBfVUhnXzIzUE9tM1o3ZjVBdWF4ZmRxZkQyUmhRamMxR281VzhsS01heGZwdDR4NVE?oc=5",
+      "source": "Ofcom",
+      "date": "2026-11-10",
+      "summary": "Ofcom report on the prevalence of content harmful to children on regulated services. No text supplied; unable to summarise findings.",
+      "tags": [
+        "Child Safety",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "source": "OpenAI News",
+      "date": "2026-11-09",
+      "summary": "OpenAI describes Control Room, a system tracking model workloads across its research infrastructure that can rapidly halt them when safety or security concerns emerge.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "News AFP sounds alarm as youth terror caseload surges despite social media ban ABC News (Australia)",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbnViNGNIWXpSU3JFR09OaXNYQ1BrdlRrZTZFZnQyaEY0d0w0Sl9STDBDXzUtU0FWeUhtVW5ieHFJcWxJWEdzSFdfd0VKM2lfbkRPV3ZHcGRSUnJYU1BVZGxnd0J2dm56bXlqVTZoREZNNDFzTDdKQ3Z6ZTVhZlZNeGo5TVVxSmlYR3o3Q3RyRDJsUTNOeUZkOWxLLVFRWl9vemIwRjFuSURSOUQ1TlVJc1JmcF9EdnQwWUdr?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-11",
+      "summary": "Australian Federal Police report rising youth terrorism caseload despite social media restrictions. No text supplied; unable to provide specific findings.",
+      "tags": [
+        "Terrorism",
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "Stephanie Johanssen: Police boards play a vital role in AI oversight – but they don’t need to be tech experts",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQOXZLZzR1VXpGUzJFaklEZnM1Z3prODZYelhqcy0wVkNDUG1PVVFLcEwwN0lReXZWSzZueTllV1FIS2JldXdZemg5cUhCU2piSDRhMXR3cUp3eVR4YnZjamdnbElZdWhsTHJKQ2hHMlVfWk9yLWJQUzh1Y1dOU2JSX0lqcnRoVHd2Z214UUdmTGo4aTdSdmV3SWlnWS1mNUNZRHYzTlk0MTZLVUhJRGR0cW5hNFltYkV4VlJ4VTRJbDUyZlNlWVdXVDZVWE9hcU9iU1NaTG5yMnpPcU4xSVQ5SnZibU1UeEk?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-10",
+      "summary": "Stephanie Johanssen argues police boards play an important role in AI oversight but need not comprise technology experts. No text supplied; unable to summarise arguments.",
+      "tags": [
+        "AI Governance",
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "UK MPs Push Mandatory Software To Scan Every Phone Image",
+      "url": "https://reclaimthenet.org/uk-mandatory-phone-image-scanning",
+      "source": "Reclaim The Net",
+      "date": "2026-11-10",
+      "summary": "Cross-party UK MPs and peers propose mandatory software on all phones and tablets to scan images for child sexual abuse material and AI-generated content, including livestreams. Conservative peer John Nash leads the effort; Labour MP Jess Phillips supports it.",
+      "tags": [
+        "Privacy",
+        "AI Governance",
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "Sarajevo and Vukovar to Kharkiv and Mariupol: The Evolution of Urbicide in Modern Warfare",
+      "url": "https://smallwarsjournal.com/2026/11/10/sarajevo-and-vukovar-to-kharkiv-and-mariupol-the-evolution-of-urbicide-in-modern-warfare/",
+      "source": "Small Wars Journal",
+      "date": "2026-11-10",
+      "summary": "Paper examines urbicide—deliberate targeting of cities and urban infrastructure—comparing destruction in Sarajevo and Vukovar during Yugoslav wars with Kharkiv and Mariupol in Ukraine, tracking evolution from artillery-based sieges to rapid bombardment via missiles and drones.",
+      "tags": [
+        "Future Defence",
+        "Information Disorder",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Why VPNs Are Worth Defending",
+      "url": "https://www.techdirt.com/2026/11/10/why-vpns-are-worth-defending/",
+      "source": "Techdirt",
+      "date": "2026-11-10",
+      "summary": "VPN developers report Apple App Store removals in Russia as government crackdowns intensify. Russia has blocked FaceTime, added Apple and Microsoft to surveillance registry, and restricted opposition media, leaving citizens with diminishing options for uncensored communication.",
+      "tags": [
+        "Privacy",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "US Army member arrested in UK over allegations of spying for Russia",
+      "url": "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia",
+      "source": "The Record",
+      "date": "2026-11-10",
+      "summary": "Unnamed US Army soldier arrested in UK by British counterterrorism police working with FBI and military on espionage allegations involving Russia.",
+      "tags": [
+        "Geopolitics",
+        "Terrorism"
+      ]
+    },
+    {
+      "title": "Palantir exec nominated to lead CISA; lame-duck Senate vote is uncertain",
+      "url": "https://therecord.media/michael-losapio-cisa-director-nomination",
+      "source": "The Record",
+      "date": "2026-11-10",
+      "summary": "Michael LoSapio, Palantir's chief information security officer, has been officially nominated by President Donald Trump to lead the Cybersecurity and Infrastructure Security Agency. Senate confirmation vote timing remains uncertain.",
+      "tags": [
+        "AI Governance",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+      "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+      "source": "Wired",
+      "date": "2026-11-10",
+      "summary": "Article discusses genuine AI risks with ten experts, identifying nuclear catastrophe and China–US competition as real concerns. Dismisses apocalyptic scenarios like Skynet as misplaced focus.",
+      "tags": [
+        "AI Risks",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+      "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+      "source": "Wired",
+      "date": "2026-11-10",
+      "summary": "DeepMind researchers formally verified that the Signal encryption protocol functions as intended. Their stated goal is to formally verify all software globally.",
+      "tags": [
+        "AI Governance",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "Come and Take It",
+      "url": "https://www.404media.co/come-and-take-it/",
+      "source": "404 Media",
+      "date": "2026-11-10",
+      "summary": "Covers AI companies restricting reverse-engineering capabilities in their tools.",
+      "tags": [
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "'Reverse Engineer Anything': AI Companies Crack Down on the Coolest Thing People Were Doing With AI",
+      "url": "https://www.404media.co/reverse-engineer-anything-ai-companies-crack-down-on-the-coolest-thing-people-were-doing-with-ai/",
+      "source": "404 Media",
+      "date": "2026-11-10",
+      "summary": "Anthropic and OpenAI have restricted using Claude and Codex for AI-powered reverse engineering, blocking users attempting to modify owned devices. Users report account limitations and bans. Decomp.wtf project shut down. Users previously used these tools to unbrick devices, modify smart TVs and install alternative software.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Bad news for kinky Brits",
+      "url": "https://www.404media.co/bad-news-for-kinky-brits/",
+      "source": "404 Media",
+      "date": "2026-11-09",
+      "summary": "UK implemented strict new pornography law criminalising certain acts including breath play, choking and strangulation, even privately recorded. Penalties include up to five years prison. Sex workers report mass content removal from platforms with little notice, causing significant economic disruption.",
+      "tags": [
+        "Online Harms",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "Marking a milestone for our non-contact sexual offences training",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNXk0dFg1VlVVN2h1UTNZcWh4aXNycTBtZDRWNnlHRlBCMTh3Y3Nma0JaWGdnMDRmU3VGTVBoakRLMklJY3doczdROVBTSllKMDFFYU9yQlFDTmxraTRNZ2VOVkl0cm8xbnNES3FIRF9iOWZ1OXNIMUxvVUZxenhac3E4cFZzeGdrVHhtS3pIVXFtOWlyblRmT2EyNEs?oc=5",
+      "source": "College of Policing",
+      "date": "2026-11-10",
+      "summary": "College of Policing marks milestone achievement in non-contact sexual offences training programme.",
+      "tags": [
+        "Future Policing",
+        "VAWG"
+      ]
+    },
+    {
+      "title": "Gartner Symposium: Who is in control of AI?",
+      "url": "https://www.computerweekly.com/news/366654772/Gartner-Symposium-Who-is-in-control-of-AI",
+      "source": "Computer Weekly",
+      "date": "2026-11-10",
+      "summary": "Historian Yuval Noah Harari addressed Gartner Symposium, arguing AI differs fundamentally from other inventions as it makes independent decisions and cannot be controlled like tools. Warned AI capability may exceed human comprehension as systems advance.",
+      "tags": [
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Google Cloud London outage: Continuity lessons for IT leaders",
+      "url": "https://www.computerweekly.com/news/366654732/Google-Cloud-London-outage-Continuity-lessons-for-IT-leaders",
+      "source": "Computer Weekly",
+      "date": "2026-11-10",
+      "summary": "Google Cloud's London datacentre outage on 20 October took one of three availability zones offline, disrupting major organisations and court video systems. Google's preliminary report found secondary failover and queuing delays. IT leaders must distinguish between infrastructure and business resilience, mapping dependencies across zones and suppliers to identify single points of failure.",
+      "tags": [
+        "Resilience"
+      ]
+    },
+    {
+      "title": "NATO has a theory of victory – the EU needs one for Russia’s unconventional war on Europe",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNGo1RG1XSjhoa0pEeGh2VjFRZUo4eHVYNk94alJtQTFQOFlzZTlyR2lhdV9CWEh3WktBS05zT2RBcGdSdEtfTmRfTFE5bDdlY3duNU1QLWNNVWxfZnJ3N2t0ZzdudktLN2VhZjJmOEo1SDdTRld1eV9UVFhJWGJEZ01Cd0Z1S2M3LUdVZUxhazBvUVp1bkVKaU9lOFhqX1hqOGFEMUZNTkh4WjJCQ2p1dkJDSzVoTVhGNUxuZHJNcVFMXzhVeFFNeEtXZXBiOFlIUnZ3cnI0ZmJhRnZPalp6ZEdR?oc=5",
+      "source": "IISS",
+      "date": "2026-11-09",
+      "summary": "Discusses NATO's theory of victory versus the EU's need for strategy regarding Russia's unconventional warfare against Europe.",
+      "tags": [
+        "Geopolitics",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Courts Are Striking Down Warrantless Flock Camera Use",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN0ozeEpKZno2Q045TjNvbFlfZHNUMmJvbFBHa3Zjbjg1bWpfTU51Ul96dDF2MnRjcndWa19yOGtLWFdUc0ZRejUxTTIxLXdFM01NVVNoR3AwVkhnYnBURW5ZSWxuNHJ6cXdnLW1ocnpfQnNHNWdtb2dpZ3RwbkxsZUZLOHVodU1JTktXN0xKRnpzMGpV?oc=5",
+      "source": "Lawfare",
+      "date": "2026-11-10",
+      "summary": "Reports on courts striking down warrantless use of Flock cameras.",
+      "tags": [
+        "Privacy"
+      ]
+    },
+    {
+      "title": "AI Can (Mostly) Solve Cyber Regulatory Harmonization and Efficiency",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRHUzdWl2WFVJd0IwaWM1aEZ6SmhSQWhQbDhpdllUdkpYMmFCQldHc0hFRFVRaGpGOFZ6Rm42aUt4RWxwYUp3MG1qem9GUEtwU0pJaWdETGFpVVJDcF9sOHkySTZPbnBXQ0c5bGg1dmRQczFJNWpGNTFaX0QyMlBsU2FtTnJlYktxXzNmaEFtVV81UzN4d1Ytd3diOWlUNndrMEVvajF4bw?oc=5",
+      "source": "Lawfare",
+      "date": "2026-11-10",
+      "summary": "Examines how artificial intelligence can address cyber regulatory harmonisation and efficiency challenges.",
+      "tags": [
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Expanding Teen Account Protections to Teens Around the World",
+      "url": "https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/",
+      "source": "Meta Newsroom",
+      "date": "2026-11-09",
+      "summary": "Meta is expanding AI-powered Teen Account protections globally across Instagram, Facebook and Messenger. The technology identifies suspected teens who misrepresent their age and automatically applies age-appropriate protections limiting contacts, content and screen time. Rolling out on Facebook and later Threads.",
+      "tags": [
+        "Child Safety",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "Contextual safeguarding",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVjIxX3FEeFFXV21Jd0otMXI4Y0dtZTc0aGt2eHNLMjlva0U1RWdPS3A0Wks3eU16RWgzY0VPbTRkaVEwbzZEX1ViUUc1LTE3SUFDYUxCU0VMTlc1ZUlCeno2cVBLdWVCdkt6ajdNRVc0dW5CXzhsSm9kVE9KWTdmWW5XcU5DZndNeW1hMnVB?oc=5",
+      "source": "NSPCC",
+      "date": "2026-11-09",
+      "summary": "Covers contextual safeguarding approaches.",
+      "tags": [
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "responding-to-children-who-display-sexualised-behaviour-guide.pdf - NSPCC Learning",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYkpLQjFZR1E5c1h2MkJzSEJ3NkJvVWxqZEVRVXdic3Z5aFM5cEVXeEE2U3ZQX1EteTBkcHozLUs4V0k3emZyejl6N1lZeXZjUnVSSDBFRjgzNDg2cVFuTEpPRzhqcVdra0NrRTVFMGFZblV5bE9pQTFnNUNkcHFaaVF0TWxoaHU2bVJmRm9scm16U1BxeFJDV01GNnhlRTBLaXJkQUVNcTJtZw?oc=5",
+      "source": "NSPCC",
+      "date": "2026-11-10",
+      "summary": "Provides guidance on responding to children displaying sexualised behaviour.",
+      "tags": [
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "Ofcom strengthens industry guidance to protect welfare of participants in constructed reality programmes",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcmkxeTFaVGh5MDFST0FNcW5FLTRkNzFxV3RwanJkTG5teDJkU204ejR2OE16N3ZVanRLNGt2QzE2Ql9wREdJNUlLUGEwQmRfU0RRb0prM1V5WDhGWHZQNHJ0UTNlV3BRWDhTbmFfY3NwMTBjTldkWEpBX3NvU3RoWnlQOHlEVXFFNlBqeWFTWER6a3d0al9QMjJaZlpkOWdfSG9YSWFsMWNHTDBlMDVvbVRiZ21XLUpyLS1JZHZ2VHNla2gxeGw0d25MTTg2eGg1UXdZbl9wTldfNDZ0dHhBS012aVdOU2FxZkkwT2ZURkVaOUMzNHdfT0V2aXNIT0c5NlE?oc=5",
+      "source": "Ofcom",
+      "date": "2026-11-10",
+      "summary": "Ofcom strengthens industry guidance protecting participant welfare in constructed reality programmes.",
+      "tags": [
+        "Online Harms",
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "source": "OpenAI News",
+      "date": "2026-11-10",
+      "summary": "ThinkYoung research and OpenAI's EMEA education partnerships address supporting teachers, AI literacy, and independent learning to close the AI guidance gap in education.",
+      "tags": [
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "url": "https://openai.com/index/cogent-security",
+      "source": "OpenAI News",
+      "date": "2026-11-10",
+      "summary": "Cogent integrates OpenAI models with enterprise context to automatically remediate vulnerabilities using agents for cybersecurity defence.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Oxford spinout, Fairwork, launches certification programme",
+      "url": "https://www.oii.ox.ac.uk/oxford-spinout-fairwork-launches-certification-programme/",
+      "source": "Oxford Internet Institute",
+      "date": "2026-11-10",
+      "summary": "Fairwork, an Oxford spinout, offers independent certification enabling organisations to demonstrate responsible labour practices across AI supply chains.",
+      "tags": [
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Rebuilding trust and confidence after a critical incident: Lessons from the Plymouth mass shooting",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd0xCTDlkS2g1VFJ0TElaaV9iYy1od3FhX0xZNUhBdWRmd2taTlJ6RHAtTUNhVzNqOVhwakVoVzd4MHRWbTlVTTdTS2ZhQlJRTDRJTFVvUG1qQm9JU0FQRGlLZWxZaThFMjU4Smx3NVdKaDdaNWVkWEEzamR2ZDRTMVhMX2FCVFcxX0htQV9hbTVFQjJycHYtc2hURWMyN0g2V1IzQTUtUjBtQW9UbEFzSFJROFBnSm93WHZWdE5rYnJfa2NHNmNwemstQTdTTGtvLTRmM2czTUo1bzQ?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-09",
+      "summary": "Covers lessons on rebuilding trust and confidence in policing following critical incidents, using the Plymouth mass shooting as a case study.",
+      "tags": [
+        "Future Policing",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Working with children who display harmful sexual behaviour",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcDdLNWVBcTBMejNxOWJBUEZHRGZxVWVfWnBad01vSVZOUmY2NlhZRUR0dy0tS2MzWm5FSEJ4UnVpeExHVUVUZkJaQ1B5OEQ3M3JyZUY3dmVsVWN2ZmtRRUVjTW5vTktoa1dIdjlrblhQc2dNTHhyZkdTRGtldXlxUk5OTENBOTViRHVPdm41cUNJRk52Rnp4UnJLcUV5MXJUcEM5aEJCUQ?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-09",
+      "summary": "Addresses policing approaches and best practices for working with children who display harmful sexual behaviour.",
+      "tags": [
+        "Child Safety",
+        "VAWG"
+      ]
+    },
+    {
+      "title": "New research aims to close the gaps on recognising, reporting and responding to female sex offending",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZFlXaFByYTUyVVVHclQtVkswTEQ3Y3c2OUN4VXN4YmNDa2dSVnB1OEFxWjlwUnZobXZxMzZUTmFJakx2UzBvc18wLTE3czlROVFRSV9zdXJGNzZUMVpZVkRHbnJ1RTdwdUhVTXd0dk9jUjllMS1zLVcyUFZVdDU1My1DSU9WQ19veXB3WEFMYzYxRUs4MGk2by1WRjRpUC1PT3V5OFdDZmc3ZU1tRldCeVdFVFVEdHJvdTdyQ0llc0ljZTFkeXlLM3lrSjhiS2xhUWc?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-10",
+      "summary": "Research examining gaps in recognising, reporting and responding to female sex offending within policing contexts.",
+      "tags": [
+        "VAWG",
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "Westminster Insight’s AI in Policing Conference",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNREpTa0hPQS1iQl9sZTBpWmxUYV9INDM4TnlzR2JtdGZzRXRRamswMVI4SXIyUnVHUk1saF9SdnByVnlTQ2pBeXM2Tmx0RXZGcW5PWk9uUTF2Y3RoNGdWMUMwQ214MTM3VFR5aTk3clVQRjdlSXNOb25NSGI5MWZfQjctdFI0RXpLdEtweWE2VjJMbzlBSGRfOThlblQxUQ?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-10",
+      "summary": "Westminster Insight's conference focused on artificial intelligence applications and developments in policing.",
+      "tags": [
+        "AI Governance",
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "The Life of the Party(-State)",
+      "url": "https://www.rand.org/pubs/research_reports/RRA4565-1.html",
+      "source": "RAND research reports",
+      "date": "2026-11-10",
+      "summary": "RAND researchers examine how China's political cycle and bureaucratic structures have shifted under Xi Jinping, affecting U.S.-China relations and American engagement strategies.",
+      "tags": [
+        "Geopolitics"
+      ]
+    }
+  ]
+}

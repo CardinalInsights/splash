@@ -29,7 +29,7 @@ import requests
 from feeds import is_news_search, read_sources, resolve_feed
 
 MODEL = "claude-haiku-4-5-20251001"
-MAX_ITEMS_PER_DAY = 40        # most stories shown for one day
+MAX_ITEMS_PER_DAY = 20        # most stories shown for one day
 MAX_PER_SOURCE = 6            # stops one busy source filling the page
 NEW_WINDOW_DAYS = 2           # how far back a dated item still counts as new
 RETENTION_DAYS = 7            # days of reading lists kept on the site
@@ -195,7 +195,12 @@ def filter_by_topic(items, topics):
             f"Its topics are: {topic_list}.\n\n"
             "For each numbered item, decide how well it fits those topics:\n"
             "3 = squarely on topic and substantive (research, investigation, policy, significant news)\n"
-            "2 = clearly relevant\n1 = loosely related\n0 = not relevant, or product/consumer/marketing news\n\n"
+            "2 = clearly relevant\n1 = loosely related\n"
+            "0 = not relevant, OR a press release / product announcement with no substance beyond the "
+            "announcement itself — e.g. a company launching a new product, feature, partnership, certification "
+            "scheme or integration. Score 0 even if the topic fits. Genuine research findings, safety or "
+            "security disclosures, investigations and policy analysis from the same organisations still score "
+            "normally.\n\n"
             "Reply with ONLY a JSON array, one object per item scoring 2 or 3, like "
             '[{"i": 0, "score": 3, "tags": ["AI Risks"]}]. '
             "Tags must be copied exactly from the topic list (1 to 3 per item). "

@@ -30,7 +30,7 @@ from feeds import is_news_search, read_sources, resolve_feed
 
 MODEL = "claude-haiku-4-5-20251001"
 MAX_ITEMS_PER_DAY = 20        # most stories shown for one day
-MAX_PER_SOURCE = 4            # stops one busy source filling the page
+MAX_PER_SOURCE = 6            # stops one busy source filling the page
 NEW_WINDOW_DAYS = 2           # how far back a dated item still counts as new
 RETENTION_DAYS = 7            # days of reading lists kept on the site
 SUMMARY_WORDS = 50
@@ -332,7 +332,7 @@ def main():
         try:
             earlier = json.loads(day_file.read_text(encoding="utf-8")).get("entries", [])
             have = {e["url"] for e in chosen}
-            chosen = chosen + [e for e in earlier if e["url"] not in have]
+            chosen = (chosen + [e for e in earlier if e["url"] not in have])[:MAX_ITEMS_PER_DAY]
         except ValueError:
             pass
     write_day(date_str, chosen, topics, now)

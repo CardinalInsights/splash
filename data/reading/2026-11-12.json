@@ -1,0 +1,232 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T09:59:53+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Cyber",
+    "Drones",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "Brian Leveson on AI, candour and investigatory powers",
+      "url": "https://www.computerweekly.com/news/366654606/Brian-Leveson-on-AI-candour-and-investigatory-powers",
+      "source": "Computer Weekly",
+      "date": "2026-11-11",
+      "summary": "Lord Brian Leveson, investigatory powers commissioner overseeing 600 UK public authorities' covert powers, discusses preparing for AI's impact on intelligence and policing. He emphasises reliance on organisations' candour about mistakes and selective oversight given IPCO's 150-person team.",
+      "tags": [
+        "AI Governance",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "The ethics of using books to train AI",
+      "url": "https://www.computerweekly.com/feature/The-ethics-of-using-books-to-train-AI",
+      "source": "Computer Weekly",
+      "date": "2026-11-11",
+      "summary": "AI companies including Anthropic and Amazon have acquired and scanned secondhand and rare books at industrial scale to train systems, destroying them in the process. Publishers and executives describe this as copyright infringement; internal memos characterised large language model development as 'theft of unprecedented proportions'.",
+      "tags": [
+        "AI Governance",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "How police forces and the National Crime Agency use retrospective facial recognition",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYkppUzM2Yl9sR3dTWkFBaWZ3VFVnRXZ5TW9sN3ZsYUxQV3dUdjNPc2QtOU1BWVltcmtWZjVGMVluc3Yxb24td29OVXA1Y1ROTGhKVTRuenBrQXlwaEFOdG96QkM2OFIwZi1wN2s5SW00VTVhY2J4X2FzM09ZRWc5QjJ5cFRkbkZMUWxzT0haNGlEU2picjREUm55XzRiWWlPRk10eGp3STBTd2FpMWhEaVJCUHc3eTFBeE11UzVlb0pKN0EyQkdIaTNZekJLQUNKRVFQdQ?oc=5",
+      "source": "HMICFRS",
+      "date": "2026-11-12",
+      "summary": "This item covers how police forces and the National Crime Agency use retrospective facial recognition, based on title alone.",
+      "tags": [
+        "Privacy",
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "Police forces and the National Crime Agency must improve oversight of retrospective facial recognition to maintain public confidence",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOWHBPRW5nNU5BeHF1OVZzYi1zLU9zdl9pSkpPV041R0FFeFdVdnM1cG14aTl2RWh1S090c192bTBMbmZPdnhjeXdLeXhsZ3RyWlpvUEx0RTRZNG5MSThiVmpnMUs5QTVYVThNSHY5bUJ1Mk9EaE9SV180SExtMUZTVWJIajJUQ21aMWdXb2hXOVRxSDAtRWdGTW1zczZkZTR3M3hQSmRSanNsaW80QUpWNnFwM2RzLS02cnAyYXNGVWoyd2QtS2tOY2VMc09hbUpUc19mbmFrclNsRDhlajBGbnpEZ3pIZXBhN1pxQXZXdmZ1NWplSjNvN09jSVdmQ29tZGlsUVhNTkpzdFBDMWpvakQ4VUI4c28?oc=5",
+      "source": "HMICFRS",
+      "date": "2026-11-12",
+      "summary": "This item covers police forces and the National Crime Agency's oversight of retrospective facial recognition and public confidence, based on title alone.",
+      "tags": [
+        "Privacy",
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
+      "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
+      "source": "The Verge",
+      "date": "2026-11-11",
+      "summary": "The EU Commission's proposed Digital Fairness Act targets exploitative online practices including loot boxes, addictive design features, undisclosed influencer marketing, and misleading pricing across gaming, social media and e-commerce platforms.",
+      "tags": [
+        "Online Harms",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Hugging Face appears to be hosting a load of models that could be used for cyber attacks",
+      "url": "https://www.transformernews.ai/p/hugging-face-appears-to-be-hosting",
+      "source": "Transformer",
+      "date": "2026-11-11",
+      "summary": "Hugging Face hosts over 6,500 AI models with removed safety filters and guardrails, enabling potential cyberattacks. Its content policy prohibits models designed for system disruption or malicious code, but enforcement remains unclear. The platform removed one model explicitly marketed for offensive cyber use.",
+      "tags": [
+        "AI Risks",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "A Startup Wants to Fight AI Bioweapons With AI",
+      "url": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
+      "source": "Wired",
+      "date": "2026-11-11",
+      "summary": "Radical Numerics has developed an AI model claiming to identify natural and AI-engineered pathogens without internet connectivity, addressing bioweapon concerns.",
+      "tags": [
+        "AI Risks",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "China’s Nvidia Honeypot Isn’t Surprising. Jensen Huang Fell for It Anyway",
+      "url": "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/",
+      "source": "Wired",
+      "date": "2026-11-11",
+      "summary": "Article examines how an AI executive fell victim to Chinese sexpionage, a well-established intelligence tactic with recent high-profile examples, based on title and text.",
+      "tags": [
+        "Geopolitics",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Spy scandal highlights contradictions at heart of Trump’s China policy",
+      "url": "https://cset.georgetown.edu/article/spy-scandal-highlights-contradictions-at-heart-of-trumps-china-policy/",
+      "source": "CSET Georgetown",
+      "date": "2026-11-11",
+      "summary": "Article examines how Chinese espionage allegations involving Nvidia CEO Jensen Huang raise questions about Trump's approach to U.S.-China relations and semiconductor export controls. CSET fellow suggests Trump either doesn't care much about the issue or still trusts Huang.",
+      "tags": [
+        "Geopolitics",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "The phantom life of Alice Huang, alleged Chinese spy who had affair with Nvidia CEO",
+      "url": "https://cset.georgetown.edu/article/the-phantom-life-of-alice-huang-alleged-chinese-spy-who-had-affair-with-nvidia-ceo/",
+      "source": "CSET Georgetown",
+      "date": "2026-11-10",
+      "summary": "Article investigates allegations against Alice Huang, alleged Chinese spy with relationship to Nvidia CEO, linking sex scandal, espionage concerns, and sales of advanced computer chips to a seemingly non-existent company where Huang was an executive.",
+      "tags": [
+        "Geopolitics",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "EU Most Wanted: 19 fugitives wanted for targeting the vulnerable",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/eu-most-wanted-19-fugitives-wanted-for-targeting-vulnerable",
+      "source": "Europol",
+      "date": "",
+      "summary": "Europol launched appeal for 19 fugitives wanted for crimes against children and older people across 14 countries, including individuals sought for child sexual exploitation and fraud targeting elderly persons.",
+      "tags": [
+        "Child Safety",
+        "Future Crime"
+      ]
+    },
+    {
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "source": "Krebs on Security",
+      "date": "2026-11-11",
+      "summary": "Cybercrime group Qilin is world's most active ransomware affiliate program with 365 claimed victims in three months. Operational security mistakes by administrator 'Haise' point to 36-year-old in St. Petersburg, Russia operating since September 2022.",
+      "tags": [
+        "Cyber",
+        "Future Crime"
+      ]
+    },
+    {
+      "title": "Protecting privacy and press freedom: An important Fourth Circuit ruling",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/11/11/protecting-privacy-and-press-freedom-an-important-fourth-circuit-ruling/",
+      "source": "Microsoft On the Issues",
+      "date": "2026-11-12",
+      "summary": "U.S. Court of Appeals Fourth Circuit limited secret government demands for journalists' online data, upholding Microsoft and LinkedIn's rights. Court emphasised confidentiality of sources is essential to free press and remanded case for narrowing government demands.",
+      "tags": [
+        "Privacy",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Skies the limit: The proliferation of police drones",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdlBPamoyY3AwenRCd2trMlJVYkNlRzFySVlUc1FaQkhydVVJY2lFN18yekpkUGNHM2h1ZUVub09GQUNuc0tPY0diaE5qUllhOG8xbDlnVkI2RkdKSEhidW1ZUUpHRjdWRnJEVXBlODc4ZHdKRGVUUTZnSnkxdk1iV2M1N01aVGdSU2RjRGozWUpHSGw3ZFBvV1J2NXdSRlU?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-11",
+      "summary": "Article covers the increasing use and proliferation of unmanned aerial vehicles by police forces.",
+      "tags": [
+        "Drones",
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "Chinese Academy of Sciences Directory",
+      "url": "https://www.rand.org/pubs/research_reports/RRA4687-1.html",
+      "source": "RAND research reports",
+      "date": "2026-11-10",
+      "summary": "Report summarises cross-cutting trends identified by RAND when compiling a directory of the Chinese Academy of Sciences.",
+      "tags": [
+        "Geopolitics",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "The Drone Contact Force – a Cornerstone for the Future Army",
+      "url": "https://smallwarsjournal.com/2026/11/12/the-drone-contact-force-a-cornerstone-for-the-future-army/",
+      "source": "Small Wars Journal",
+      "date": "2026-11-12",
+      "summary": "Article proposes establishing autonomous 'Drone Contact Force' combining air and ground robotic assets to provide U.S. military operational manoeuvre options between standoff strikes and personnel on ground, citing Ukrainian military's autonomous drone development.",
+      "tags": [
+        "Drones",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "AI Attitudes: Senior Service College Student Reflections on AI Use",
+      "url": "https://smallwarsjournal.com/2026/11/12/ai-attitudes-senior-service-college-student-reflections-on-ai-use/",
+      "source": "Small Wars Journal",
+      "date": "2026-11-12",
+      "summary": "Study of 379 reflections from US Army War College students examined how senior military leaders think about AI. Students were assigned to use large language models to generate discussion posts. Research found that senior leaders' attitudes toward AI, not the technology itself, will determine how effectively military organisations adopt it for warfighting.",
+      "tags": [
+        "AI Governance",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "Iran-backed network directed London attacks over FaceTime, US prosecutors say",
+      "url": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
+      "source": "The Record",
+      "date": "2026-11-11",
+      "summary": "US prosecutors indicted an Iran-backed network for directing attacks on Jewish and American sites across multiple countries. Campaign targeted synagogues in Belgium, Netherlands and London, and US bank buildings in Amsterdam and Paris via FaceTime coordination.",
+      "tags": [
+        "Terrorism",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "United won’t let your AI agent book your flight",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "source": "The Verge",
+      "date": "2026-11-11",
+      "summary": "United Airlines will not permit personal AI agents to book flights on its platform, citing privacy and regulatory concerns. Airline worries agents could expose customer information, make unintended purchases, or circumvent federal requirements for passenger attestations regarding baggage contents.",
+      "tags": [
+        "AI Governance",
+        "Privacy"
+      ]
+    }
+  ]
+}

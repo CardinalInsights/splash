@@ -2,11 +2,14 @@ name: Daily reading list
 
 on:
   schedule:
-    # 7am UK time all year. GitHub schedules are UTC only, so there are two
-    # entries and the "UK time check" step below lets only the right one run:
-    # 06:00 UTC during British Summer Time, 07:00 UTC in winter.
-    - cron: "0 6 * * *"
-    - cron: "0 7 * * *"
+    # 7:30am UK time all year, giving a comfortable margin before a 9:15am
+    # read. GitHub schedules are UTC only, so there are two entries and the
+    # "UK time check" step below lets only the right one run: 06:30 UTC
+    # during British Summer Time, 07:30 UTC in winter. The minute is offset
+    # from :00/:30 because GitHub queues scheduled runs most heavily on the
+    # hour and half-hour and can delay them there.
+    - cron: "34 6 * * *"
+    - cron: "34 7 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -14,11 +17,12 @@ permissions:
 
 concurrency:
   group: reading-list
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: UK time check
         id: uk
@@ -26,8 +30,8 @@ jobs:
           offset=$(TZ=Europe/London date +%z)   # +0100 in summer, +0000 in winter
           run=yes
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            if [ "${{ github.event.schedule }}" = "0 6 * * *" ] && [ "$offset" != "+0100" ]; then run=no; fi
-            if [ "${{ github.event.schedule }}" = "0 7 * * *" ] && [ "$offset" != "+0000" ]; then run=no; fi
+            if [ "${{ github.event.schedule }}" = "34 6 * * *" ] && [ "$offset" != "+0100" ]; then run=no; fi
+            if [ "${{ github.event.schedule }}" = "34 7 * * *" ] && [ "$offset" != "+0000" ]; then run=no; fi
           fi
           echo "run=$run" >> "$GITHUB_OUTPUT"
           echo "UK offset $offset, trigger ${{ github.event.schedule || 'manual' }}: run=$run"

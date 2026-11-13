@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T10:59:46+00:00",
+  "generated_at": "2026-11-13T15:39:05+00:00",
   "topics": [
     "AI Governance",
     "AI Risks",
@@ -19,6 +19,114 @@
     "VAWG"
   ],
   "entries": [
+    {
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "source": "OpenAI News",
+      "date": "2026-11-12",
+      "summary": "OpenAI announces $2 million commitment to research on AI and children's safety, supporting development of shared tools to measure risks and opportunities for young people.",
+      "tags": [
+        "AI Risks",
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "Record number of cyber incidents reported to UK privacy regulator",
+      "url": "https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator",
+      "source": "The Record",
+      "date": "2026-11-13",
+      "summary": "UK organisations reported record cyber incidents to the data protection regulator this year. Cybersecurity firms attribute surge to data extortion and artificial intelligence-driven attacks.",
+      "tags": [
+        "Cyber",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Microsoft outage: Impact shows risk of M365 bundle lock-in",
+      "url": "https://www.computerweekly.com/news/366654819/Microsoft-outage-Impact-shows-risk-of-M365-bundle-lock-in",
+      "source": "Computer Weekly",
+      "date": "2026-11-13",
+      "summary": "Global Microsoft Exchange outage disrupted UK government departments, hospitals, schools and police forces, preventing email transmission. NHS, councils and other organisations reported service disruptions but maintained critical functions.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Iranian Hacks With Russian Characteristics",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLVFwQV9fdkVlTUJRUXBrN1p4Q0Z3a2g0V1ZjWlFzRnBOZWswS1pqV20yVUg1Y1prcDM4eWdYOTZfMEV0aDRSRk9YYmhXMkxROVBsUFJXeERBalRZcC05ZUhzSGJtal9OeHhGb2hubTJxMHlJRTVZbEZOQUxpZVI2YV8tcGs5Zw?oc=5",
+      "source": "Lawfare",
+      "date": "2026-11-13",
+      "summary": "Covers alleged Iranian hacking operations exhibiting characteristics associated with Russian threat actors.",
+      "tags": [
+        "Cyber",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Poor AI can compound investigative biases and add to cognitive overload, putting justice at risk, warns white paper",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTDhveGN2Y1I4Ykp3RERjZmlaRDRGWmxpLXZ5T19WbzdWNzdkY2k3bmptaTB3alNSbFg3REpHcFRmNEVKMUpSNWpMQUJSZXk3aFNHVXFPMWh4YUJndll4WjJiazBOOUliVjYyQzZkZVlmeUlWcndGTVlwQjkzNzI0MFdEb21JMWFYVS0wVUpuSU5sU01mY1QwVnVKaFg0Nm1PaS01TXZ5MGJJWUMzdkNGNUVOckhsWlY4VVl6Z2JJdE9TdmIzWm0wUjRyNF9vWEhXNDhaWUFIRm9UMUJTcjJ1VWF1azY?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-13",
+      "summary": "White paper warns that poorly implemented AI in investigations can reinforce investigative biases, increase cognitive overload, and jeopardise justice outcomes.",
+      "tags": [
+        "AI Governance",
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "The Effectiveness of Russian Nuclear Signaling in the Ukraine War",
+      "url": "https://www.rand.org/pubs/research_reports/RRA5487-1.html",
+      "source": "RAND research reports",
+      "date": "2026-11-13",
+      "summary": "Evaluates effectiveness of Russian nuclear signalling during Ukraine war and examines implications for broader international nuclear dynamics.",
+      "tags": [
+        "Geopolitics",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "Court Lets Florida Age Verification Demands on Meta Proceed",
+      "url": "https://reclaimthenet.org/florida-meta-age-verification-lawsuit-proceeds",
+      "source": "Reclaim The Net",
+      "date": "2026-11-13",
+      "summary": "Florida appeals court refused to dismiss state attorney general's lawsuit against Meta requiring age verification for all Floridian users. Court ruled Section 230 provides limited, not absolute, immunity and found no First Amendment violation yet.",
+      "tags": [
+        "Child Safety",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "TSMC confirms employee data breach tied to cloud service provider",
+      "url": "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider",
+      "source": "The Record",
+      "date": "2026-11-13",
+      "summary": "TSMC confirms employee data breach via compromised cloud service provider. Investigation found no TSMC systems breached; stolen data unrelated to company operations or customer information.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Ransomware attack on Belarusian cloud firm disrupts businesses for days",
+      "url": "https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack",
+      "source": "The Record",
+      "date": "2026-11-13",
+      "summary": "Belarusian cloud firm ActiveCloud suffered a ransomware attack where hackers breached systems and encrypted cloud infrastructure, preventing customers from accessing key services for several days.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "What’s really at stake in the Jensen Huang saga",
+      "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+      "source": "The Verge",
+      "date": "2026-11-13",
+      "summary": "Nvidia CEO Jensen Huang resigned. The article discusses broader implications including Nvidia's China dealings, US government protection of the company, AI industry stability, and mentions Megaspeed, with full details promised in extended coverage.",
+      "tags": [
+        "AI Governance",
+        "Geopolitics"
+      ]
+    },
     {
       "title": "AI Kill Switches: What Policymakers Should Know",
       "url": "https://cset.georgetown.edu/article/ai-kill-switches-what-policymakers-should-know/",
@@ -109,17 +217,6 @@
       ]
     },
     {
-      "title": "Supporting research on AI and children’s safety",
-      "url": "https://openai.com/index/children-first-declaration",
-      "source": "OpenAI News",
-      "date": "2026-11-12",
-      "summary": "OpenAI commits $2 million to research on AI and children's safety, supporting development of shared tools to measure risks and opportunities for young people.",
-      "tags": [
-        "Child Safety",
-        "AI Risks"
-      ]
-    },
-    {
       "title": "Global Microsoft outage leaves users open to phishing attacks",
       "url": "https://www.computerweekly.com/news/366654608/Global-Microsoft-outage-leaves-users-open-to-phishing-attacks",
       "source": "Computer Weekly",
@@ -138,101 +235,6 @@
       "summary": "Forescout research finds AI dramatically accelerates vulnerability discovery in critical infrastructure code, compressing research timescales and reducing costs for both security researchers and attackers. AI changes economics of vulnerability discovery but does not eliminate need for expert researchers.",
       "tags": [
         "Cyber"
-      ]
-    },
-    {
-      "title": "Illicit Drug Sales in the Digital Age: OSINT Analysis of Encrypted Markets",
-      "url": "https://www.crimrxiv.com/pub/wmjiwknc",
-      "source": "CrimRxiv",
-      "date": "2026-11-12",
-      "summary": "Study analyses encrypted messaging platforms used for illicit drug distribution via open-source intelligence, focusing on surface-web activity previously underexamined compared to darknet markets.",
-      "tags": [
-        "Future Crime",
-        "Information Disorder"
-      ]
-    },
-    {
-      "title": "Turning a private surveillance service into a public disclosure: the case of Amazon's ring doorbell",
-      "url": "https://www.crimrxiv.com/pub/9tzqwtpd",
-      "source": "CrimRxiv",
-      "date": "2026-11-12",
-      "summary": "Article examines citizen engagement with Amazon Ring doorbell surveillance through concept of 'luxury surveillance', analysing interaction between political, economic and cultural changes and local user experiences.",
-      "tags": [
-        "Privacy",
-        "Online Harms"
-      ]
-    },
-    {
-      "title": "Fanvue joins IWF to strengthen child protection",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYkFsaHdueFg1NVhIUjgwX3FoRVJUcG1YcXRsTi1KeGhSckpuYUxMR0F4T1l0NW1jZmR4dThIYkd1TUgtMFFuLThCU1lYaWdGSkE1bU1UTllpZ2ppVXlTZzlHUlQxcU0xYkRnZUZWY252ZnhNUl9vMjJtTzVwWUVoWVhxQjhxdk5NV1dYRTJyaEV2dENQZXNWaTI3QWktSk5lTHRMOXhQcm90M0MydlhBRXlLRzl3Wk9aYS0wOFZKNjkxQnd3QWd2OHQ1enJpMlVoSGpyaExDVmpuX3hJTWVoeDhaR0pGYUNoOFpxZFBVdzREVW90WUQyYw?oc=5",
-      "source": "Internet Watch Foundation",
-      "date": "2026-11-12",
-      "summary": "Fanvue joins Internet Watch Foundation to strengthen child protection efforts.",
-      "tags": [
-        "Child Safety"
-      ]
-    },
-    {
-      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-      "source": "MIT Technology Review",
-      "date": "2026-11-12",
-      "summary": "Nvidia privately confirmed to US lawmaker that geotracking chips to prevent smuggling to China is technically feasible, contradicting public industry opposition claiming measures were 'potentially infeasible'. Company's Fleet Intelligence tool suggests capability exists.",
-      "tags": [
-        "AI Governance"
-      ]
-    },
-    {
-      "title": "Meta, X and TikTok lose legal challenge to Ofcom's information-gathering powers",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc3hkMDdVWTB1TkJtcGxEZTdKS3BlS0NDXzlTUGtDT2xfVlA4TmpMZ09nNGpGRXg0eTRtaWZMOURCZ3JaSjVMSFA0WThWN3RRS2dlX0pzdlU5RmNaMEw5SUV3dFFMTWk4Q2psY2REdnp0clo4RjFRV1lsV0RhSkZLa1JWT19PRDRLN0FMb2sxSmhyRWtpMkpGQjJyQTVYZW5oVnNwU0t0WF9nejZlZVIwdGlNS1YyVHU5?oc=5",
-      "source": "Online Safety Network",
-      "date": "2026-11-12",
-      "summary": "Meta, X and TikTok unsuccessful in legal challenge against Ofcom's information-gathering powers.",
-      "tags": [
-        "Online Harms",
-        "AI Governance"
-      ]
-    },
-    {
-      "title": "Higher-Income Parents Use AI More and Encourage Their Children to Do the Same",
-      "url": "https://www.rand.org/pubs/research_reports/RRA4742-5.html",
-      "source": "RAND research reports",
-      "date": "2026-11-12",
-      "summary": "RAND analysed 2025-2026 American Life Panel survey data on parental and teenage AI use. Reports describe what parents and teens say about their AI use, their perspectives on such use, and parental guidance regarding AI for schoolwork.",
-      "tags": [
-        "AI Risks"
-      ]
-    },
-    {
-      "title": "EU Unveils Digital Fairness Act, (Another) Online \"Age Verification\" Law",
-      "url": "https://reclaimthenet.org/eu-digital-fairness-act-age-verification",
-      "source": "Reclaim The Net",
-      "date": "2026-11-12",
-      "summary": "European Commission proposed Digital Fairness Act on 11 November as consumer protection regulation and age verification law. Applies to all traders targeting EU consumers, including those outside EU. Uses objective indicators like age ratings, marketing appeals to children, and customer accounts to determine if minors use products.",
-      "tags": [
-        "Online Harms",
-        "AI Governance"
-      ]
-    },
-    {
-      "title": "Meta Expands AI Age Surveillance Worldwide",
-      "url": "https://reclaimthenet.org/meta-expands-ai-age-surveillance-worldwide",
-      "source": "Reclaim The Net",
-      "date": "2026-11-12",
-      "summary": "Meta expanding AI age estimation system globally on Instagram, then Facebook and Threads. Machine learning analyses profiles and contextual clues to identify suspected teenagers and apply restrictions. System also removes under-13s; adults misidentified as teens must provide ID or facial age verification.",
-      "tags": [
-        "Child Safety",
-        "Privacy"
-      ]
-    },
-    {
-      "title": "Australian Censor Chief Rejects Claims Digital Duty of Care Will Drive Censorship",
-      "url": "https://reclaimthenet.org/australia-digital-duty-care-censorship",
-      "source": "Reclaim The Net",
-      "date": "2026-11-12",
-      "summary": "Australia's eSafety Commissioner Julie Inman Grant dismissed criticism that Digital Duty of Care bill would force excessive censorship. Stated companies are not over-censoring; most over-removals result from automated moderation lacking human review. Bill passed House; government seeks adoption by year-end.",
-      "tags": [
-        "Online Harms"
       ]
     }
   ]

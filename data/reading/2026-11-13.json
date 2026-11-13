@@ -1,0 +1,239 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T10:59:46+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Cyber",
+    "Drones",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "AI Kill Switches: What Policymakers Should Know",
+      "url": "https://cset.georgetown.edu/article/ai-kill-switches-what-policymakers-should-know/",
+      "source": "CSET Georgetown",
+      "date": "2026-11-12",
+      "summary": "Examines AI kill switches—emergency shutdown systems that rapidly halt AI operations during harmful incidents. Describes implementation at multiple intervention levels from hardware to software, with varying scope from surgical to broad effects. Notes policymakers should consider collateral damage trade-offs when designing shutdown requirements.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "AI agents bring down wind farm within two hours",
+      "url": "https://www.computerweekly.com/news/366654794/AI-agents-bring-down-wind-farm-within-two-hours",
+      "source": "Computer Weekly",
+      "date": "2026-11-12",
+      "summary": "Reports that two off-the-shelf large language models successfully hacked a replicated wind farm, disabling six turbines producing nearly 10MW within two hours using only VPN credentials. Demonstrates attackers need not possess specialist operational technology knowledge to compromise critical infrastructure.",
+      "tags": [
+        "AI Risks",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Why the use of AI by the UK’s intelligence services needs independent oversight",
+      "url": "https://www.computerweekly.com/news/366654736/Why-the-use-of-AI-by-the-UKs-intelligence-services-needs-independent-oversight",
+      "source": "Computer Weekly",
+      "date": "2026-11-12",
+      "summary": "Argues UK intelligence agencies use advanced AI tools in secret for mass surveillance, gathering and processing unprecedented data on populations. Calls for urgent independent oversight, citing the Pentagon's reported interest in using AI for bulk data collection on Americans and foreign actors weaponising AI for surveillance.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Checking Ai Output In Police Open-Source Investigations: A Step-By-Step Methodological Review",
+      "url": "https://www.crimrxiv.com/pub/nvhw0l31",
+      "source": "CrimRxiv",
+      "date": "2026-11-13",
+      "summary": "Methodological review examining potential problems and benefits when AI tools are used in police open-source investigations, and which checks protect investigations against risks whilst remaining open to unexpected advantages.",
+      "tags": [
+        "AI Governance",
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "Instrument Or Power: How Academic Abstracts Represent Artificial Intelligence In Intelligence And Police Work",
+      "url": "https://www.crimrxiv.com/pub/wioz8k3k",
+      "source": "CrimRxiv",
+      "date": "2026-11-13",
+      "summary": "Examines how academic abstracts represent artificial intelligence entering intelligence and police work, including criminal intelligence supporting investigations and anticipatory intelligence for prevention, and how academic framing may influence perceptions of associated risks.",
+      "tags": [
+        "AI Governance",
+        "AI Risks",
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "354 dark web vendors and buyers arrested in Europol-coordinated global crackdown",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/354-dark-web-vendors-and-buyers-arrested-in-europol-coordinated-global-crackdown",
+      "source": "Europol",
+      "date": "",
+      "summary": "Europol-coordinated operation across fourteen countries arrested 354 dark web vendors and buyers involved in cybercrime, drug trafficking and firearms offences. Operation TorNado ran from May 2025 to October 2026, conducting hundreds of house searches globally.",
+      "tags": [
+        "Cyber",
+        "Future Crime"
+      ]
+    },
+    {
+      "title": "6.4 million victim datasets secured in international operation against malware networks",
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/64-million-victim-datasets-secured-in-international-operation-against-malware-networks",
+      "source": "Europol",
+      "date": "",
+      "summary": "Europol and international partners dismantled criminal infrastructure behind Gootloader, CastleRAT and StealC malware networks. Law enforcement seized 235 servers and 257 domains, securing 6.4 million victim datasets and severely disrupting malware distribution operations.",
+      "tags": [
+        "Cyber",
+        "Future Crime"
+      ]
+    },
+    {
+      "title": "Meme-To-Radicalisation Pipeline: Unpacking the Jihadist-Themed Edgy Humour on Indonesian TikTok and Instagram",
+      "url": "https://gnet-research.org/2026/11/12/meme-to-radicalisation-pipeline-unpacking-the-jihadist-themed-edgy-humour-on-indonesian-tiktok-and-instagram/",
+      "source": "GNET",
+      "date": "2026-11-12",
+      "summary": "Analyses how unaffiliated Indonesian social media creators inadvertently normalise ISIS content by disguising jihadist footage and nasheeds as satirical memes blending socio-economic grievances with extremist aesthetics. Contends this grey area creates radicalisation pathways for youth despite creators lacking genuine ideological ties to ISIS.",
+      "tags": [
+        "Terrorism",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "source": "OpenAI News",
+      "date": "2026-11-12",
+      "summary": "OpenAI commits $2 million to research on AI and children's safety, supporting development of shared tools to measure risks and opportunities for young people.",
+      "tags": [
+        "Child Safety",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Global Microsoft outage leaves users open to phishing attacks",
+      "url": "https://www.computerweekly.com/news/366654608/Global-Microsoft-outage-leaves-users-open-to-phishing-attacks",
+      "source": "Computer Weekly",
+      "date": "2026-11-13",
+      "summary": "Global Microsoft outage caused service degradation across multiple platforms including Outlook, Teams, Exchange Online, and Intune. Outage creates security risks, potentially enabling phishing and unauthorised system access, though Microsoft reported no malicious activity at time of writing.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Bug-hunting time cut dramatically with AI, says Forescout",
+      "url": "https://www.computerweekly.com/news/366654735/Bug-hunting-time-cut-dramatically-with-AI-says-Forescout",
+      "source": "Computer Weekly",
+      "date": "2026-11-12",
+      "summary": "Forescout research finds AI dramatically accelerates vulnerability discovery in critical infrastructure code, compressing research timescales and reducing costs for both security researchers and attackers. AI changes economics of vulnerability discovery but does not eliminate need for expert researchers.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Illicit Drug Sales in the Digital Age: OSINT Analysis of Encrypted Markets",
+      "url": "https://www.crimrxiv.com/pub/wmjiwknc",
+      "source": "CrimRxiv",
+      "date": "2026-11-12",
+      "summary": "Study analyses encrypted messaging platforms used for illicit drug distribution via open-source intelligence, focusing on surface-web activity previously underexamined compared to darknet markets.",
+      "tags": [
+        "Future Crime",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Turning a private surveillance service into a public disclosure: the case of Amazon's ring doorbell",
+      "url": "https://www.crimrxiv.com/pub/9tzqwtpd",
+      "source": "CrimRxiv",
+      "date": "2026-11-12",
+      "summary": "Article examines citizen engagement with Amazon Ring doorbell surveillance through concept of 'luxury surveillance', analysing interaction between political, economic and cultural changes and local user experiences.",
+      "tags": [
+        "Privacy",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "Fanvue joins IWF to strengthen child protection",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYkFsaHdueFg1NVhIUjgwX3FoRVJUcG1YcXRsTi1KeGhSckpuYUxMR0F4T1l0NW1jZmR4dThIYkd1TUgtMFFuLThCU1lYaWdGSkE1bU1UTllpZ2ppVXlTZzlHUlQxcU0xYkRnZUZWY252ZnhNUl9vMjJtTzVwWUVoWVhxQjhxdk5NV1dYRTJyaEV2dENQZXNWaTI3QWktSk5lTHRMOXhQcm90M0MydlhBRXlLRzl3Wk9aYS0wOFZKNjkxQnd3QWd2OHQ1enJpMlVoSGpyaExDVmpuX3hJTWVoeDhaR0pGYUNoOFpxZFBVdzREVW90WUQyYw?oc=5",
+      "source": "Internet Watch Foundation",
+      "date": "2026-11-12",
+      "summary": "Fanvue joins Internet Watch Foundation to strengthen child protection efforts.",
+      "tags": [
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "source": "MIT Technology Review",
+      "date": "2026-11-12",
+      "summary": "Nvidia privately confirmed to US lawmaker that geotracking chips to prevent smuggling to China is technically feasible, contradicting public industry opposition claiming measures were 'potentially infeasible'. Company's Fleet Intelligence tool suggests capability exists.",
+      "tags": [
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Meta, X and TikTok lose legal challenge to Ofcom's information-gathering powers",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc3hkMDdVWTB1TkJtcGxEZTdKS3BlS0NDXzlTUGtDT2xfVlA4TmpMZ09nNGpGRXg0eTRtaWZMOURCZ3JaSjVMSFA0WThWN3RRS2dlX0pzdlU5RmNaMEw5SUV3dFFMTWk4Q2psY2REdnp0clo4RjFRV1lsV0RhSkZLa1JWT19PRDRLN0FMb2sxSmhyRWtpMkpGQjJyQTVYZW5oVnNwU0t0WF9nejZlZVIwdGlNS1YyVHU5?oc=5",
+      "source": "Online Safety Network",
+      "date": "2026-11-12",
+      "summary": "Meta, X and TikTok unsuccessful in legal challenge against Ofcom's information-gathering powers.",
+      "tags": [
+        "Online Harms",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Higher-Income Parents Use AI More and Encourage Their Children to Do the Same",
+      "url": "https://www.rand.org/pubs/research_reports/RRA4742-5.html",
+      "source": "RAND research reports",
+      "date": "2026-11-12",
+      "summary": "RAND analysed 2025-2026 American Life Panel survey data on parental and teenage AI use. Reports describe what parents and teens say about their AI use, their perspectives on such use, and parental guidance regarding AI for schoolwork.",
+      "tags": [
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "EU Unveils Digital Fairness Act, (Another) Online \"Age Verification\" Law",
+      "url": "https://reclaimthenet.org/eu-digital-fairness-act-age-verification",
+      "source": "Reclaim The Net",
+      "date": "2026-11-12",
+      "summary": "European Commission proposed Digital Fairness Act on 11 November as consumer protection regulation and age verification law. Applies to all traders targeting EU consumers, including those outside EU. Uses objective indicators like age ratings, marketing appeals to children, and customer accounts to determine if minors use products.",
+      "tags": [
+        "Online Harms",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Meta Expands AI Age Surveillance Worldwide",
+      "url": "https://reclaimthenet.org/meta-expands-ai-age-surveillance-worldwide",
+      "source": "Reclaim The Net",
+      "date": "2026-11-12",
+      "summary": "Meta expanding AI age estimation system globally on Instagram, then Facebook and Threads. Machine learning analyses profiles and contextual clues to identify suspected teenagers and apply restrictions. System also removes under-13s; adults misidentified as teens must provide ID or facial age verification.",
+      "tags": [
+        "Child Safety",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "Australian Censor Chief Rejects Claims Digital Duty of Care Will Drive Censorship",
+      "url": "https://reclaimthenet.org/australia-digital-duty-care-censorship",
+      "source": "Reclaim The Net",
+      "date": "2026-11-12",
+      "summary": "Australia's eSafety Commissioner Julie Inman Grant dismissed criticism that Digital Duty of Care bill would force excessive censorship. Stated companies are not over-censoring; most over-removals result from automated moderation lacking human review. Bill passed House; government seeks adoption by year-end.",
+      "tags": [
+        "Online Harms"
+      ]
+    }
+  ]
+}

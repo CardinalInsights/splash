@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "generated_at": "2026-11-14T08:33:34+00:00",
+  "generated_at": "2026-11-14T14:26:14+00:00",
   "topics": [
     "AI Governance",
     "AI Risks",
@@ -19,6 +19,39 @@
     "VAWG"
   ],
   "entries": [
+    {
+      "title": "Beware the New AI-Fueled Ransomware Boom",
+      "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+      "source": "Wired",
+      "date": "2026-11-14",
+      "summary": "Fully automated ransomware has not yet emerged, but seemingly unsophisticated attackers are using AI tools to cause significant damage.",
+      "tags": [
+        "AI Risks",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
+      "url": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
+      "source": "The Verge",
+      "date": "2026-11-14",
+      "summary": "Tesla invites select customers to purchase the Cybercab for personal use at $29,990 plus $299 monthly subscription, but only in supported service areas where Tesla operates its Robotaxi service.",
+      "tags": [
+        "AI Governance",
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+      "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+      "source": "Wired",
+      "date": "2026-11-14",
+      "summary": "Article covers AI's adoption in aviation, contrasting with the sector's typical caution towards new technology, though specific developments are not detailed in the supplied text.",
+      "tags": [
+        "AI Governance",
+        "Future Defence"
+      ]
+    },
     {
       "title": "Building strong safety evaluations",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WQ1RoMWFsN1VyVjdlam5YZkZ4M1I1SUNjeWExWm1OcHR5MlRpRmtwU2NIT0dSQUhXSjlfb2hrZGhHYlVRUjUtUzBtRzRZUUZhcE9PNERJekdzNW1PUWhOd0s5MjBRXzVFdnFWZlJ5c0VSak5RZ3lUaA?oc=5",
@@ -203,39 +236,6 @@
       "tags": [
         "Geopolitics",
         "Terrorism"
-      ]
-    },
-    {
-      "title": "What’s behind Australia’s surge in teen extremism?",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVhXbmhUZ19xNEtmUm9WZVFBU0VXaHp3YUJ0cjVieWZ3TnFqRnl0YlVKYTgyTVZKWTJ2QmxidTltQ2kxOGRvNnlRblNGM1dhNkp6QjlwSnplbTJybkVjMjRJMTdGYWRkaEFjbkdJc09HcEhjQ1FncEhsaGNVYVJiMzZpRmI0T0pZQ2hBd28tc3lDbFBFQ1FVTw?oc=5",
-      "source": "Policing Insight",
-      "date": "2026-11-13",
-      "summary": "Covers causes behind a surge in teenage extremism in Australia. No specific details provided.",
-      "tags": [
-        "Terrorism",
-        "Future Policing"
-      ]
-    },
-    {
-      "title": "Lawmakers Race to Renew Warrantless Spying Before January",
-      "url": "https://reclaimthenet.org/lawmakers-race-to-renew-warrantless-spying-before-january",
-      "source": "Reclaim The Net",
-      "date": "2026-11-13",
-      "summary": "US lawmakers attempt to renew Section 702 of FISA through the lame-duck session by attaching it to the NDAA, aiming to avoid a more privacy-friendly incoming Congress. Section 702 permits warrantless surveillance of foreigners abroad and incidental collection of Americans' communications, which agents can search without warrants. Civil rights groups oppose renewal.",
-      "tags": [
-        "Privacy",
-        "Cyber"
-      ]
-    },
-    {
-      "title": "ASD SO/LIC Reorganized as Office of Strategic Services",
-      "url": "https://smallwarsjournal.com/2026/11/13/asd-so-lic-reorganized-as-office-of-strategic-services/",
-      "source": "Small Wars Journal",
-      "date": "2026-11-13",
-      "summary": "The Assistant Secretary of Defense for Special Operations/Low-Intensity Conflict has renamed and reorganised his office as the Office of Strategic Services under an under-secretarial position. This represents a major Pentagon reorientation towards special operations and potentially exceeds Title 10 military authority.",
-      "tags": [
-        "Future Defence",
-        "Geopolitics"
       ]
     }
   ]

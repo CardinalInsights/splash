@@ -1,0 +1,242 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T08:33:34+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Cyber",
+    "Drones",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "Building strong safety evaluations",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WQ1RoMWFsN1VyVjdlam5YZkZ4M1I1SUNjeWExWm1OcHR5MlRpRmtwU2NIT0dSQUhXSjlfb2hrZGhHYlVRUjUtUzBtRzRZUUZhcE9PNERJekdzNW1PUWhOd0s5MjBRXzVFdnFWZlJ5c0VSak5RZ3lUaA?oc=5",
+      "source": "Anthropic News",
+      "date": "2026-11-13",
+      "summary": "Covers building strong safety evaluations, based on title. No text supplied to summarise specific findings or claims.",
+      "tags": [
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "What AI’s nightmare November means for politics, power and business",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOblFjWTlWdDVwb1FtV2JQbndXd3ItRE0xNEhWSU1GazNXcUtDQXFlMVkzeGJxWFBUa1lwTlpVOS1MR21kcDBfaWpIY0tqZy1WaGwxeXRfcTFTUmgyNWZ3OE8xb1ZWdUlGLTgybm11T0UwY045b0VGWFNUWmFGeUJqYWluUmhTR3JwZnBHS2NRTzhqTVJiaW4xUjJITHVpVUU?oc=5",
+      "source": "Chatham House",
+      "date": "2026-11-13",
+      "summary": "Addresses what AI's impacts mean for politics, power and business, based on title. No text supplied to summarise specific findings or claims.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Mid-sized businesses can't leave quantum readiness to their suppliers",
+      "url": "https://www.computerweekly.com/opinion/Mid-sized-businesses-cant-leave-quantum-readiness-to-their-suppliers",
+      "source": "Computer Weekly",
+      "date": "2026-11-13",
+      "summary": "Mid-sized businesses cannot rely solely on major technology suppliers for quantum cyber readiness. Although suppliers set 2029 deadlines, they control only their own technology. Organisations should factor quantum threats into decisions on long-lived data and supplier choices now, as attackers already conduct 'harvest now, decrypt later' attacks on sensitive information.",
+      "tags": [
+        "AI Governance",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Eyes in the sky: a descriptive evaluation of police drone deployments in Portland, Oregon",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObjRlNmJVMTZmRUdCdFJFNXBDZllhczQtbXAydTBmUzVuZmExQW9vdnI1ODNFSm9MM3lwUlNDeVFYQXY0Z0podWJ1Yl9VOTZUenlNUGs5TlhBY0NMdE5abmtTWFNpdlNQRUdRQXFFay1ma1RheWVQNEJTWjBrYVhCVDRfbDRUS0tIZjRJVm5TN3hHa3BuZ1pGMXYwY0twZ1dHYWtpMERDLXFhdGVGQm0zTmtoVXhZeUJ3N284NHdqZ3VoX2dJa1VmNEpHQkNYQQ?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-13",
+      "summary": "Presents descriptive evaluation of police drone deployments in Portland, Oregon, based on title. No text supplied to summarise specific findings or claims.",
+      "tags": [
+        "Future Policing",
+        "Drones"
+      ]
+    },
+    {
+      "title": "Episode 6: The Shops That Don’t Add Up",
+      "url": "https://www.rusi.org/podcasts/suspicious-transaction-report/episode-6-shops-dont-add",
+      "source": "RUSI Publications",
+      "date": "2026-11-13",
+      "summary": "Explores why certain unusual British businesses survive and what they reveal about tax evasion, money laundering and weak enforcement, based on title. No text supplied to summarise specific findings or claims.",
+      "tags": [
+        "Future Crime",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "New York’s AI Rules: Confidential Reports, Daily Fines, and a Kill Switch Wish List",
+      "url": "https://reclaimthenet.org/new-york-raise-act-ai-registration-rules",
+      "source": "Reclaim The Net",
+      "date": "2026-11-13",
+      "summary": "New York's RAISE Act establishes regulatory framework for large AI developers. Companies with $500 million+ revenue must register with DIGIT by January 1, 2027, submit safety frameworks, publish them, pay fees, and report critical safety incidents within 72 hours. Non-compliance incurs $1,000 daily fines.",
+      "tags": [
+        "AI Governance",
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "The UK Considers Protecting Children From eBay by Checking Everyone’s Passport",
+      "url": "https://reclaimthenet.org/uk-ebay-ban-passport-age-checks",
+      "source": "Reclaim The Net",
+      "date": "2026-11-13",
+      "summary": "UK government considers banning under-16s from second-hand selling platforms like eBay and Vinted to protect children from grooming and exploitation. Existing platforms already require age verification, though enforcement varies. Proposal originally announced in June, now expanded despite earlier assurances e-commerce sites were safe.",
+      "tags": [
+        "Child Safety",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "The Microsoft outage is an urgent wake-up call for greater digital resilience",
+      "url": "https://theconversation.com/the-microsoft-outage-is-an-urgent-wake-up-call-for-greater-digital-resilience-296610",
+      "source": "The Conversation (UK technology)",
+      "date": "2026-11-13",
+      "summary": "Microsoft November 13 outage highlighted fragility of internet infrastructure and risks from market concentration. Few corporations dominate digital services provision. Recent incidents include July 2024 Windows outage, October security vulnerabilities affecting 70% of websites, and September OpenAI AI agents hacking government infrastructure.",
+      "tags": [
+        "Resilience",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
+      "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+      "source": "The Record",
+      "date": "2026-11-13",
+      "summary": "FBI alert warns that open source tool Artex automates cyberattacks at machine speed, reducing time from initial targeting to privileged access to under three hours.",
+      "tags": [
+        "Cyber",
+        "Future Crime"
+      ]
+    },
+    {
+      "title": "Chinese AI labs are training models on Nvidia's Blackwell despite export controls, says ex-OpenAI engineer",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891",
+      "source": "The Register",
+      "date": "2026-11-13",
+      "summary": "Forensic report identifies Nvidia's Blackwell processor fingerprint in AI models from Chinese labs including DeepSeek, Moonshot AI, MiniMax and Ant Group, suggesting circumvention of export controls.",
+      "tags": [
+        "AI Governance",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Big Tech takes a beating as online safety experts accuse companies of doing bare minimum",
+      "url": "https://www.theregister.com/security/2026/11/14/big-tech-takes-a-beating-as-online-safety-experts-accuse-companies-of-doing-bare-minimum/5309302",
+      "source": "The Register",
+      "date": "2026-11-14",
+      "summary": "Parliamentary committee hears accusations that technology companies meet bare minimum safety standards; accessing banned content reportedly remains trivially easy through simple linguistic workarounds.",
+      "tags": [
+        "Online Harms",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Brit police watchdog says cops' use of facial recog risks wrongful arrests",
+      "url": "https://www.theregister.com/security/2026/11/13/brit-police-watchdog-says-cops-use-of-facial-recog-risks-wrongful-arrests/5309379",
+      "source": "The Register",
+      "date": "2026-11-13",
+      "summary": "Police watchdog report warns facial recognition use risks wrongful arrests, citing inconsistent governance and officers' misunderstanding of technology limitations.",
+      "tags": [
+        "Future Policing",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Independent AI auditors have a recruitment problem",
+      "url": "https://www.transformernews.ai/p/independent-ai-auditors-have-a-recruitment",
+      "source": "Transformer",
+      "date": "2026-11-13",
+      "summary": "Independent AI auditors crucial for oversight lack sufficient skilled personnel. Policy experts advocate third-party organisations to monitor compliance, but training bottleneck threatens implementation timescales.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Italian court rejects data from police hacking of Sky ECC cryptophone network",
+      "url": "https://www.computerweekly.com/news/366654798/Italian-court-rejects-data-from-police-hacking-of-Sky-ECC-cryptophone-network",
+      "source": "Computer Weekly",
+      "date": "2026-11-13",
+      "summary": "Italian court rejected Sky ECC intercepted messages as evidence after finding defendants unable to challenge data authenticity. French police had hacked encrypted network; majority defendants acquitted without evidence.",
+      "tags": [
+        "Cyber",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "Oversight of retrospective facial recognition must be improved, says HMICFRS",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdkJVd3QyRGMwZURoU1dJNllpTTlOby14U1RQdkhTclZpRzlHMEY2Ql9DUEUySi0ycWpHR1NZZXAtTTNrckQwR05PeWhjajBWaDk0Mlk5LTczX0s0aElocmlCUnBMTEJ5d2R5a2ZCVDlTZWw4Q1hleW90VHItZUNSelVCSnRpUDZvbWZXc0l3UEFNd1lPZG5aOVAzeWwtUGZIaDhzQy1TNFRzWTZKTGZTcldNRHVMcUJsOWlEQ3ZB?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-12",
+      "summary": "Covers oversight of retrospective facial recognition systems according to HMICFRS recommendations.",
+      "tags": [
+        "Privacy",
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "News Cyber resilience remains a challenge for police forces UKAuthority.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONTJ5UkdzMVRxMHVXbkJ2bzlOR0hoVzZZaDNPSmFIT05sWjQ2cDhRcTI4NlBzNWN5dS1mcXYxdml6b21GZWtKUENYdFBzOHZ3Zncya3I2X0R4ZkwxTEhuemNHb0ZSNkE4WVU0bW4ybVA4Y2JwbWhfaXhEeDJ2d1ROWEVHYkRraFB4SHczSFd1SHZmR1RhTTVzNGM5SGxVYzdmVUE?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-13",
+      "summary": "Covers cyber resilience challenges facing UK police forces.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Threats of Iranian espionage in the UK increasing, counter-terror police warn",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTmVlYnZzLXhHcVowZV9aY3dFYUNnWEY0WW5BVVRxMTBEd3RuZkVGRUQ0cWxNbnJqTG5kVGEwZTFOOHBKWGQ2aVMtejdWcF9pN1Y1SElNX2NVT0VHZlJYWVZxUVBMTDd0VGZBamlrUzEzaHlVbG5lbmlVU1lzRHJzVmpxZnkxWHl5MVZCeEl0eHBucUF6b2hEU0lkVzBUeTJzbnFkMmNIeVM0enZmLV9ZRlNOaDZFYUF0RDNZLXJYMA?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-12",
+      "summary": "Counter-terror police warn of increasing threats of Iranian espionage in the UK. No further details provided.",
+      "tags": [
+        "Geopolitics",
+        "Terrorism"
+      ]
+    },
+    {
+      "title": "What’s behind Australia’s surge in teen extremism?",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVhXbmhUZ19xNEtmUm9WZVFBU0VXaHp3YUJ0cjVieWZ3TnFqRnl0YlVKYTgyTVZKWTJ2QmxidTltQ2kxOGRvNnlRblNGM1dhNkp6QjlwSnplbTJybkVjMjRJMTdGYWRkaEFjbkdJc09HcEhjQ1FncEhsaGNVYVJiMzZpRmI0T0pZQ2hBd28tc3lDbFBFQ1FVTw?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-13",
+      "summary": "Covers causes behind a surge in teenage extremism in Australia. No specific details provided.",
+      "tags": [
+        "Terrorism",
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "Lawmakers Race to Renew Warrantless Spying Before January",
+      "url": "https://reclaimthenet.org/lawmakers-race-to-renew-warrantless-spying-before-january",
+      "source": "Reclaim The Net",
+      "date": "2026-11-13",
+      "summary": "US lawmakers attempt to renew Section 702 of FISA through the lame-duck session by attaching it to the NDAA, aiming to avoid a more privacy-friendly incoming Congress. Section 702 permits warrantless surveillance of foreigners abroad and incidental collection of Americans' communications, which agents can search without warrants. Civil rights groups oppose renewal.",
+      "tags": [
+        "Privacy",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "ASD SO/LIC Reorganized as Office of Strategic Services",
+      "url": "https://smallwarsjournal.com/2026/11/13/asd-so-lic-reorganized-as-office-of-strategic-services/",
+      "source": "Small Wars Journal",
+      "date": "2026-11-13",
+      "summary": "The Assistant Secretary of Defense for Special Operations/Low-Intensity Conflict has renamed and reorganised his office as the Office of Strategic Services under an under-secretarial position. This represents a major Pentagon reorientation towards special operations and potentially exceeds Title 10 military authority.",
+      "tags": [
+        "Future Defence",
+        "Geopolitics"
+      ]
+    }
+  ]
+}

@@ -13,7 +13,8 @@
 RAND research reports | https://www.rand.org/pubs/research_reports.xml
 RAND commentary | https://www.rand.org/blog.xml
 CSET Georgetown | https://cset.georgetown.edu
-RUSI | https://www.rusi.org
+RUSI Publications | https://www.rusi.org/rss/latest-publications.xml
+RUSI Commentary | https://www.rusi.org/rss/latest-commentary.xml
 Chatham House | news:chathamhouse.org
 Demos | https://demos.co.uk
 Institute for Strategic Dialogue | https://www.isdglobal.org
@@ -32,6 +33,7 @@ HKS Misinformation Review | https://misinforeview.hks.harvard.edu
 Indicator | news:indicator.media
 Bellingcat | https://www.bellingcat.com
 Council for Countering Online Disinformation | news:discussingdisinformation.substack.com
+Centre for Information Resilience | https://www.info-res.org/
 
 # --- AI risks and governance ---
 CETaS | news:cetas.turing.ac.uk
@@ -53,6 +55,7 @@ NSPCC | news:nspcc.org.uk
 Journal of Online Trust and Safety | https://tsjournal.org
 Revenge Porn Helpline | news:revengepornhelpline.org.uk
 Reclaim The Net | https://reclaimthenet.org
+CREST Research | https://crestresearch.ac.uk
 
 # --- Future crime and policing ---
 Europol | https://www.europol.europa.eu
@@ -69,7 +72,7 @@ CrimRxiv | https://www.crimrxiv.com
 # --- Terrorism and extremism ---
 GNET | https://gnet-research.org
 Tech Against Terrorism | news:techagainstterrorism.org
-CREST Research | https://crestresearch.ac.uk
+ICCT | https://icct.nl/
 
 # --- Defence and geopolitics ---
 War on the Rocks | https://warontherocks.com
@@ -85,6 +88,7 @@ Wired | https://www.wired.com
 The Verge | https://www.theverge.com
 Computer Weekly | https://www.computerweekly.com/rss/All-Computer-Weekly-content.xml
 The Conversation (UK technology) | https://theconversation.com/uk/technology/articles.atom
+The Register | https://www.theregister.com/?lab_viewport=rss
 
 # --- Platform threat reports ---
 Microsoft On the Issues | https://blogs.microsoft.com/on-the-issues

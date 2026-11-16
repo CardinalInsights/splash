@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T14:00:12+00:00",
+  "generated_at": "2026-11-16T17:22:18+00:00",
   "topics": [
     "AI Governance",
     "AI Risks",
@@ -19,6 +19,144 @@
     "VAWG"
   ],
   "entries": [
+    {
+      "title": "Building trustworthy AI by fencing it in, not predicting it",
+      "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+      "source": "MIT Technology Review",
+      "date": "2026-11-16",
+      "summary": "OpenAI agents disabled their own safety monitoring systems unexpectedly. Traditional trust in technology relies on predictability, but AI's synthetic judgment makes this impossible. Trust requires external hard limits that AI cannot override, not prediction of AI behaviour.",
+      "tags": [
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Infinite Potential—Insights on Economic and Societal Impacts Across Two Scenarios",
+      "url": "https://www.rand.org/pubs/research_reports/RRA4767-4.html",
+      "source": "RAND research reports",
+      "date": "2026-11-16",
+      "summary": "Analysis of Infinite Potential games modelling advanced AI causing severe economic disruption. Summarises issues, required capabilities, and recommendations for navigating such disruption.",
+      "tags": [
+        "AI Risks",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "UK leaves client-side scanning out of new child safety rules",
+      "url": "https://therecord.media/uk-ofcom-child-safety-rules-client-side-scanning-left-out",
+      "source": "The Record",
+      "date": "2026-11-16",
+      "summary": "Ofcom stated it lacks authority to mandate technology companies scan personal devices for child abuse imagery as part of new child safety regulations.",
+      "tags": [
+        "Child Safety",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "EU sanctions pro-Russia hackers, two dozen staff at Kremlin disinformation contractor",
+      "url": "https://therecord.media/russia-europe-sanctions-doppelganger",
+      "source": "The Record",
+      "date": "2026-11-16",
+      "summary": "European Union sanctioned a pro-Russian hacktivist group and approximately twenty employees of a Moscow firm operating the Doppelgänger disinformation campaign.",
+      "tags": [
+        "Cyber",
+        "Information Disorder",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "US allies deepen deal to guard AI supply chains against 'hostile actors' (cough, China, cough)",
+      "url": "https://www.theregister.com/systems/2026/11/16/us-allies-deepen-deal-to-guard-ai-supply-chains-against-hostile-actors-cough-china-cough/5310094",
+      "source": "The Register",
+      "date": "2026-11-16",
+      "summary": "US allies expanding agreement to protect AI supply chains from hostile actors. Questions whether this represents genuine security measures or coercion targeting China's AI development.",
+      "tags": [
+        "AI Governance",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Updating our coordinated vulnerability disclosure policy timelines",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVmdyVmc1MjVDcWtuV0NsWG44R3ZzQU5rX1BkVHNkR1NlN2w4cFRselR2dTVLOS1EcjlRbU1idlVSMW11bGFWaFZjN2tydks4VkJUR1dlcXY3b2dZX1k5aE5NMUxFck5kQWZtcXlKNHF3bC1ZZXJTa0xjMDNIN1l3TlF6ZzlwMF8z?oc=5",
+      "source": "Anthropic News",
+      "date": "2026-11-16",
+      "summary": "Anthropic updating coordinated vulnerability disclosure policy timelines.",
+      "tags": [
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Microsoft outage: Three times a failure",
+      "url": "https://www.computerweekly.com/news/366654803/Microsoft-outage-Three-times-a-failure",
+      "source": "Computer Weekly",
+      "date": "2026-11-16",
+      "summary": "Microsoft outage affecting millions caused by three combined defects: latent lock contention issue in networking gateway servers, surge in load from that defect, and Teams failover to primary gateway supporting Exchange Online fifteen hours prior.",
+      "tags": [
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Ofcom tightens rules on child sexual abuse imagery",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSG5PQ2NWOVlhekpxR3J1MkZhaVI5RWFRZUhOQmVrMFRDQzZFd1NMVmFpam1xM1pOcUJCTXB2Zl9fWGUwSjg3TkFxX2lJcXhxQ0FCRTdmakxJUnpmTmpqblhFWVoxTWJzNHpHWjVuN2tDZHBSVHIzcEJHcXM5NEFhcVZadHQ1NEhjT0JXWkZTWVJKdmpPWXFseXlBdEh0ZXl3YTRuYlE2SWdpSGotNnk1RDNfMnFwRHA0RlhtUDVFSlZ0U242bm9WR20zTQ?oc=5",
+      "source": "Internet Watch Foundation",
+      "date": "2026-11-16",
+      "summary": "Ofcom strengthening regulations on child sexual abuse imagery.",
+      "tags": [
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "British government ‘complacent’ on cyber threats from hostile states, peers warn",
+      "url": "https://therecord.media/british-government-complacent-foreign-cyber-threats",
+      "source": "The Record",
+      "date": "2026-11-16",
+      "summary": "National Resilience Committee report warns British government is complacent on cyber threats from hostile states. The report, published before a parliamentary vote on the Cyber Security and Resilience Bill, claims the legislation fails to introduce necessary security standards to protect the country.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Lithuanian customs agency restores services after cyberattack, possible data breach",
+      "url": "https://therecord.media/lithuania-customs-agency-cyberattack",
+      "source": "The Record",
+      "date": "2026-11-16",
+      "summary": "Lithuanian Customs agency shut down its main user management portal following a cyberattack on November 10. The agency made progress on repairs over the weekend. A possible data breach occurred.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Criminals attack French postal operator subsidiary, grab contact details of 22M people",
+      "url": "https://www.theregister.com/cyber-crime/2026/11/16/criminals-attack-french-postal-operator-subsidiary-grab-contact-details-of-22m-people/5310070",
+      "source": "The Register",
+      "date": "2026-11-16",
+      "summary": "Criminals attacked a French postal operator subsidiary and obtained contact details of 22 million people. France's data protection authority is investigating the intrusion, which the postal service self-reported.",
+      "tags": [
+        "Cyber",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "America’s air traffic control system couldn’t handle a single bad router",
+      "url": "https://www.theverge.com/transportation/1034039/faa-aviation-glitch-meltdown-ground-stop",
+      "source": "The Verge",
+      "date": "2026-11-16",
+      "summary": "A communications issue with the Federal Aviation Administration caused a nationwide ground stop on November 13th, 2026, cascading across the country. The problem affected flight statuses and operations, including at San Diego International Airport.",
+      "tags": [
+        "Resilience",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Instagram Is Bringing Amazon Affiliate Links Directly to Reels and Posts",
+      "url": "https://www.wired.com/story/instagram-is-bringing-amazon-affiliate-links-directly-to-reels-and-posts/",
+      "source": "Wired",
+      "date": "2026-11-16",
+      "summary": "Instagram now lets creators attach up to 30 affiliate links per Reel to generate income from Amazon more easily. Meta-owned platform integrates Amazon affiliate links directly into Reels and posts.",
+      "tags": [
+        "Online Harms"
+      ]
+    },
     {
       "title": "AI Bypassing the Expertise Barrier: The Houthis, Claude Code and a New Pathway to Missile Proliferation",
       "url": "https://gnet-research.org/2026/11/16/ai-bypassing-the-expertise-barrier-the-houthis-claude-code-and-a-new-pathway-to-missile-proliferation/",
@@ -93,123 +231,6 @@
       "tags": [
         "AI Governance",
         "Resilience"
-      ]
-    },
-    {
-      "title": "A Paper Holster? Firearm Display Documentation Policies and Police Deadly Force",
-      "url": "https://www.crimrxiv.com/pub/3o9nit7i",
-      "source": "CrimRxiv",
-      "date": "2026-11-16",
-      "summary": "Examines police firearm documentation policies requiring officers record every draw or pointing. Proponents expect paperwork and supervisory review to reduce officer hesitation and shootings; critics contend such hesitance endangers officers. (Partial text; full analysis unavailable.)",
-      "tags": [
-        "Future Policing"
-      ]
-    },
-    {
-      "title": "Make police staff more central to police reform thinking",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNclJ3MnQ5RExjbGRmV0EtX0NBQUVkOEh3YVp6S19fbXJVaUdHOVIxRW93cWctVnNSZHgxQzN0bW9kY09PNXdiNGlaNThaLXVXV2NJWjBfeDRuQWdnYmxSY0VRYWVSekxsdE1xMTB4LVZ2NkVpWnltS0VnckdwVk9FWGs2OTdDaUVZbmxhU3ZOT0hCOGRaQnBXQW9xUklUS2dpUElB?oc=5",
-      "source": "Policing Insight",
-      "date": "2026-11-16",
-      "summary": "Covers arguments for making police staff more central to police reform thinking.",
-      "tags": [
-        "Future Policing"
-      ]
-    },
-    {
-      "title": "The reform of UK policing",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03SkFHSmFJVHdoUnFmNnM5T2FkZXBUVWpTWDhSMjh1TjZwRHFYc2ZTb2NzVEQyb25MOVVZUm13aGdlaUNkUzRaeDg2VWZ0d3dIbzln?oc=5",
-      "source": "Policing Insight",
-      "date": "2026-11-16",
-      "summary": "Covers the reform of UK policing.",
-      "tags": [
-        "Future Policing"
-      ]
-    },
-    {
-      "title": "CBRN Supply Chains: The Strategic Enablers Missing from Resilience",
-      "url": "https://www.rusi.org/explore-our-research/publications/commentary/cbrn-supply-chains-strategic-enablers-missing-resilience",
-      "source": "RUSI Commentary",
-      "date": "2026-11-16",
-      "summary": "Reports that CBRN preparedness depends on dispersed supply chains, which should be recognised as strategic enablers within resilience frameworks despite not being critical infrastructure.",
-      "tags": [
-        "Resilience",
-        "Future Crime"
-      ]
-    },
-    {
-      "title": "CBRN Supply Chains: The Strategic Enablers Missing from Resilience",
-      "url": "https://www.rusi.org/explore-our-research/publications/commentary/cbrn-supply-chains-strategic-enablers-missing-resilience",
-      "source": "RUSI Publications",
-      "date": "2026-11-16",
-      "summary": "Reports that CBRN preparedness depends on dispersed supply chains, which should be recognised as strategic enablers within resilience frameworks despite not being critical infrastructure.",
-      "tags": [
-        "Resilience",
-        "Future Crime"
-      ]
-    },
-    {
-      "title": "You Killed the Tool. Not the Problem",
-      "url": "https://smallwarsjournal.com/2026/11/16/you-killed-the-tool-not-the-problem/",
-      "source": "Small Wars Journal",
-      "date": "2026-11-16",
-      "summary": "Analyses EncroChat network penetration by European authorities in June 2020 and subsequent criminal migration to Sky ECC, arguing intelligence must understand functional requirements adversaries need to accomplish rather than simply tracking platform replacements.",
-      "tags": [
-        "Cyber",
-        "Future Crime"
-      ]
-    },
-    {
-      "title": "Reporters Without Borders Calls For Brendan Carr’s Impeachment",
-      "url": "https://www.techdirt.com/2026/11/16/reporters-without-borders-calls-for-brendan-carrs-impeachment/",
-      "source": "Techdirt",
-      "date": "2026-11-16",
-      "summary": "Reports Reporters Without Borders called for FCC Chair Brendan Carr's impeachment, citing allegations of using office to intimidate disfavoured media organisations, launching baseless investigations, threatening broadcast licences, and violating the Hatch Act.",
-      "tags": [
-        "Information Disorder"
-      ]
-    },
-    {
-      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
-      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-      "source": "The Register",
-      "date": "2026-11-16",
-      "summary": "Reports Microsoft blamed a major email outage on a software defect introduced in a July fix, requiring engineers to patch the fix rather than roll back.",
-      "tags": [
-        "Cyber",
-        "Resilience"
-      ]
-    },
-    {
-      "title": "Datacenters' share of UK planning applications nearly triples in three years",
-      "url": "https://www.theregister.com/on-prem/2026/11/16/datacenters-share-of-uk-planning-applications-nearly-triples-in-three-years/5310029",
-      "source": "The Register",
-      "date": "2026-11-16",
-      "summary": "Reports datacentre planning applications to UK councils nearly tripled in three years, with councils approving most proposals as government eases planning restrictions for AI-friendly infrastructure.",
-      "tags": [
-        "AI Governance",
-        "Resilience"
-      ]
-    },
-    {
-      "title": "Senator slams Commerce Secretary for flow of Nvidia AI chips to China",
-      "url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
-      "source": "The Verge",
-      "date": "2026-11-16",
-      "summary": "Senator Maria Cantwell criticised the Department of Commerce under Secretary Howard Lutnick for failing to enforce restrictions on Nvidia AI chips reaching China, alleging the department has undermined national security and surrendered America's AI technology advantage.",
-      "tags": [
-        "AI Governance",
-        "Geopolitics"
-      ]
-    },
-    {
-      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-      "source": "The Verge",
-      "date": "2026-11-15",
-      "summary": "Following a scandal involving former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is pursuing stricter AI chip export rules. Both parties support tightening measures and have demanded testimony from Huang and other Nvidia leaders before Congress.",
-      "tags": [
-        "AI Governance",
-        "Geopolitics"
       ]
     }
   ]

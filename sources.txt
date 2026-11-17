@@ -97,3 +97,6 @@ Google Threat Intelligence | https://cloud.google.com/blog/topics/threat-intelli
 Meta Newsroom | https://about.fb.com/news
 OpenAI News | https://openai.com/news
 Anthropic News | news:anthropic.com
+
+# --- Future tech ---
+Patentlyze | https://patentlyze.com/blog/feed/

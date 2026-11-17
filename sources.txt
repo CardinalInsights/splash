@@ -22,6 +22,7 @@ NATO StratCom COE | news:stratcomcoe.org
 Tony Blair Institute | news:institute.global
 Center for Democracy and Technology | https://cdt.org
 Tech Oversight Project | https://techoversight.org
+Tech Transparency Project | https://www.techtransparencyproject.org/
 
 # --- Information disorder ---
 DFRLab | https://dfrlab.org

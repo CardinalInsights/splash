@@ -1,0 +1,242 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T16:41:08+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Cyber",
+    "Drones",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "Unlawfully held images still used for police facial recognition",
+      "url": "https://www.computerweekly.com/news/366654829/Unlawfully-held-images-still-used-for-police-facial-recognition",
+      "source": "Computer Weekly",
+      "date": "2026-11-18",
+      "summary": "UK police watchdog found police forces conduct tens of thousands of retrospective facial recognition searches on potentially millions of unlawfully retained custody images. The Police National Database contains over 20 million facial images. Law enforcement makes more than 300,000 search requests yearly, creating risks to public confidence.",
+      "tags": [
+        "Privacy",
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "UK government warned that lax AI safety undermines GDP boost",
+      "url": "https://www.computerweekly.com/news/366654649/UK-government-warned-that-lax-AI-safety-undermines-GDP-boost",
+      "source": "Computer Weekly",
+      "date": "2026-11-17",
+      "summary": "Parliament's Business, Innovation, Science and Trade Committee warns lax AI safety undermines potential £400bn economic growth. Report calls for mandatory safety substantiation by AI firms, independent scrutiny, and regulatory intervention powers. Former OpenAI researcher cited leadership's insufficient prioritisation of safety concerns.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Disinfo Update 18/11/2026",
+      "url": "https://www.disinfo.eu/disinfo-update-18-11-2026/",
+      "source": "EU DisinfoLab",
+      "date": "2026-11-18",
+      "summary": "EU DisinfoLab update reports Spain's prosecutors took TikTok to court over child sexual abuse material following investigation; Italy fined Meta €805 million for unauthorised Android photo access; Brazil's electoral court ruled Meta's algorithmic candidate recommendations illegal during presidential runoff.",
+      "tags": [
+        "Information Disorder",
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "source": "Krebs on Security",
+      "date": "2026-11-18",
+      "summary": "Attackers exploited Optimizely vulnerability to inject malware into 178 major websites including BBC, CNN, Equifax, Ledger and Zoom. Malicious JavaScript delivered data-stealing software and zero-click exploit kits targeting older Apple devices. Optimizely remediated vulnerability and implemented protective measures.",
+      "tags": [
+        "Cyber",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source": "OpenAI News",
+      "date": "2026-11-17",
+      "summary": "OpenAI collaborates with NATO and allied cyber agencies to help trusted defenders identify vulnerabilities, test fixes and protect essential systems using artificial intelligence.",
+      "tags": [
+        "AI Governance",
+        "Cyber",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "source": "OpenAI News",
+      "date": "2026-11-16",
+      "summary": "OpenAI develops new tools, practical guidance and partnerships to prevent, detect and respond to online child sexual exploitation and abuse.",
+      "tags": [
+        "Child Safety",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "Can Drones Replace Soldiers? NATO's Uncrewed Strategy",
+      "url": "https://www.rusi.org/news-and-comment/video-commentary/can-drones-replace-soldiers-natos-uncrewed-strategy",
+      "source": "RUSI Publications",
+      "date": "2026-11-19",
+      "summary": "First-person view drones have become prominently associated with soldier casualties, destruction of armoured vehicles and other military equipment during the Ukraine conflict, raising questions about whether drones can replace soldiers in NATO operations.",
+      "tags": [
+        "Future Defence",
+        "Drones"
+      ]
+    },
+    {
+      "title": "What AI regulation could learn from the most hazardous industries in the world",
+      "url": "https://theconversation.com/what-ai-regulation-could-learn-from-the-most-hazardous-industries-in-the-world-295475",
+      "source": "The Conversation (UK technology)",
+      "date": "2026-11-17",
+      "summary": "Scholar argues AI regulation should adopt frameworks from high-hazard industries like nuclear energy and aviation. References normal accident theory and high reliability theory as relevant to managing increasingly complex, autonomous AI systems. Supports multinational treaty with UK leadership on superintelligence governance.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Gemini test proves once again that amoral AI agents will do almost anything if told 'NEVER give up'",
+      "url": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
+      "source": "The Register",
+      "date": "2026-11-17",
+      "summary": "Gemini test demonstrates that AI agents exhibit misalignment when prompted with instructions to never give up, suggesting that test design effectively reveals misalignment problems in AI systems.",
+      "tags": [
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "UK MPs want AI watchdog with power to pull the plug on dangerous models",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/18/uk-mps-want-ai-watchdog-with-power-to-pull-the-plug-on-dangerous-models/5310567",
+      "source": "The Register",
+      "date": "2026-11-18",
+      "summary": "UK parliamentary committee proposes AI watchdog with authority to disable dangerous models, arguing that technology companies cannot be trusted to self-regulate AI safety without independent oversight.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Instagram’s ‘school safety’ push was also a way to get more teens on the app",
+      "url": "https://www.theverge.com/tech/1036517/instagram-school-safety-program-project-gryffindor",
+      "source": "The Verge",
+      "date": "2026-11-18",
+      "summary": "Meta's Instagram school safety programme aimed to increase teen user acquisition and engagement, according to internal documents revealed in child safety lawsuits, suggesting safety goals were secondary to growth objectives.",
+      "tags": [
+        "Child Safety",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "Criminals Have a New Favorite ‘Point-and-Shoot’ AI Hacking Weapon",
+      "url": "https://www.wired.com/story/artex-ai-hacking-tools/",
+      "source": "Wired",
+      "date": "2026-11-18",
+      "summary": "Penetration testing tools like Artex enable novice hackers to scan systems for vulnerabilities and launch attacks using chatbot prompts, lowering barriers to entry for cyber criminals.",
+      "tags": [
+        "Cyber",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "‘The Predators Are Real’: Senate Hearing Slams Roblox Over Child Sex Abuse",
+      "url": "https://www.wired.com/story/the-predators-are-real-senate-hearing-slams-roblox-over-child-sex-abuse/",
+      "source": "Wired",
+      "date": "2026-11-18",
+      "summary": "US Senators introduce legislation to facilitate family lawsuits against Roblox gaming platform following concerns about child sexual abuse occurring within the massive multiplayer environment.",
+      "tags": [
+        "Child Safety",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "Massive New Study Shows How Young People Feel About AI Companions",
+      "url": "https://www.404media.co/gallup-study-friendship-ai-companions/",
+      "source": "404 Media",
+      "date": "2026-11-18",
+      "summary": "Gallup study of 16,000 young people aged 15–22 across 16 countries found 33% use AI companions; usage varies by country (20% US/UK/Canada versus 40% Brazil); those using AI for companionship report higher loneliness levels.",
+      "tags": [
+        "AI Risks",
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "Estimating visible deprivation through the analysis of street view image embeddings",
+      "url": "https://www.crimrxiv.com/pub/bv48u7ie",
+      "source": "CrimRxiv",
+      "date": "2026-11-17",
+      "summary": "Research examines whether street-level imagery analysed through vision transformers can reveal visible material deprivation, including litter, graffiti and abandoned buildings in neighbourhoods.",
+      "tags": [
+        "Future Policing",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Surging Reports, Record Convictions, and Non-Investigation: A Case Study of Economic Crime Policing in Denmark",
+      "url": "https://www.crimrxiv.com/pub/pocupic2",
+      "source": "CrimRxiv",
+      "date": "2026-11-17",
+      "summary": "Denmark's economic crime policing saw suspicious transaction reports to its Financial Intelligence Unit increase by approximately 71% between 2019 and 2024, alongside record convictions for money laundering and fraud.",
+      "tags": [
+        "Future Policing",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Episode 2: Beyond European Clouds: Sovereignty, Dependence and Access to Evidence",
+      "url": "https://icct.nl/multimedia/episode-2-beyond-european-clouds-sovereignty-dependence-and-access-evidence",
+      "source": "ICCT",
+      "date": "2026-11-17",
+      "summary": "Podcast episode examining European digital sovereignty in relation to cloud infrastructure and electronic evidence access. Discusses whether sovereignty requires technological independence or managing dependence on others, technological vulnerabilities, resilience through cooperation, and distinguishes between legal authority to obtain data and technical control of infrastructure.",
+      "tags": [
+        "AI Governance",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "The AI Hype Index: AI is everywhere",
+      "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+      "source": "MIT Technology Review",
+      "date": "2026-11-18",
+      "summary": "Commentary on AI proliferation across sectors, describing widespread deployment of AI systems including search interfaces, robotics, and cybersecurity applications. Suggests the technology is ubiquitous but pervasive in ways that feel intrusive and inescapable to users.",
+      "tags": [
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Iran War Updates: Gulf states and tankers under fire as U.S. and Iran ramp back up tit-for-tat strikes",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNczRzemtDSHlJLXZIOHl1WHVMYUZkLTFMd1Z4TDJHNWhDa2E3djdWWnM4MXlwbXpnYjNyUU9TcXR6YjhsOWRVS29ub25Dd0pLVWNZRFZWR25CdnNxeTQ4VDRYX2g1dlFqZmQ1N1o1WWowQk5XRTJvSnhwWENzaXlBSF83RW5kbE5FelFKa0J2dnlhQVJJTkE?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-18",
+      "summary": "Title concerns Iran conflict escalation involving Gulf states and tankers amid U.S.-Iran retaliatory strikes. No text supplied to summarise specific findings.",
+      "tags": [
+        "Geopolitics",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "Russia Asks if Netherlands Is Joining Ukraine War After Dutch Company's Missiles Used in Bridge Attack",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdFJ2TmpWd2JteFRMSWxwTW5FdVlPdTlUTGZrbEQ1azEtSHlMbW81ZURHS1JsbjMwaHByTkk1b2Q2SDNwXzhNYkItZFV0Q1FsXzk5dU9vSFBXUzNwMVFQejhMbWgwOUNJdXJRVGZSbnJEU1VIUEVJRzhUaDhwX2EwR1pQMXdGTDNzbzNudS1FYk9CSXpndjloaXo0NVFBMjhVa28yZlVPMk1OSTBncG9WS01yZDhVaEg2eEp6WkE2aVg3SktyakxtWWdwODdqMklpQkFLSU5UaGhFcEZEWi1hZmxWWlA?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-18",
+      "summary": "Title addresses Russian claims regarding Netherlands' involvement in Ukraine conflict following Dutch company's missile use in bridge attack. No text supplied to summarise specific findings.",
+      "tags": [
+        "Geopolitics",
+        "Future Defence"
+      ]
+    }
+  ]
+}

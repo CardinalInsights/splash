@@ -1,0 +1,237 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T16:20:14+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Cyber",
+    "Drones",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "The Data Is the Target",
+      "url": "https://cset.georgetown.edu/article/the-data-is-the-target/",
+      "source": "CSET Georgetown",
+      "date": "2026-11-19",
+      "summary": "Analysis examines risks of adversaries targeting and manipulating data that military AI decision-support systems depend on. Reports fabricated information fed into military AI-DSS via any pathway could lead to deadly miscalculations.",
+      "tags": [
+        "AI Risks",
+        "AI Governance",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "States meet to discuss binding rules for autonomous weapons",
+      "url": "https://www.computerweekly.com/news/366654849/States-meet-to-discuss-binding-rules-for-autonomous-weapons",
+      "source": "Computer Weekly",
+      "date": "2026-11-20",
+      "summary": "States meet at UN Convention on Certain Conventional Weapons in November 2026 to discuss regulating Lethal Autonomous Weapons Systems. Reports such systems already used in Russia-Ukraine conflict and by Israeli Defence Force in Gaza with AI-powered targeting.",
+      "tags": [
+        "AI Governance",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "Court Tells Cops That The 4th Amendment Doesn’t Cover AI-Generated ‘Probable Cause’",
+      "url": "https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/",
+      "source": "Techdirt",
+      "date": "2026-11-19",
+      "summary": "Court rules Fourth Amendment does not cover AI-generated probable cause. Reports detective used facial recognition on CCTV screenshot to identify suspect in bad cheque case, leading to arrest and extradition before charges were dismissed.",
+      "tags": [
+        "AI Governance",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
+      "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+      "source": "The Record",
+      "date": "2026-11-19",
+      "summary": "Lawmakers launch new AI safety caucus amid rising security concerns. Reports seven of twenty-six founding members are Republicans, notable given White House opposition to AI regulation.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Big Tech's compliance with EU market rules is performative, consumer group says",
+      "url": "https://www.theregister.com/legal/2026/11/20/big-techs-compliance-with-eu-market-rules-is-performative-consumer-group-says/5311066",
+      "source": "The Register",
+      "date": "2026-11-20",
+      "summary": "Consumer group urges EU to impose tougher penalties on Big Tech for alleged barriers to switching services and controlling personal data, claiming compliance with market rules is performative.",
+      "tags": [
+        "Privacy"
+      ]
+    },
+    {
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "source": "The Verge",
+      "date": "2026-11-20",
+      "summary": "Signal restricts screenshots on Android and iOS to prevent AI agents reading user messages and data. Reports agentic AI capabilities analysing on-screen information undermine Signal's privacy guarantees; urges OS providers to give developers better control.",
+      "tags": [
+        "Privacy",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Policy can still work on short timelines",
+      "url": "https://www.transformernews.ai/p/policy-can-still-work-on-short-timelines-california-states-ai",
+      "source": "Transformer",
+      "date": "2026-11-20",
+      "summary": "Reports California unveiled AI safety proposals including emergency shutdowns and independent lab monitors. Discusses revised FRONTIER ACT and fears of imminent AI catastrophe through recursive self-improvement potentially happening as soon as summer.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "To Catch a Ransomware Scammer, FBI Posed as Both Victim and Attacker",
+      "url": "https://www.404media.co/ransomware-fraud-attack-fbi-indictment/",
+      "source": "404 Media",
+      "date": "2026-11-19",
+      "summary": "Reports FBI posed as both ransomware victim and threat actor during undercover operation targeting Florida company run by Juan Ricardo Palacio Escobar, which claimed to offer data recovery services for ransomware victims since 2020.",
+      "tags": [
+        "Cyber",
+        "Future Crime"
+      ]
+    },
+    {
+      "title": "The Gore Online Ecosystem: An Overview of Results from the HARDGORE Project",
+      "url": "https://crestresearch.ac.uk/resources/the-gore-online-ecosystem-an-overview-of-results-from-the-hardgore-project/",
+      "source": "CREST Research",
+      "date": "2026-11-20",
+      "summary": "Reports key findings and conclusions from the CREST HARDGORE project investigating the online gore ecosystem.",
+      "tags": [
+        "Online Harms",
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "The resilience gap: Are Europe’s societies ready for the next crisis?",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS2p6Wm11bTNxSnNmX2lkeG1jY2kyVGhWMC1teFNCWGY2Z1NRRms1Ykd6cjZCWTdhUWdDNHI4dy1vVGYwaUhTRDZoc1FGTGU4SHFIemRyMzNTandvQkhkaEpvekNTVDdsb3dMMC1TNUNaYTd1OFQxLWJmNkpnMkV6VUpiWkI5eTVMT1pBRGlLY2RVU1I2bW15MG1tZ1h3T0ZETWNSYlh6bDRLaVFPUkJzbWxvZkRRVmI2R1hqVg?oc=5",
+      "source": "Chatham House",
+      "date": "2026-11-20",
+      "summary": "Examines whether European societies possess adequate resilience to withstand future crises.",
+      "tags": [
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Beyond the skill library: Choosing expertise for agentic AI",
+      "url": "https://www.computerweekly.com/opinion/Beyond-the-skill-library-Choosing-expertise-for-agentic-AI",
+      "source": "Computer Weekly",
+      "date": "2026-11-20",
+      "summary": "Argues that agentic AI agents require carefully composed, selective skills to produce reliable outcomes grounded in proper evidence, not merely prompt-based approaches or expanded tool libraries.",
+      "tags": [
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "AI red team tool Artex likely behind cyber attack on EU body",
+      "url": "https://www.computerweekly.com/news/366654974/AI-red-team-tool-Artex-likely-behind-cyber-attack-on-EU-body",
+      "source": "Computer Weekly",
+      "date": "2026-11-19",
+      "summary": "Artex, an AI-powered penetration testing framework, likely targeted the European Commission's HR platform in October, taking Sysper offline. CERT-EU observed similar AI-driven attacks against its constituency involving Artex.",
+      "tags": [
+        "Cyber",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Over 250,000 Londoners affected by latest TfL breach",
+      "url": "https://www.computerweekly.com/news/366654973/Over-250000-Londoners-affected-by-latest-TfL-breach",
+      "source": "Computer Weekly",
+      "date": "2026-11-19",
+      "summary": "Approximately 265,000 London transport passengers had personal data exposed via a TfL Oyster photocard breach, including names, addresses, phone numbers and birthdates but not financial information or journey records.",
+      "tags": [
+        "Cyber",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "Ukrainian police arrest former members of Conti ransomware group",
+      "url": "https://www.computerweekly.com/news/366654831/Ukrainian-police-arrest-former-members-of-Conti-ransomware-group",
+      "source": "Computer Weekly",
+      "date": "2026-11-19",
+      "summary": "Ukrainian police arrested four cyber criminals linked to Conti ransomware group members. Investigation claims the broader organisation comprises at least 27 people across multiple countries, responsible for over $40.5 million in ransom payments.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "In the Media: Thomas Renard on",
+      "url": "https://icct.nl/multimedia/media-thomas-renard",
+      "source": "ICCT",
+      "date": "2026-11-20",
+      "summary": "ICCT director explains that AI chat privacy is largely illusory: platforms like ChatGPT scan conversations, flag threats via human review and pass them to the FBI, leading to arrests across multiple countries and creating European dependence on American intermediaries.",
+      "tags": [
+        "AI Risks",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "White House removes cyber-security chief after series of tech outages",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IZm9kN0ZDWmlrVXItSzNoZ1hLMlNlclc3TWZ5TkFKTmN3TktEVF9icVZpN2x0aFVjZFprZDQwNGtIVWJ5cS1wV2N0cmY3VFc3YWVZTW10U0R3Sjg?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-20",
+      "summary": "Covers the White House's removal of its cyber-security chief following a series of technology outages.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Why the U.S. air traffic control system still relies on an ‘antique’ network",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMkdWa29GYkdlMENxajl5X2xLaE5OZ0s3dUI2RWY4M2FCbktabm9hbTgxNTZEQjNQc3dpcHd0dUIxQnhCVGw4amVQaGdYdDRJTUtoOXI2N053S0tadkFMdGpKWXpaSC1nRktLLXY3djhjdll2T2x6bjhTOVo1VVFmOEFIODdSSTlxSVRvYktCbkI3VWxLOW1xZnA4d2UxaW9Ha0E?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-19",
+      "summary": "Covers the U.S. air traffic control system's continued dependence on outdated network infrastructure, examining why modernisation has been delayed or incomplete.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Tusk: Russian cruise missile incursion into Poland seems ‘intentional’",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRzRRbkdZbVVhYXA3bUR6aWZJcHFWZFcybUJNMTdDdUJBWExXOHdja3VaUDdNTWYyVXdCSHM4YUhrQk1kZGlHQTJ3V0Z6MnJOaFBBV0FKa3I4VExYSGh1Y1h5d2ozYXNHUVhwSU84T1pnb3FXUF91YmhPMWI4ZE9lZ3R4TjhqZFh6M3lOSGFCWFRYaGtrdTl3bEZVYzhldjA?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-20",
+      "summary": "Reports Tusk's statement characterising a Russian cruise missile incursion into Polish airspace as apparently deliberate rather than accidental.",
+      "tags": [
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Saudi Arabia attacks Yemen's Houthis and intercepts more missiles and drones, and other Mideast news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG11c0t2cHNUVFlEZEwyWHVQRk40anlnM3ltcWtYOE1hV01IaEswQmpnRExZNEk1Z0xGRkZ0T083cWNGTUhvZUd6YUxwWjVwNjA1djJZZWZZQXh4SjI4SGRLVmtBMzN6Q0cxWVJjMFpJOW5DdUFWVlUtNEF5NW5IcU5sMHNwcmNVZTBfeXZVMWRKMk5HV1UwTGVycE1xd0c3TG9HYQ?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-20",
+      "summary": "Covers Saudi Arabian military operations against Houthi forces in Yemen, including interception of missiles and drones, alongside other Middle Eastern developments.",
+      "tags": [
+        "Drones",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "The Morning Risk Report: China’s AI Firms Are Hooked on Nvidia Chips. Now Comes the Withdrawal.",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMHEyLWU1cHVQOEsyMWdfSkhfaV90MldNcl9JVjdtTmdRVXp2dU1xeUN3MF8yeVlnV21Ga01fbGJDWEVTNjR3YUdQcXpoWlBCOThDNjRGNktGaFB4S3BvRXZjcjl1Qkl2OEl4NDlYWWdTSUN3Vm1wOEJPU0dWSlRDN0JWME1vWXE0UXpZUHphcEYzYUNzS2FkY2l3aTNZVEFoLWxIcndrNERMTGN5ckU3NXkzMVRMOEEwMTlaNW90Uk5EZTViWDg4MERnR01zcTNKVk8tSmlBcmpKdlFo?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-20",
+      "summary": "Addresses Chinese artificial intelligence firms' dependency on Nvidia chips and potential consequences of reduced access through export restrictions.",
+      "tags": [
+        "AI Governance"
+      ]
+    }
+  ]
+}

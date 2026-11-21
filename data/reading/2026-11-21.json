@@ -1,0 +1,244 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T15:33:26+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Cyber",
+    "Drones",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "Podcast: I Spoke to an AI Fraud Kingpin",
+      "url": "https://www.404media.co/podcast-i-spoke-to-an-ai-fraud-kingpin/",
+      "source": "404 Media",
+      "date": "2026-11-20",
+      "summary": "Podcast covering three topics: profile of OnlyFake creator (AI-powered fake ID site), Muse AI agent suing Meta, and Department of Justice using AI detection tools against defence lawyers. Paid subscribers access bonus content.",
+      "tags": [
+        "AI Risks",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "Does AI Generate a Civilizing or De-policing Effect? Testing the Impact of AI-Based Body Worn Camera Analytics in a Large State Police Agency",
+      "url": "https://www.crimrxiv.com/pub/y7f0ec1p",
+      "source": "CrimRxiv",
+      "date": "2026-11-20",
+      "summary": "Research examines whether AI-based body-worn camera analytics improve police officer behaviour through enhanced oversight (civilising effect) or reduce policing effectiveness (de-policing effect) in a large state police agency.",
+      "tags": [
+        "Future Policing",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Enhancing Border Biosecurity in the Age of AI-Enabled Biology",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZVljOG1jcjVHY1RON0R0Wk1xSFNWbmdxMnJLZExNZG9aUjdfbUJ2TXk5a0w5Nll1QTkxeXBCSDFja0Zad0VFZUdpXzZRbGVzVEtpLWduSVdxVlRUeDM4NEstQ3RVaEttQTFOWVdOcExpbW12cUJ1QkZoZUs1eFpndkdLLVg1aTN2OGtlOVllRkNEQ1BmNkZBVTVMdmhRbVk?oc=5",
+      "source": "Lawfare",
+      "date": "2026-11-20",
+      "summary": "Article concerns enhancing border biosecurity using AI-enabled biology, but no text supplied to summarise.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "The most misunderstood graph in AI just got a major update",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "source": "MIT Technology Review",
+      "date": "2026-11-20",
+      "summary": "METR's updated AI evaluation report shows some capabilities improving exponentially, but models perform better at coding than judgment-requiring tasks. Updated plot adds longer and open-ended tasks, addressing whether progress on verifiable tasks transfers to harder-to-measure domains.",
+      "tags": [
+        "AI Risks",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "International talks on controlling use of autonomous weapons collapse",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRUNMSUo1X2dYS3gzSVJxMmttOF95YXNZSHVxdkVqcVNocWdsSzdqMVROd0hjdWZWM3ZDbFB3UVFiNVZtZjQtTjhvUVBIMDF1eXAzdXRhRGcwTmVHajZyS09KU2hZdFRfam5GZlZSNng4emstWlNWakpZUW91dU05aTVZcjdXMmRMX2VZYlEyUWZHbTFTcm1ueklldGNia0IzeG4yVW92RmJISUVIVlE?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-21",
+      "summary": "International negotiations on controlling autonomous weapons use have collapsed, but no text supplied to provide further details.",
+      "tags": [
+        "AI Governance",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "Think First - Keep SMART on AI - NSPCC Learning",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51SkRoTTZ6eTBXNjFfUkpXcnhrT3E0czlTZU1RRm5lTnlQeHdLREFPSWtGYVh1VTQ4dDdBaWlFMWpHV1BZcHFpal9xQXkzVTRUOFhDd1d5XzZsY1AyM3NsX3FZSjhQcmdI?oc=5",
+      "source": "NSPCC",
+      "date": "2026-11-20",
+      "summary": "NSPCC Learning resource on AI for children, but no text supplied to summarise content.",
+      "tags": [
+        "Child Safety",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "AI and the future of policing: From predicting crime to protecting communities",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYUh2THU4YWxORjFOZG1MSjBtQnhxZ2ViMEhlckthX2EtUGRCcVFHVGMtNTRlY0U0dzhJQVVXZnJLWmlCaWQxME9iRGszUG1DQ2Q1OUpzUTRhemthMkpWRklKM2dROG1ZT3NaRDBmaVp5emJZLVBqeDFNaVFXMDlnQUxpb0pxRzNkZndISGphTElHZWdlTk12czI3Rk5HdXpIVlJEdkF2bnhBQXZKRXVDZzZyNEEzd21BOXJmdFBxWQ?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-21",
+      "summary": "Article on AI's role in policing, covering predictive crime tools and community protection, but no text supplied to provide specifics.",
+      "tags": [
+        "Future Policing",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Ninth Circuit Weighs xAI Challenge to California AI Disclosure Law",
+      "url": "https://reclaimthenet.org/ninth-circuit-weighs-xai-challenge-to-california-ai-disclosure-law",
+      "source": "Reclaim The Net",
+      "date": "2026-11-20",
+      "summary": "Ninth Circuit heard xAI's challenge to California's AB 2013 law requiring generative AI developers to disclose training data summaries. xAI claims First Amendment compelled speech violation and trade secret protection; xAI received cold reception from judges.",
+      "tags": [
+        "AI Governance",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Tech Companies Are Trying To Shift The Entire Concept Of Privacy (Again)",
+      "url": "https://www.techdirt.com/2026/11/20/tech-companies-are-trying-to-shift-the-entire-concept-of-privacy-again/",
+      "source": "Techdirt",
+      "date": "2026-11-20",
+      "summary": "Tech companies are deploying ambient recording devices (smart glasses, watches, rings, pendants) that transcribe or summarise users' activities. This shifts privacy into shared physical spaces, requiring bystanders to understand multiple devices' capabilities and recording status without meaningful consent mechanisms, fundamentally changing how privacy operates.",
+      "tags": [
+        "Privacy",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+      "url": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+      "source": "The Record",
+      "date": "2026-11-20",
+      "summary": "House Homeland Security Committee investigation examined dangers of US companies using lower-cost open weight AI models from Chinese sources for certain projects.",
+      "tags": [
+        "AI Governance",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+      "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+      "source": "The Record",
+      "date": "2026-11-20",
+      "summary": "China-linked threat actors used open source AI penetration testing tool Cairn to persistently attack two universities; researchers report the tool possibly discovered a zero-day vulnerability during one attack.",
+      "tags": [
+        "Cyber",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
+      "url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+      "source": "The Register",
+      "date": "2026-11-20",
+      "summary": "China-linked AI agents autonomously found and exploited a zero-day vulnerability to compromise a university server, adapting their approach for nearly a full day without human direction, according to Amazon's CISO.",
+      "tags": [
+        "AI Risks",
+        "Cyber",
+        "Future Crime"
+      ]
+    },
+    {
+      "title": "Violence fascination: implications for research, policy, and practice",
+      "url": "https://crestresearch.ac.uk/resources/violence-fascination-implications-for-research-policy-and-practice/",
+      "source": "CREST Research",
+      "date": "2026-11-20",
+      "summary": "Webinar readout on violence fascination delivered to IAPSS Risk Assessment & Risk Management Community of Interest, covering implications for research, policy and practice.",
+      "tags": [
+        "Terrorism",
+        "VAWG"
+      ]
+    },
+    {
+      "title": "FCA lines up new cyber guidance for UK financial services sector",
+      "url": "https://www.computerweekly.com/news/366655173/FCA-lines-up-new-cyber-guidance-for-UK-financial-services-sector",
+      "source": "Computer Weekly",
+      "date": "2026-11-20",
+      "summary": "FCA and Bank of England's PRA opened public consultation on new cyber security guidance for UK financial services. Guidance will cover governance, identification, protection, detection, response and recovery from incidents, addressing rising cyber threats including AI and quantum computing risks.",
+      "tags": [
+        "Cyber",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Ransomware: What we know about the arrests of Chaos affiliates",
+      "url": "https://www.computerweekly.com/news/366655193/Ransomware-What-we-know-about-the-arrests-of-Chaos-affiliates",
+      "source": "Computer Weekly",
+      "date": "2026-11-20",
+      "summary": "Ukrainian authorities arrested four individuals linked to Chaos ransomware operation, believed to have emerged from defunct Conti group. Accused of attacking tyre manufacturer Maxxis in 2024 under BlackSuit banner before shifting to Chaos ransomware; three detained with bail set around £44,000 each.",
+      "tags": [
+        "Cyber",
+        "Terrorism"
+      ]
+    },
+    {
+      "title": "Virtual Rallies, Real Belonging? The use of VRChat by the Southern State Knights",
+      "url": "https://gnet-research.org/2026/11/20/virtual-rallies-real-belonging-the-use-of-vrchat-by-the-southern-state-knights/",
+      "source": "GNET",
+      "date": "2026-11-20",
+      "summary": "KKK-affiliated Southern State Knights uses VRChat virtual-reality platform to organise youth recruitment gatherings and disseminate far-right propaganda. Research examines how VRChat's immersive features enable extremist social bonding, recruitment and radicalisation beyond mere content distribution.",
+      "tags": [
+        "Terrorism",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "source": "Krebs on Security",
+      "date": "2026-11-21",
+      "summary": "RansomwareHelp's CTO indicted for wire fraud. Despite claiming to decrypt ransomware-locked data using advanced cryptography, the company actually paid ransomware groups for decryption keys and charged victims substantial markups. FBI sting operation exposed the scheme.",
+      "tags": [
+        "Cyber",
+        "Future Crime"
+      ]
+    },
+    {
+      "title": "Denmark accuses Russia of plotting to kill Ukrainian American rapper on its soil",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM1liT1N6XzJmWDVsV1laaVZtblN0OTludWJKM1JqS2ZJb3NHNEN0TGF4SVJrVWRlZUpLdExOeWdIREhaRG16N1c5cFEwV2Uya3dRbEJwMjdPNk9pTEJ1dkpYbENVNVJtaTZudmt1cmQzTDRRQUhETTd5NjBXQnVacVRtUzBHR3NHVHVfUEhoc3Nwa3dwSDJad0NCbTUzN2tUa3pFNk85a2FtbGZfRDROMmdEc0ZGUQ?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-21",
+      "summary": "Covers NATO StratCom Centre of Excellence report on Denmark's accusation against Russia regarding alleged plot to kill Ukrainian American rapper on Danish territory.",
+      "tags": [
+        "Terrorism",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Russian missiles hit Poland: What happened, and could NATO respond?",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObXJxS0Y2ZWlaREQtbEtfbmhwcFJibU9pOTdCalNJNGhlTElNSmFMZXN0Sy1YYTlVN2VfcGRpbFgtNFlKM0I3ZEtILWk1TTRTVG1KYkp1VmJqcldtNG1rVnY1cG5rMUppb29kekNKazBGUy1LMVRKeEtOcmd2cTdFNUQxVl9mS3Zld0VqbEpiSU9nQU82bGdqUUN3c0JlMHR6VHB4UHlxU2Fod9IBrwFBVV95cUxPWS1tWElsbWdpWUFTN3VyamFlYTd5UXhMLTI1R0NKa1NzamV5WVIwRndZRm5qOWgxclQwOEprdi1tb290VHFnZWZHMGtSTVJidmFZT3RJVWpKS3lscFl6N244akRLQ29UeDZGcVBiZjR4MkthYkdCRUxCdmhtZnd0eFl2ZWtaWDdEN3Ridy1nLUgzN2E3LXI1MnEyb2NxTHlMUllZcnd2MUlHYXIwS2tr?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-21",
+      "summary": "Covers NATO StratCom Centre of Excellence analysis of Russian missile strikes on Poland, examining what occurred and potential NATO response scenarios.",
+      "tags": [
+        "Geopolitics",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "OpenAI News",
+      "date": "2026-11-20",
+      "summary": "OpenAI employs layered approach to combat adversarial distillation, integrating model training, safeguards, detection, and enforcement mechanisms to prevent capability extraction.",
+      "tags": [
+        "AI Risks",
+        "AI Governance"
+      ]
+    }
+  ]
+}

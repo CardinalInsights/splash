@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T15:37:04+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Cyber",
+    "Drones",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "Reus sine mente: Criminal Responsibility for Artificial Intelligence Systems",
+      "url": "https://www.crimrxiv.com/pub/21nkcse9",
+      "source": "CrimRxiv",
+      "date": "2026-11-22",
+      "summary": "Examines criminal responsibility when autonomous AI commits crimes. Argues that as AI autonomy increases, holding developers liable becomes impossible, and the AI's own actions sever causal links. Contends law must adapt to accelerating AI development.",
+      "tags": [
+        "AI Risks",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "It will soon be too late to regulate use of autonomous weapons, warns Red Cross",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZzZTcWFJbUx5Wmt3ZWNyOGttaFlYOGw2M3NZQmI3cUwxUUhPRGdNbW1RV0Y2bkZtNUhROXpHRkxsVmNxalRHSTRONUdQX2RGZS1lTXB5aTlNdUU1LXgydVNsZGRzZ0Q4X3RJazE4V0NzX3VqbGtVUVlWODJ1QTFBOFk0ZzduaEJzbGkycWpIcU1UM2VISENUajBDZVpwRG9wWmRfeWlyRnBiV05jSEFQQWJxbGhpUQ?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-22",
+      "summary": "Reports Red Cross warning that regulating autonomous weapons use will soon become impossible if action is not taken immediately.",
+      "tags": [
+        "AI Governance",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "source": "The Verge",
+      "date": "2026-11-21",
+      "summary": "UN diplomats in Geneva failed to agree binding rules on autonomous weapons. After fruitless negotiations, countries agreed only to 'start discussing options.' Red Cross, UN secretary-general and Pope Leo had urged binding rules within one year.",
+      "tags": [
+        "AI Governance",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "The FBI and USDA were reportedly hacked",
+      "url": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
+      "source": "The Verge",
+      "date": "2026-11-21",
+      "summary": "FBI and USDA were hacked. FBI attack targeted National Crime Information Center used by law enforcement to share warrants and missing persons data—the agency's second attack in months. USDA payments database reportedly compromised. President Trump confirmed the FBI hack.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Chris McGuire on the Nvidia Scandal and the Chips That Got Away, November 20",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeldzLVVlU193TDNiVlRjMXhFdmZsWGVuY21CYXA2dGtXWDIzblVWbHFZRFJPMDhtR0RiYXhpeWZoTmloalc1ZUR1SjVINUZYUVRDa1F3U1lRZnZQN284OE5oT090MGVib3VQbEVTTWdoLWpUUVBoRHhuVE5ieDc1eVdmTi0zcW13dTRnLWszNFdzZGxiTzAta3U2bTlkSkhQY2lzZXJEdEk1N0dLZ052cGliZGNqd2xnY2hNdzVPdUR3bV9rN0JZ?oc=5",
+      "source": "Lawfare",
+      "date": "2026-11-20",
+      "summary": "Covers Chris McGuire's discussion of an Nvidia scandal involving chips, based on title alone.",
+      "tags": [
+        "Cyber",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "America’s Second Abandonment of Afghanistan",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdXBqRV9fUGtMWFpqa1Qxby1zejRIeklrSXpKam54T1ZvQ1ptTXVTTElJdUhjLU91eU9sVU95TS1WTkhDU2JMSVBQZ2dKV3FNU0RLNWRmWGZRVlhJOVlLVzBrTHBIRHo0clV5dHZoSkRRQlJJUERCQjZZTUFZWUxTeGExNzFRV3c?oc=5",
+      "source": "Lawfare",
+      "date": "2026-11-22",
+      "summary": "Covers America's withdrawal from Afghanistan, based on title alone.",
+      "tags": [
+        "Geopolitics",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "North Korea Keeps Building Nukes—and Ghosting Trump",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUnYtQVJtSnExbURSMDgwcVgtOXNvMjdoUUtnblpqMk9WLUFjTjJOb0hoR2hOWlBybFZLSUhtbkJmS21RSnJhWkpUM0F4NXZkblVDeUQ3ZVA5NWN3WFI4bUJ6M1RvODEzdVkxYnJmeURLNnRpWjgxTjhEUW42UFZGbDBYbUFCS21UbTNqRlZiTGQyQQ?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-22",
+      "summary": "Covers North Korea's continued nuclear weapons development and diplomatic engagement with Trump, based on title alone.",
+      "tags": [
+        "Geopolitics",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "Russian cargo ship still on fire off Finland after attack",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTXUxa0FLT1o3Tzh4MUR0MV9ZenU1LU9PZl9QSzhsQXlOQThFNUxWbWFXRXZTOHFpb1lJdG1GTV9hOUZsc2x4YzBOSzV3ZHZkV2pyNjNIaTVWZEViQ2lLb3JkcjJsbGhVNXFmWXQ5c0pDTkVXeG9IbmlKV3AxYUtfNE5DVnhWX3lvNmg0SF9SZ1lHQzEtSnY1REsycUlvWFVEOFlBSXR3?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-22",
+      "summary": "Covers a Russian cargo ship remaining on fire off Finland following an attack, based on title alone.",
+      "tags": [
+        "Cyber",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "News Chatham-Kent police offering AI support for reporting non-emergencies Chatham Daily News (Canada)",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWlptUTlNNENXSnUtdm1lRTY0NVlrTTZoVTBmN3pUT05vVEpzbVo5OEJXRk1mRWNHVkFnSzk2MDJod0sxRlQ2SVJWNkJ4cXN2X0xsVWExVGVyLUQ3VVVJTGZIREt1d251VUJpNVRoOER0N0lVaV92RWMxY0tyTGE1WkV6YnRGWjRDSG55QkZ4MDQ0MXUxRVJWdFpkai11RmlacXpMaEhFQU80NUZJd2pKc1pRQ3JFZw?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-21",
+      "summary": "Chatham-Kent police offering AI support for reporting non-emergencies. No text supplied; item covers police use of artificial intelligence to assist the public with non-emergency incident reporting.",
+      "tags": [
+        "Future Policing",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "News London Met pilots NEC facial recognition on handheld devices BiometricUpdate.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVDJDNm1Ga28tUzA2dmFJSnFfcFhEbjRGVHFXQjFqNWRyUm05SERrZEJjZW8zNGNLZTE5RmdOVENGNlNESzJMSlI1UWxNdVlrblZYbDI3WWFzTEdCcEFpM0FHeUFESjNmc1pDMmVNazQ3RnBWM3NrV2tmZDhJRDNlSER4QlBnUzQwZ2dSazhqYkpCaXBEWXRYZHliQjJZVEdTb0ROSVdxWnNWQQ?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-21",
+      "summary": "London Met pilots NEC facial recognition on handheld devices. No text supplied; item covers Metropolitan Police testing facial recognition technology on portable devices.",
+      "tags": [
+        "Future Policing",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "Passive 'ghost' radar can detect airborne threats without revealing its own position",
+      "url": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+      "source": "The Register",
+      "date": "2026-11-22",
+      "summary": "Passive radar system detects airborne threats without revealing its own position. Technology piggybacks off TV and mobile signals; can be deployed in vehicles like SUVs.",
+      "tags": [
+        "Future Defence",
+        "Drones"
+      ]
+    },
+    {
+      "title": "Protesters storm Meta offices in India",
+      "url": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india",
+      "source": "The Verge",
+      "date": "2026-11-22",
+      "summary": "Congress party protesters stormed Meta offices in Delhi demanding account restoration. Party alleges Meta censors speech disagreeing with Prime Minister Modi's BJP; some accounts were restored Friday, though party warns of further protests.",
+      "tags": [
+        "Information Disorder",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "Banks Have Had It Up to Here With Your AI Agent",
+      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+      "source": "Wired",
+      "date": "2026-11-22",
+      "summary": "Major US banks ban third-party AI agents from accessing customer accounts. Financial institutions warn that customers bear full responsibility for any costly errors made by bots.",
+      "tags": [
+        "AI Risks",
+        "Privacy"
+      ]
+    }
+  ]
+}

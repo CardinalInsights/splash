@@ -1,0 +1,242 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T18:32:33+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Cyber",
+    "Drones",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "Judge the Cyber Apocalypse by the Data, Not the Headlines",
+      "url": "https://cset.georgetown.edu/article/judge-the-cyber-apocalypse-by-the-data-not-the-headlines/",
+      "source": "CSET Georgetown",
+      "date": "2026-11-23",
+      "summary": "Real-world cyber impact data presents a mixed picture less dire than technical indicators suggest. Whilst AI has accelerated vulnerability discovery and attack speed since April 2025, significant breaches, healthcare incidents, and average breach costs remain stable or declining. Ransomware payouts are down despite increased attacks. Some datasets show growth, but appear driven by broader definitions rather than genuine escalation.",
+      "tags": [
+        "AI Risks",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbHNWNVZoWUNJLXJxQl9wTkZnTFdZNkVTZXllR2pxSlFMeWxnS0xENDRnUXZBSENCV3lybG1tSXFfWF9xdWJiMHVxYlhWSXVkMU9lTFlFR200Qkg2eVpOR2NzRE55RXhudHRnb1QzTEZIdXFQUWl2bDRVMDVxT2FqbkNnTXJVS1J5bGfSAY8BQVVfeXFMTzdXQVNETlE0OGxPY0FSejh4THJESzBWQ0ZnV1NXRWtwUEE5T0hpbGs2SmpYMXVTdThMa1BqR2xQTTN2ZWZQb1JkZ0RfOC1KZm0yRldLX19pWWZpZUpBVGxpTXRyWF9KTW1hSUdHcENaVDlQN0QtcFdnSTJyMEl3ejNGNHRYc093blFaakhHS0k?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-23",
+      "summary": "Covers lawsuits filed against SpaceX by Oregon and Virginia over AI-generated deepfake pornography and claims regarding Grok's safety features.",
+      "tags": [
+        "Information Disorder",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "What Makes Catastrophic Incidents Different?",
+      "url": "https://www.rand.org/pubs/research_reports/RRA5061-1.html",
+      "source": "RAND research reports",
+      "date": "2026-11-23",
+      "summary": "Examines distinguishing characteristics of catastrophic incidents compared to other disasters and their implications for emergency management preparedness.",
+      "tags": [
+        "Resilience",
+        "Future Crime"
+      ]
+    },
+    {
+      "title": "Norway links energy firm cyberattacks to critical Azure API Management flaw",
+      "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
+      "source": "The Register",
+      "date": "2026-11-23",
+      "summary": "Norway attributes cyberattacks on an energy firm to a critical Azure API Management flaw. Microsoft reports mitigations exist but administrators must investigate potential compromises and rotate secrets.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Bulgaria evicts cyber snoops who lurked inside government networks for 5 years",
+      "url": "https://www.theregister.com/security/2026/11/23/bulgaria-evicts-cyber-snoops-who-lurked-inside-government-networks-for-5-years/5311629",
+      "source": "The Register",
+      "date": "2026-11-23",
+      "summary": "Bulgarian government networks harboured intruders for five years who downloaded over 130 GB of data. Political instability reportedly contributed to security neglect enabling the breach.",
+      "tags": [
+        "Cyber",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Everything going down at once wasn't evidence of a conspiracy – but the truth may be scarier",
+      "url": "https://www.theregister.com/off-prem/2026/11/23/everything-going-down-at-once-wasnt-evidence-of-a-conspiracy-but-the-truth-may-be-scarier/5311458",
+      "source": "The Register",
+      "date": "2026-11-23",
+      "summary": "Recent widespread service outages revealed extensive technical debt rather than evidence of coordinated conspiracy by rogue AI or nation-state actors.",
+      "tags": [
+        "AI Risks",
+        "Resilience",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Google claims last week’s critical VMware bug was under attack in September",
+      "url": "https://www.theregister.com/virtualization/2026/11/23/google-claims-last-weeks-critical-vmware-bug-was-under-attack-in-september/5311547",
+      "source": "The Register",
+      "date": "2026-11-23",
+      "summary": "Google reports a critical VMware bug was actively exploited weeks before public disclosure. China-linked ARMORY CASTLE deployed five custom malware tools against vCenter.",
+      "tags": [
+        "Cyber",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+      "source": "The Verge",
+      "date": "2026-11-23",
+      "summary": "Oregon and Virginia filed separate lawsuits against SpaceX alleging violations of consumer protection laws by ignoring safeguards against AI-generated sexual deepfakes and misrepresenting X and Grok safety.",
+      "tags": [
+        "Online Harms",
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "The Double Alignment Problem: Civil-Military Relations in the Age of Artificial Intelligence",
+      "url": "https://warontherocks.com/the-double-alignment-problem-civil-military-relations-in-the-age-of-artificial-intelligence/",
+      "source": "War on the Rocks",
+      "date": "2026-11-23",
+      "summary": "Artificial intelligence poses the greatest challenge to American civil-military relations since nuclear weapons. AI creates a dual alignment problem: aligning the state with the military, and aligning humans with AI agents. This threatens constitutional governance and military professionalism, yet civil-military relations scholarship lags far behind AI development.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "States Sue SpaceX Over Grok Deepfakes",
+      "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+      "source": "Wired",
+      "date": "2026-11-23",
+      "summary": "Oregon and Virginia attorneys general are suing Elon Musk's companies, alleging they implemented inadequate safeguards against sexualised imagery of real people, including children.",
+      "tags": [
+        "Online Harms",
+        "Child Safety",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Google Wants To Make a 24/7 AI TV Channel. You’ll Be the Main Character",
+      "url": "https://www.404media.co/google-wants-to-make-a-24-7-ai-tv-channel-youll-be-the-main-character/",
+      "source": "404 Media",
+      "date": "2026-11-23",
+      "summary": "Google has patented a system called 'My Channel' that would generate 24/7 personalised AI television using user data, with viewers as protagonists. The system would insert targeted advertisements into AI-generated shows based on demographic information and viewing history.",
+      "tags": [
+        "AI Risks",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "‘The Code Is Already Copied Everywhere’: The AI Hacking Tool Causing Havoc Around the World",
+      "url": "https://www.404media.co/the-code-is-already-copied-everywhere-the-ai-hacking-tool-causing-havoc-around-the-world-artex-github/",
+      "source": "404 Media",
+      "date": "2026-11-23",
+      "summary": "ARTEX, an open-source AI hacking framework, enables rapid automated cyberattacks targeting government, healthcare, telecommunications, legal, defence, financial and semiconductor sectors globally. Despite the creator removing it from GitHub, copies remain freely available. The FBI warns it can complete entire hacks in hours.",
+      "tags": [
+        "AI Risks",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Digital sovereignty not smart, says The Hague CIO",
+      "url": "https://www.computerweekly.com/feature/Digital-sovereignty-not-smart-says-The-Hague-CIO",
+      "source": "Computer Weekly",
+      "date": "2026-11-23",
+      "summary": "The Hague's CIO argues European digital sovereignty from US technology is unrealistic. Despite council demands for independence from American suppliers following ICC sanctions concerns, he maintains that complete separation from US tech providers is impractical.",
+      "tags": [
+        "AI Governance",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Nation-state APTs don't need new tricks; the old ones still work",
+      "url": "https://www.computerweekly.com/opinion/Nation-state-APTs-dont-need-new-tricks-the-old-ones-still-work",
+      "source": "Computer Weekly",
+      "date": "2026-11-23",
+      "summary": "Nation-state advanced persistent threats continue using established techniques like phishing and credential theft whilst adapting them to exploit newly adopted technologies. They demonstrate sophistication by identifying operational value in emerging technologies rather than developing entirely novel attack methods.",
+      "tags": [
+        "Cyber",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "UK Sovereign AI Fund invests in defence tech startup",
+      "url": "https://www.computerweekly.com/news/366655234/UK-Sovereign-AI-Fund-invests-in-defence-tech-startup",
+      "source": "Computer Weekly",
+      "date": "2026-11-23",
+      "summary": "UK government's Sovereign AI Fund and National Security Strategic Investment Fund invested in Agon, which develops infrastructure for training autonomous defence systems, including AI tools against drone attacks and a virtual battlefield for testing. The investment supports UK technological independence from overseas providers.",
+      "tags": [
+        "AI Governance",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "Staff gagging clauses lifted for review of ‘toxic culture’ at information watchdog",
+      "url": "https://www.computerweekly.com/news/366655253/Staff-gagging-clauses-lifted-for-review-of-toxic-culture-at-information-watchdog",
+      "source": "Computer Weekly",
+      "date": "2026-11-23",
+      "summary": "Non-disclosure agreements with UK Information Commissioner's Office staff will be lifted to enable an independent review of culture and governance following the resignation of information commissioner John Edwards over sexual harassment and bullying allegations.",
+      "tags": [
+        "Privacy"
+      ]
+    },
+    {
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "source": "MIT Technology Review",
+      "date": "2026-11-23",
+      "summary": "Philosopher Thomas Nagel has criticised Anthropic's position on AI consciousness. Anthropic considers AI sentience a risk factor and treats the possibility seriously, citing philosopher support. Nagel, whose work shaped consciousness theory, calls this approach idiotic, despite his own writing highlighting consciousness's subjective, unknowable nature.",
+      "tags": [
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
+      "url": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+      "source": "MIT Technology Review",
+      "date": "2026-11-23",
+      "summary": "METR's updated AI evaluation report finds some capabilities improving exponentially, but models struggle with judgment-requiring tasks like designing evaluations and scoring arguments. Separately, research suggests enhanced rock weathering for carbon removal could reduce crop yields more than anticipated, potentially shrinking carbon removal potential.",
+      "tags": [
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONjlYcEJxcWh6djFUeEhBbnR4eHJKWHdqOVNOVHhwc2ZGM3QtWGtDNUN3bHA2eUN0WEV3SkxwRVVyNXgzZzVlVHU5YXBZVm5CQmRoNUQ5ck00Rk1lOGFGc3FLRUFFelRnckhkaF9oVmplSE9UR2lEdEFQbFBNRjMya2l0WmFsTVR3bDM4SjNGS0FwOGJhblBsRmNKTQ?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-23",
+      "summary": "Covers Ukraine's confirmed use of naval drones to strike two Russian ships off Libya.",
+      "tags": [
+        "Drones",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "NATO believes Russia is ready to launch nuclear-armed satellite, German media say",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQmRybDRhZzhaRkRlSHZUdWxTZVRPUEU1NDJfRFBwX3ItMDZsb0pSZWdFMlgwbDhzclBlaWwyTndXYUQxS0JrZFd5SjlNWC05YWYtYWZhREFHNE5VLXFEOGx3SkY5bWNrMWlYbVhEVklQN3YzMnZSNmVtcmNqdzlSQ21vZW1yWU4xN1UySDE1SHNCUXZfekUyQlRMQUFGMlBSWk5Hc0JFTjlsZGN6NS14M2E2eXk4a2tPUjZGd2Y4a09SX212UUlNY2lkVG1XQXZUMmhOMHRZMA?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-23",
+      "summary": "Covers NATO's assessment that Russia is preparing to launch a nuclear-armed satellite, according to German media reports.",
+      "tags": [
+        "Geopolitics",
+        "Future Defence"
+      ]
+    }
+  ]
+}

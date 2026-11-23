@@ -69,6 +69,7 @@ The Record | https://therecord.media
 Policing Insight | news:policinginsight.com
 Krebs on Security | https://krebsonsecurity.com
 CrimRxiv | https://www.crimrxiv.com
+ENISA | https://www.enisa.europa.eu/publications
 
 # --- Terrorism and extremism ---
 GNET | https://gnet-research.org

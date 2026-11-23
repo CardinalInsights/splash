@@ -2,14 +2,22 @@ name: Daily reading list
 
 on:
   schedule:
-    # 7:30am UK time all year, giving a comfortable margin before a 9:15am
-    # read. GitHub schedules are UTC only, so there are two entries and the
-    # "UK time check" step below lets only the right one run: 06:30 UTC
-    # during British Summer Time, 07:30 UTC in winter. The minute is offset
-    # from :00/:30 because GitHub queues scheduled runs most heavily on the
-    # hour and half-hour and can delay them there.
-    - cron: "34 6 * * *"
-    - cron: "34 7 * * *"
+    # Three UK-time checkpoints, each with a BST and a GMT entry (GitHub
+    # schedules are UTC only): ~7:30am, ~9:10am, and ~11:15am UK. GitHub's
+    # own cron scheduling is "best effort" and has been firing this
+    # workflow's trigger hours late recently (landing mid/late afternoon
+    # instead of morning), so a single fallback wasn't enough margin -
+    # three checkpoints give it three chances to land before 9:15am. The
+    # "UK time check" step lets through only the entry matching today's
+    # actual UK offset, and the step after it skips the whole build if
+    # today's list already exists, so only the one that actually gets
+    # through on time does any real work - the others cost a few seconds.
+    - cron: "34 6 * * *"    # ~7:34am BST
+    - cron: "34 7 * * *"    # ~7:34am GMT
+    - cron: "09 8 * * *"    # ~9:09am BST (fallback 1)
+    - cron: "09 9 * * *"    # ~9:09am GMT (fallback 1)
+    - cron: "17 10 * * *"   # ~11:17am BST (fallback 2, last resort)
+    - cron: "17 11 * * *"   # ~11:17am GMT (fallback 2, last resort)
   workflow_dispatch: {}
 
 permissions:
@@ -28,28 +36,42 @@ jobs:
         id: uk
         run: |
           offset=$(TZ=Europe/London date +%z)   # +0100 in summer, +0000 in winter
+          sched="${{ github.event.schedule }}"
           run=yes
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            if [ "${{ github.event.schedule }}" = "34 6 * * *" ] && [ "$offset" != "+0100" ]; then run=no; fi
-            if [ "${{ github.event.schedule }}" = "34 7 * * *" ] && [ "$offset" != "+0000" ]; then run=no; fi
+            case "$sched" in
+              "34 6 * * *"|"09 8 * * *"|"17 10 * * *") [ "$offset" = "+0100" ] || run=no ;;
+              "34 7 * * *"|"09 9 * * *"|"17 11 * * *") [ "$offset" = "+0000" ] || run=no ;;
+            esac
           fi
           echo "run=$run" >> "$GITHUB_OUTPUT"
-          echo "UK offset $offset, trigger ${{ github.event.schedule || 'manual' }}: run=$run"
+          echo "UK offset $offset, trigger ${sched:-manual}: run=$run"
       - uses: actions/checkout@v4
         if: steps.uk.outputs.run == 'yes'
-      - uses: actions/setup-python@v5
+      - name: Already have today's list?
+        id: have
         if: steps.uk.outputs.run == 'yes'
+        run: |
+          today=$(TZ=Europe/London date +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/reading/$today.json" ]; then
+            echo "needed=no" >> "$GITHUB_OUTPUT"
+            echo "Already have $today.json from an earlier run today; this fallback slot isn't needed, skipping."
+          else
+            echo "needed=yes" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.uk.outputs.run == 'yes' && steps.have.outputs.needed == 'yes'
         with:
           python-version: "3.12"
       - run: pip install requests feedparser
-        if: steps.uk.outputs.run == 'yes'
+        if: steps.uk.outputs.run == 'yes' && steps.have.outputs.needed == 'yes'
       - name: Build today's reading list
-        if: steps.uk.outputs.run == 'yes'
+        if: steps.uk.outputs.run == 'yes' && steps.have.outputs.needed == 'yes'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/reading_list.py
       - name: Commit changes if any
-        if: steps.uk.outputs.run == 'yes'
+        if: steps.uk.outputs.run == 'yes' && steps.have.outputs.needed == 'yes'
         run: |
           git config user.name "cardinal-bot"
           git config user.email "actions@users.noreply.github.com"

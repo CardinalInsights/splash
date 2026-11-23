@@ -99,4 +99,4 @@ OpenAI News | https://openai.com/news
 Anthropic News | news:anthropic.com
 
 # --- Future tech ---
-Patentlyze | https://patentlyze.com/blog/feed/
+Patentlyze | https://patentlyze.com/

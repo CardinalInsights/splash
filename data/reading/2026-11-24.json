@@ -1,0 +1,236 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T11:19:39+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Cyber",
+    "Drones",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Space",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "UK cyber legislation fails to tackle real-world resilience",
+      "url": "https://www.computerweekly.com/opinion/UK-cyber-legislation-fails-to-tackle-real-world-resilience",
+      "source": "Computer Weekly",
+      "date": "2026-11-24",
+      "summary": "UK Cyber Security and Resilience Bill passed third reading November 2 with over 100 amendments. Expands NIS regulations to cover MSPs, datacentres, and designated suppliers; compresses incident reporting to 24 hours; raises penalties to £17m or 4% turnover. Author argues legislation remains significantly insufficient for real-world resilience.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Inside the Black Market for America’s Artificial Intelligence",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQWVHLWI2RnpUOEpLdGVnTkRidUdXUmVZMHJmaTk5QmM0c2E1U0FWNjZzTnRfVWtxcDA1V1EyTjNjUi1oTjV0YUpBVWFBaVNiY0YzR2szN2hubkgyUzJwQk9hTVdoSm5zRTZtZzY2S2ZRLWc5dWNJSUxiQkpIWXpuRXlNZnZQNS1LbF8xalVWUEJidlFsYTFMYnNLMXVLSUU?oc=5",
+      "source": "Lawfare",
+      "date": "2026-11-23",
+      "summary": "No text supplied. Title indicates article covers black market trade in American artificial intelligence technology.",
+      "tags": [
+        "AI Governance",
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWXFIRlRpQkkyY0F5YUVjb1RmN1g2cUdPWHJ3ZkhTVnVzcVNJaG5QY0lHRlV1cEdBNmFqWHQ3c0lpWEU1RGlLanphd1pPbmZjc0dvME9UcXFsNWNSTWJ0VDNsTmcyWGVNaG1lRzAwTEMxNXVycHc3YjItWkVXRXFiNDRZeWVWVEZzZ2NLd2FCOHVhSGVVTEJDMTEwdG1JVVRJdDBVSzQyS0lhY1Q5MnNYZmZFdmVWUlR2TmhzdG1R?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-23",
+      "summary": "No text supplied. Title indicates article covers lawsuits against SpaceX to prevent Grok from generating child sexual abuse material and revenge pornography.",
+      "tags": [
+        "Child Safety",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks",
+      "url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
+      "source": "NCSC",
+      "date": "2026-11-24",
+      "summary": "Guidance on protecting organisations from cyber attacks created using agentic offensive frameworks, addressing familiar security weaknesses being exploited at accelerated speed.",
+      "tags": [
+        "AI Risks",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
+      "url": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
+      "source": "The Verge",
+      "date": "2026-11-23",
+      "summary": "Arion Kurtaj, who hacked Rockstar Games and leaked 90 GTA VI videos in 2022, plus compromised Uber and Revolut, received seven-year sentence but released on licence. Judge acknowledged his talent whilst warning against wasting it in future criminal activity.",
+      "tags": [
+        "Cyber",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Huang’s Trump-backed return raises AI sovereignty concerns",
+      "url": "https://www.computerweekly.com/news/366655453/Huangs-Trump-backed-return-raises-AI-sovereignty-concerns",
+      "source": "Computer Weekly",
+      "date": "2026-11-24",
+      "summary": "Jensen Huang reinstated as Nvidia CEO following Trump administration intervention, one week after board cited conduct breaches. Reinstatement raises concerns over White House influence on private companies and potential use of AI chip export controls for geopolitical leverage.",
+      "tags": [
+        "AI Governance",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORUlsRWg2Szd1Z3JjWkRCcFVMdTh1cDhrT0lxUEZ0UXRHVjZ5QWJaSWRFVmxfT2Nlcnp5UjZPOG9MaFE0SmZ5UndIejdacWRYT3hGVHZiNVQ1a1lOa0tUZVdjRm1rVDZkMWRPTWd2R0JLamZfYm1lcEREbE12ajRCNTZSdERlMFpObDVFSkowV2h3THRkdlFoMUxR?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-24",
+      "summary": "No text supplied. Title indicates live updates covering Iranian response to US blockade and Trump's handling of escalating military attacks.",
+      "tags": [
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Chinese official sentenced to death for spying and leaking \"top secret\" information, state media reports",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zcEhJeWFvdDhjUVFFYUw5dklpLV9JeXA0eWFxSjgyclZWRW8tWnpNNzZTcExiQTFZSlB6V0JDdkJwbVZ0STZJNTY3MWNkdkpNeXpFd2U4VXl2dC1nTGZCd0w4a1B0Yjdy?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-24",
+      "summary": "No text supplied. Title indicates article reports Chinese official sentenced to death for espionage and leaking classified information.",
+      "tags": [
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "South Korea issues 'take shelter' warning after Russia aircraft fly near airspace",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVnMyeTNTLWNPT1JoWVRGdTZmb2hnVi1USk9WNldKUVNfVWkzRk5RSjI5UlVIYkprbnEtOFplWGdpd2JoWmtZeEVZQTF6TGJJU0tEZXhsYVVNaHl1OVlfOF9sc3lHUUdzNXBpeHNqUTF0ZXY2VTcxbHEwbHluRF9sR3N0WnR1T3R1cmRKa1FDSnpOeGJwVVIyN0NhYmF4QmlyZHZjT2JNXzB4ZlY1cTJRNVZtTTluY3lYbmd0TEtlXzA3WUZwTVk3Uw?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-23",
+      "summary": "South Korea issues 'take shelter' warning after Russia aircraft fly near airspace. No text supplied; item covers an apparent air security incident.",
+      "tags": [
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Community and neighbourhood policing: Neighbourhood policing in the digital age – social media, online engagement and virtual beats",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQ01qeHo3WFdMdzhQYnoxRWU4UHZWY0xpQkUtX3NqaFhjV0FvQlFXWnIwenVtaVpVMURnX3B2NV9LMl9SSjZHazY2VUsyRGk3eU95Q3UyNnhoc3ozcUN4U3YwelM0eml6MGh5b0dXS0p4T2VZeHVONDlycmhlWlR4MkRRbFFQLVQtX3ZVNVNiMXd6MExTLTdYWlNEWi11OHk0WXdLUVk3WE9Rbk1SZzR2ZnlnNXdUVEhSd0JQTmN2LUl2TnZsaFBVWExvYUNyTXRUM2E2SGcyVllPSnNGVG9DZG50c2xQZFFiY1JjMjAxMEFaazg?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-24",
+      "summary": "Covers neighbourhood policing in the digital age, examining social media, online engagement and virtual beats. No text supplied; title describes focus areas.",
+      "tags": [
+        "Future Policing",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Closing Legal Loopholes that Endanger Subsea Cable Infrastructure",
+      "url": "https://smallwarsjournal.com/2026/11/24/closing-legal-loopholes-subsea-cable-infrastructure/",
+      "source": "Small Wars Journal",
+      "date": "2026-11-24",
+      "summary": "Argues subsea cable infrastructure faces hybrid conflict threats because international legal regimes contain exploitable loopholes. Over 95% of global data flows through ~600 undersea cables. Author contends jurisdictions must close legal gaps to prevent adversary attacks through plausible deniability.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Outage Chaos: When Tech Is Too Big To Fail",
+      "url": "https://www.techdirt.com/2026/11/23/outage-chaos-when-tech-is-too-big-to-fail/",
+      "source": "Techdirt",
+      "date": "2026-11-23",
+      "summary": "Recent outages at Microsoft, Apple, banks and airlines demonstrate internet over-reliance on few cloud monopolists creates public safety and economic stability risks. Advocates antitrust enforcement and interoperability requirements to build resilient digital infrastructure and prevent concentrated corporate control.",
+      "tags": [
+        "Resilience",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data",
+      "url": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident",
+      "source": "The Record",
+      "date": "2026-11-24",
+      "summary": "LaLiga confirmed hackers stole personal information belonging to fans in cyberattack affecting its digital services and several Spanish clubs' systems.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "‘Grand Theft Auto VI’ hacker sentenced to seven years, released the same day",
+      "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
+      "source": "The Record",
+      "date": "2026-11-24",
+      "summary": "British cybercriminal who hacked Rockstar Games and leaked Grand Theft Auto VI footage was sentenced Monday to seven years imprisonment, then released on licence due to time served.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+      "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+      "source": "The Record",
+      "date": "2026-11-23",
+      "summary": "Signal blocks screenshots by Apple and Google operating systems to protect data from AI agents. Signal states Gemini Intelligence and Siri AI are creating increasingly hostile privacy environment.",
+      "tags": [
+        "AI Risks",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "FBI reportedly facing second data breach involving National Crime Information Center",
+      "url": "https://therecord.media/fbi-cyberattack-data-breach",
+      "source": "The Record",
+      "date": "2026-11-23",
+      "summary": "FBI reportedly investigating second data breach involving National Crime Information Center database, which contains information on criminals, fugitives and missing people used by U.S. law enforcement.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Anthropic says Claude solved an age-old math problem, but the written proof is 250,000 pages of slop",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
+      "source": "The Register",
+      "date": "2026-11-24",
+      "summary": "Anthropic claims Claude solved a longstanding mathematics problem, but produced a 250,000-page proof. The article questions whether this constitutes genuine understanding if the AI cannot explain its own proof.",
+      "tags": [
+        "AI Risks"
+      ]
+    },
+    {
+      "title": "Bluetooth brakes are broken as researchers find anyone can control them",
+      "url": "https://www.theregister.com/security/2026/11/23/bluetooth-brakes-are-broken-as-researchers-find-anyone-can-control-them/5311748",
+      "source": "The Register",
+      "date": "2026-11-23",
+      "summary": "Researchers discovered security vulnerabilities in Bluetooth brakes allowing anyone to control them. Security fixes exist for two Elecbrakes models, but an older controller lacks patches and remains vulnerable.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Orgs that leak data 'prioritize corporate interests over customers' says Have I Been Pwned’s Troy Hunt",
+      "url": "https://www.theregister.com/security/2026/11/24/orgs-that-leak-data-prioritize-corporate-interests-over-customers-says-have-i-been-pwneds-troy-hunt/5311802",
+      "source": "The Register",
+      "date": "2026-11-24",
+      "summary": "Troy Hunt from Have I Been Pwned reports that organisations leaking data prioritise corporate interests over customer protection. Leakers typically progress through denial, bargaining, delay, legal threats, then blame Hunt.",
+      "tags": [
+        "Cyber",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "UK gov invests in defense startup making virtual training ground for AI",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/24/uk-gov-invests-in-defense-startup-making-virtual-training-ground-for-ai/5311707",
+      "source": "The Register",
+      "date": "2026-11-24",
+      "summary": "UK government invests in a defence startup developing a virtual training environment for military AI. Britain seeks sovereign capability to test military AI effectiveness before real-world deployment.",
+      "tags": [
+        "AI Governance",
+        "Future Defence"
+      ]
+    }
+  ]
+}

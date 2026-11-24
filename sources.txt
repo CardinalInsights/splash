@@ -22,7 +22,7 @@ NATO StratCom COE | news:stratcomcoe.org
 Tony Blair Institute | news:institute.global
 Center for Democracy and Technology | https://cdt.org
 Tech Oversight Project | https://techoversight.org
-Tech Transparency Project | https://www.techtransparencyproject.org/
+Tech Transparency Project | https://techtransparencyproject.substack.com/feed
 
 # --- Information disorder ---
 DFRLab | https://dfrlab.org
@@ -69,12 +69,12 @@ The Record | https://therecord.media
 Policing Insight | news:policinginsight.com
 Krebs on Security | https://krebsonsecurity.com
 CrimRxiv | https://www.crimrxiv.com
-ENISA | https://www.enisa.europa.eu/publications
+ENISA | news:enisa.europa.eu
 
 # --- Terrorism and extremism ---
 GNET | https://gnet-research.org
 Tech Against Terrorism | news:techagainstterrorism.org
-ICCT | https://icct.nl/
+ICCT | news:icct.nl
 
 # --- Defence and geopolitics ---
 War on the Rocks | https://warontherocks.com
@@ -94,7 +94,7 @@ The Register | https://www.theregister.com/?lab_viewport=rss
 
 # --- Platform threat reports ---
 Microsoft On the Issues | https://blogs.microsoft.com/on-the-issues
-Google Threat Intelligence | https://cloud.google.com/blog/topics/threat-intelligence/rss/
+Google Threat Intelligence | https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
 Meta Newsroom | https://about.fb.com/news
 OpenAI News | https://openai.com/news
 Anthropic News | news:anthropic.com

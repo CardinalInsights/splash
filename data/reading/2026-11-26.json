@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T10:21:50+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Cyber",
+    "Drones",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Space",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "Understanding Violent and Non-Violent Right-Wing Extremist Activity Online: Part I – The Research and Its Context",
+      "url": "https://gnet-research.org/2026/11/25/understanding-violent-and-non-violent-right-wing-extremist-activity-online-part-i-the-research-and-its-context/",
+      "source": "GNET",
+      "date": "2026-11-25",
+      "summary": "Research project examining online posting behaviours of violent and non-violent right-wing extremists on Stormfront forum. Addresses gap in empirical knowledge about how violent extremists use online spaces and whether they can be identified before offline attacks.",
+      "tags": [
+        "Terrorism",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Sockpuppets rewrote Wikipedia to present Democratic candidates as socialists",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZnJxbWxqRDVpM09IMC1UeEMyOHV0VzY2Y3V6MkVGN3lYQllOcnQ5OGVrbjRfNVVBODNoM3lNMDJ5clFjQkdDVk9TeW1IdG9VV3lEcVlVbFFOM3AyUlZlYWhEa1VjcVVERWRwN1FvN29xWkh0S2RpMmtnelRfbW96enRFd3lFZG9tU0tWN2hhRnVSNlRwRzNxZDhLajl2N0pNT2pCZQ?oc=5",
+      "source": "Indicator",
+      "date": "2026-11-25",
+      "summary": "Covers use of sockpuppet accounts to edit Wikipedia articles presenting Democratic candidates as socialists.",
+      "tags": [
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Ofcom consults on strengthened industry Codes requiring faster removal of online intimate image abuse",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOdTRleFhHRnFTVXFXU203eldGNEFnZDkwTUhLaHRUTTE0OVUtM196VVlqWl9NZ3BScF9xVWdxV0MzWlgzdFN0NDBQMzVjalVEM1hTQVAzSm1ldUlmbmcyR2NINnltZWpBZW9mSkFDS0I3aGNkOXpieTE2V3ZBcGs1VWh2aHRSS21oSnNKNGYzQkhXSTFtenFhakNkX01yZGJsQ1ZpUndPT09GdXdUdXhseVdjZ29OTEhIWE5zSFBmMDVIeWwzdzl1c0xMX0U4R0tRcG56MUQ0X05OXzdTRG5wdUNQVHRYRi1WS21tUlJDYUNkQjV4T2tBM0QxdlBHQQ?oc=5",
+      "source": "Ofcom",
+      "date": "2026-11-25",
+      "summary": "Covers Ofcom consultation on strengthened industry codes requiring faster removal of online intimate image abuse.",
+      "tags": [
+        "Online Harms",
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "Views from Ukraine on Digitalised Warfare",
+      "url": "https://www.rusi.org/explore-our-research/publications/commentary/views-ukraine-digitalised-warfare",
+      "source": "RUSI Commentary",
+      "date": "2026-11-26",
+      "summary": "Ukraine's digitalised warfare relies on integrated systems and data under strong centralised authority rather than AI. Provides lessons for UK and NATO strategy.",
+      "tags": [
+        "Future Defence",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Russia's New Cruise Missiles and the Rapid Iteration Trap",
+      "url": "https://www.rusi.org/explore-our-research/publications/commentary/russias-new-cruise-missiles-and-rapid-iteration-trap",
+      "source": "RUSI Commentary",
+      "date": "2026-11-25",
+      "summary": "Russia's jet-powered mini cruise missiles proved faster than Ukraine's interceptor drones. Argues rapid iteration depends fundamentally on sovereign engineering capability developed over years.",
+      "tags": [
+        "Future Defence",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Views from Ukraine on Digitalised Warfare",
+      "url": "https://www.rusi.org/explore-our-research/publications/commentary/views-ukraine-digitalised-warfare",
+      "source": "RUSI Publications",
+      "date": "2026-11-26",
+      "summary": "Ukraine's digitalised warfare relies on integrated systems and data under strong centralised authority rather than AI. Provides lessons for UK and NATO strategy.",
+      "tags": [
+        "Future Defence",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Russia's New Cruise Missiles and the Rapid Iteration Trap",
+      "url": "https://www.rusi.org/explore-our-research/publications/commentary/russias-new-cruise-missiles-and-rapid-iteration-trap",
+      "source": "RUSI Publications",
+      "date": "2026-11-25",
+      "summary": "Russia's jet-powered mini cruise missiles proved faster than Ukraine's interceptor drones. Argues rapid iteration depends fundamentally on sovereign engineering capability developed over years.",
+      "tags": [
+        "Future Defence",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+      "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+      "source": "The Record",
+      "date": "2026-11-25",
+      "summary": "Microsoft reports that Chinese and North Korean hacking groups are rapidly integrating Artex, an AI tool linked to several high-profile breaches, into their attack suites.",
+      "tags": [
+        "Cyber",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+      "url": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+      "source": "The Record",
+      "date": "2026-11-25",
+      "summary": "Australia's Digital Duty of Care Act passed Parliament, mandating online providers establish protocols protecting users from threats of violence, rape and other significant harms.",
+      "tags": [
+        "AI Governance",
+        "Online Harms",
+        "Child Safety"
+      ]
+    },
+    {
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "source": "The Verge",
+      "date": "2026-11-25",
+      "summary": "Google filed a patent for My Channel, a system generating personalised AI videos and advertisements using demographic data and viewing history. The patent was rejected but Google may appeal or resubmit an amended version.",
+      "tags": [
+        "AI Governance",
+        "Privacy",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "The ‘True Crime Community’ Is Inspiring Violent Attacks Through TikTok",
+      "url": "https://www.wired.com/story/the-true-crime-community-is-inspiring-violent-attacks-through-tiktok/",
+      "source": "Wired",
+      "date": "2026-11-25",
+      "summary": "Research shows attacks linked to young people obsessed with mass shooters are increasing, with the network using TikTok and AI to spread its nihilistic message.",
+      "tags": [
+        "Terrorism",
+        "Online Harms",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Podcast: The AI Tool Hacking the Planet",
+      "url": "https://www.404media.co/podcast-the-ai-tool-hacking-the-planet/",
+      "source": "404 Media",
+      "date": "2026-11-25",
+      "summary": "Weekly podcast covering ARTEX, an AI hacking framework behind global breaches; Google's planned 24/7 AI-powered TV channel; and a data centre construction project.",
+      "tags": [
+        "AI Risks",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Treasury CIO Is Vibe Coding a ‘Civilization’ Clone During Treasury Department Hack",
+      "url": "https://www.404media.co/sam-corcos-legatum-treasury-cio-is-vibe-coding-a-civilization-clone-during-treasury-department-hack/",
+      "source": "404 Media",
+      "date": "2026-11-25",
+      "summary": "Treasury Department CIO Sam Corcos updated his AI-generated Civilization clone Legatum whilst FinCEN dealt with a cybersecurity incident that disabled a critical bank compliance reporting panel.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "When cable faults raise security concerns: Australia’s role in Southeast Asia",
+      "url": "https://www.aspi.org.au/report/when-cable-faults-raise-security-concerns/",
+      "source": "ASPI",
+      "date": "2026-11-25",
+      "summary": "Policy brief examines how Australia could assist Southeast Asian partners responding to submarine telecommunications cable incidents raising security concerns, through bilateral relationships and existing defence arrangements.",
+      "tags": [
+        "Cyber",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "High spending, low impact: Can Germany’s defence policy deliver on strategic ambition – and deter Russia?",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVEFIY3VITlFiaGdDVS1hWTltNEJkeUlydGJHRUJGMFB0c2tPOGo2VlQ2WFhYMjFsVXphQXA0aUZqVl9oVmtmX0ZqSGZhdGhQTlZNQUt6TFNhdnppSEZhUWFQZ0FTZkJIVUstMFNrZHE3RFJrSUg5bjI1eTljRzRxekEtNHBvc1BMT0dxeWVad3lEdVFkR0cycExRZ0thalNyM1lXdkJnbldZSzh6LXBvRC10cGFCX3kyNGFfLTFoX0h3LVBn?oc=5",
+      "source": "Chatham House",
+      "date": "2026-11-25",
+      "summary": "Examines whether Germany's defence spending and policy can achieve strategic ambitions and deter Russia.",
+      "tags": [
+        "Future Defence",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Threat actor use of Artex hacking framework surges",
+      "url": "https://www.computerweekly.com/news/366655399/Threat-actor-use-of-Artex-hacking-framework-surges",
+      "source": "Computer Weekly",
+      "date": "2026-11-25",
+      "summary": "Artex, an open-source AI penetration testing framework, surged in November with 130+ variants observed. Servers running autonomous offensive frameworks doubled from 3,200 to over 6,400 between 6–24 November.",
+      "tags": [
+        "AI Risks",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Europe prepares for EU Quantum Act",
+      "url": "https://www.computerweekly.com/news/366655552/Europe-prepares-for-EU-Quantum-Act",
+      "source": "Computer Weekly",
+      "date": "2026-11-25",
+      "summary": "European Commission establishes quantum computing framework to develop sovereign capabilities and commercial advantage. Proposes EU Quantum Act to reduce fragmentation, align efforts, and prepare for post-quantum cryptography. Includes Sovereign Tech Equity Fund for financing, pan-European research infrastructures, Quantum Strategy Board, and European Quantum Alliance of stakeholders.",
+      "tags": [
+        "AI Governance",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "As Drones and Temperatures Fall in Kyiv",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd3gyZ3QzaXRiemI2aDYwa1BYdFRya05pNnZ4X2NSN3V3YUN2QkVMRkpydUE2ejh5dmVTU01xUkE4bVhFeTllTEgwYldXXzdOT3E1OWZSdGNhczRyakJWRU8yeXg0WnNKMTJNUzV2VElUdmFDdXNTc25YN0VmZmpJcXJn?oc=5",
+      "source": "Lawfare",
+      "date": "2026-11-25",
+      "summary": "Title concerns drones and temperatures in Kyiv, but no text supplied to summarise.",
+      "tags": [
+        "Drones",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "The Download: AI swamping open records, and firefighting for permafrost",
+      "url": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
+      "source": "MIT Technology Review",
+      "date": "2026-11-25",
+      "summary": "AI-powered startups raising over $100 million to collect government data and generate business signals, whilst chatbots ease public records requests. Some states pass legislation to deny requests, potentially reducing transparency. Separately, researchers investigate wildfires' acceleration of permafrost thaw and greenhouse gas release in Arctic regions.",
+      "tags": [
+        "AI Governance",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "US approves SpaceX plan to send a million data satellites to space",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KMGNuQ0YwUmpnNHZpaThEbUQzVEhfZXB3ZnNpRk9Renc0bkVxQm9CbFNRU3lXTzlfYmlOT0R2aW1Bdkl2YmtsUXpETGs2bnZQNmtlSlMtdnRpamc?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-26",
+      "summary": "Title concerns US approval of SpaceX plan to deploy million data satellites to space, but no text supplied to summarise.",
+      "tags": [
+        "Space",
+        "Future Defence"
+      ]
+    }
+  ]
+}

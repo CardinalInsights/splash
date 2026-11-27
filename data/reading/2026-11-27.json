@@ -1,0 +1,240 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T11:17:15+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Cyber",
+    "Drones",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Space",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "Understanding Violent and Non-Violent Right-Wing Extremist Activity Online: Part II – Key Findings and Insights",
+      "url": "https://gnet-research.org/2026/11/26/understanding-violent-and-non-violent-right-wing-extremist-activity-online-part-ii-key-findings-and-insights/",
+      "source": "GNET",
+      "date": "2026-11-26",
+      "summary": "Research examining online posting behaviours of violent and non-violent right-wing extremists identifies key poster profiles. Finds that small groups of 'super-posters' drive most activity in extremist forums, with distinguishable poster classes making up these communities.",
+      "tags": [
+        "Terrorism",
+        "Information Disorder",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "AI vendors steal anything you put into the AI",
+      "url": "https://pivot-to-ai.com/2026/11/26/ai-vendors-steal-anything-you-put-into-the-ai/",
+      "source": "Pivot to AI",
+      "date": "2026-11-26",
+      "summary": "Dragos security tested AI vendors by sending nearly two million prompts with unique trackable secrets. Found three compromised vendors, data theft by AI resellers, ignored privacy flags, and false 'zero data retention' claims. AI routers posed highest risk.",
+      "tags": [
+        "AI Risks",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Episode 7: Who's Paying for British Politics?",
+      "url": "https://www.rusi.org/podcasts/suspicious-transaction-report/episode-7-whos-paying-british-politics",
+      "source": "RUSI Publications",
+      "date": "2026-11-27",
+      "summary": "Discussion of foreign money, cryptocurrency donations and hidden political influence channels in British politics, examining how the nation can better defend its democracy.",
+      "tags": [
+        "Information Disorder",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "British government takes services offline following ‘cyber incident’",
+      "url": "https://therecord.media/uk-department-work-pensions-cyber-incident",
+      "source": "The Record",
+      "date": "2026-11-27",
+      "summary": "Department for Work and Pensions experienced a cyber incident, taking several services offline as a precautionary measure.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "UK’s long-awaited National Cyber Action Plan delayed until December",
+      "url": "https://therecord.media/britain-delays-national-cyber-action-plan-again",
+      "source": "The Record",
+      "date": "2026-11-26",
+      "summary": "UK's National Cyber Action Plan, originally scheduled for mid-November publication, delayed to December 9. Strategy addresses defending the wider economy against state-backed and criminal hackers.",
+      "tags": [
+        "Cyber",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
+      "url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+      "source": "The Register",
+      "date": "2026-11-26",
+      "summary": "Chinese and North Korean hackers utilising ARTEX AI tool, an agentic offensive framework automating familiar attack techniques. Weak defences potentially compromised within minutes.",
+      "tags": [
+        "AI Risks",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Safeguarding the UK against economic coercion",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVUVWM09Dc28zeTJPcV8wRjFfS1dzSG8zemFWbTFIMmxIZ09ZSno2eThZTjlMTE40bFNnSGdIakk3VHlnSkhaNDBuMDdHS1V2ci1DSjFYckZyODJOZVp5SlMzOWtNSE9scVBWMTluVEs3QnlQbXpRNW5MYVBGMFJoQzVNZEs?oc=5",
+      "source": "Chatham House",
+      "date": "2026-11-26",
+      "summary": "Addresses safeguarding the UK against economic coercion.",
+      "tags": [
+        "Geopolitics",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Why AI infrastructure spend fails when IT skips workload checks",
+      "url": "https://www.computerweekly.com/opinion/Why-AI-infrastructure-spend-fails-when-IT-skips-workload-checks",
+      "source": "Computer Weekly",
+      "date": "2026-11-27",
+      "summary": "Argues costly AI infrastructure failures stem from skipping workload assessment. Recommends starting with business requirements and workload analysis rather than purchasing equipment off-shelf, with hybrid and consumption-based models offering alternatives.",
+      "tags": [
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Independent review into ICO amid claims of ‘toxic culture’ at data protection watchdog",
+      "url": "https://www.computerweekly.com/news/366655461/Independent-review-into-ICO-amid-claims-of-toxic-culture-at-data-protection-watchdog",
+      "source": "Computer Weekly",
+      "date": "2026-11-26",
+      "summary": "Independent review by barrister Karon Monaghan KC appointed to investigate UK Information Commissioner's Office following former chief John Edwards' resignation over allegations of vulgar and sexualised language towards women. Review to examine toxic workplace culture; staff survey found 65% reported bullying, harassment and discrimination. Non-disclosure agreements suspended to enable testimony.",
+      "tags": [
+        "Privacy"
+      ]
+    },
+    {
+      "title": "Power now the binding constraint on AI datacentres",
+      "url": "https://www.computerweekly.com/news/366655535/Power-now-the-binding-constraint-on-AI-datacentres",
+      "source": "Computer Weekly",
+      "date": "2026-11-26",
+      "summary": "European datacentres' electricity demand projected to more than double from 96TWh in 2024 to 236TWh by 2035. AI rack power draw increasing from 20kW to 1MW. Power delivery now the binding constraint on AI infrastructure expansion; industry adopting new efficiency metrics including tokens per watt and time to token.",
+      "tags": [
+        "AI Governance",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWXdZWk9aY1VrSmlEbExnWV93RnFxTDFwV3RLdjhtYW1SaXU0aXJCbGJBRUVOS0FramRyaVdva0VwUWRLQlBZdHcwYktUWVlwaEp4MTNEeUN3Y2Q1bi1RUG5TRTZoWlY0S2lFUVpqSVF3NzJQZ2hiUGFjU19LTW93cERfYzNNY3VKalHSAY8BQVVfeXFMTXlQSEhkZ20xOFJXTzlvczJPelo5S294dENlYTBpMzAxVHVxeHhFNUk3eHZVYVQzY0t6cWZ5T1hEYUdjbkc1SmROUVVTVWc4Mjdza3FYNXplRTE0Qk5NY1NyTTNwdEN6Z2JyWEJhOVRVd3RVOVRoTVlubGNUYTBsWS1zTkZ3czV6WThYWkk4RVU?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-27",
+      "summary": "Title concerns two Italians killed in Kuwait drone attack and Trump statement on Iran conflict, but no text supplied to summarise.",
+      "tags": [
+        "Drones",
+        "Terrorism"
+      ]
+    },
+    {
+      "title": "Germany arrests 2 Iraqi nationals allegedly tied to Iran-linked terrorist group",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTZFdkdMRlg5ankwdjRyUzlEMWdRZm55UGFpVFlGb05BUWQ5UzBrU0g2WmdRSTVPeUJPYWR0aVhKTmpJTldZLVhsSjM0d3NVSUN5UlYtaHBHdEJtQnNUa3JuSmRpT0ZXdEhram5BdTFGLWZYT0JDNWlVcVdqSnRPU0MwdHNWdw?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-26",
+      "summary": "Title concerns German arrests of two Iraqi nationals allegedly linked to Iran-backed terrorist group, but no text supplied to summarise.",
+      "tags": [
+        "Terrorism",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Our consultation on transparency notices to improve online safety",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONjU2RWdEQ1R6M0I2b2Y2dXY1TnhYZkJvT2xHVDRjRWhBekhlTkJoSUw2RkNseWZyaE5YMzlzeFFBalI5R180N25OUHlFMG55VlZvV1pYODlubkJ6LVNjanB2UXJWbU1peHRiVmtaa19kVXV4VUp6a1hCdnYxZlZoLWk4S0V5dWpyUlFfeVBsTy1tQUlQNnFzZk9oUWVHVlpXYlBRT184ZHJNelNCSlFoRTZHUlFBbk1lMkRvUVRlemp2T3F0QlZTQXB3cUM?oc=5",
+      "source": "Ofcom",
+      "date": "2026-11-26",
+      "summary": "Title indicates Ofcom consultation on transparency notices to improve online safety, but no text supplied to summarise.",
+      "tags": [
+        "Online Harms",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Invisibility Is Still Possible: Special Operations Under Ubiquitous Technical Surveillance",
+      "url": "https://www.rusi.org/explore-our-research/publications/rusi-newsbrief/invisibility-still-possible-special-operations-under-ubiquitous-technical-surveillance",
+      "source": "RUSI Publications",
+      "date": "2026-11-26",
+      "summary": "Argues ubiquitous technical surveillance has not ended covert special operations. Claims detection does not equal attribution, and gaps between detection and attribution provide room for invisibility in special operations.",
+      "tags": [
+        "Future Defence",
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Australia Passes Digital Duty of Care Bill, Ignoring Censorship Warnings",
+      "url": "https://reclaimthenet.org/australia-digital-duty-care-bill-passes-censoring-speech",
+      "source": "Reclaim The Net",
+      "date": "2026-11-26",
+      "summary": "Australia's parliament passed Digital Duty of Care bill establishing duty to protect children and adults from harmful material. Fines up to 5% of global revenue or A$109million; largest platforms face potential fines in tens of billions. Includes private litigation rights; critics warn it incentivises platforms to censor lawful speech.",
+      "tags": [
+        "Online Harms",
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "British social security system techies yank services offline following 'cyber incident'",
+      "url": "https://www.theregister.com/security/2026/11/27/british-social-security-system-techies-yank-services-offline-following-cyber-incident/5312522",
+      "source": "The Register",
+      "date": "2026-11-27",
+      "summary": "British social security system services taken offline following cyber incident. Pensioners reassured their funds will arrive normally. No further details provided about nature or scope of incident.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "UK government working 'around the clock' on Capita contingency plans",
+      "url": "https://www.theregister.com/public-sector/2026/11/26/uk-government-working-around-the-clock-on-capita-contingency-plans/5312298",
+      "source": "The Register",
+      "date": "2026-11-26",
+      "summary": "UK government developing contingency plans following Capita outsourcer's pensions failures. Minister criticises company after CEO departure and share price decline.",
+      "tags": [
+        "Resilience",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Free e-government platform that serves two billion people in ten countries has critical SQL injection bug",
+      "url": "https://www.theregister.com/security/2026/11/27/free-e-government-platform-that-serves-two-billion-people-in-ten-countries-has-critical-sql-injection-bug/5312449",
+      "source": "The Register",
+      "date": "2026-11-27",
+      "summary": "India's governance digital infrastructure platform serving two billion people across ten countries contains critical SQL injection vulnerability enabling data leakage.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Royal Navy orders £142M in minehunting drones from US supplier",
+      "url": "https://www.theregister.com/offbeat/2026/11/27/royal-navy-orders-142m-in-minehunting-drones-from-us-supplier/5312291",
+      "source": "The Register",
+      "date": "2026-11-27",
+      "summary": "Royal Navy awards £142M minehunting drone contract to US firm Huntington Ingalls Industries, contradicting MoD commitment to purchasing British.",
+      "tags": [
+        "Future Defence",
+        "Drones"
+      ]
+    },
+    {
+      "title": "Tech's outage problem needs maintenance, not conspiracy theories",
+      "url": "https://www.theregister.com/research/2026/11/26/techs-outage-problem-needs-maintenance-not-conspiracy-theories/5312180",
+      "source": "The Register",
+      "date": "2026-11-26",
+      "summary": "Forrester report warns tech outages stem from organisations neglecting resilience and maintenance of brittle underlying systems supporting new services.",
+      "tags": [
+        "Resilience"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T16:21:14+00:00",
+  "topics": [
+    "AI Governance",
+    "AI Risks",
+    "Child Safety",
+    "Cyber",
+    "Drones",
+    "Future Crime",
+    "Future Defence",
+    "Future Policing",
+    "Geopolitics",
+    "Information Disorder",
+    "Online Harms",
+    "Privacy",
+    "Resilience",
+    "Space",
+    "Terrorism",
+    "VAWG"
+  ],
+  "entries": [
+    {
+      "title": "Young British men lose £11bn in the ‘Moneysphere’",
+      "url": "https://www.computerweekly.com/news/366655520/Young-British-men-lose-11bn-in-the-Moneysphere",
+      "source": "Computer Weekly",
+      "date": "2026-11-27",
+      "summary": "Survey of 2,000 UK Gen Z males found 44% fell victim to investment scams via social media, losing combined £11bn (average £5,000 each). The 'Moneysphere' comprises anonymous accounts, influencers and AI creators promoting get-rich-quick schemes. Young men targeted multiple times daily; 18-24-year-olds 1.64 times more likely victims than average.",
+      "tags": [
+        "Information Disorder",
+        "Online Harms"
+      ]
+    },
+    {
+      "title": "Investigation underway into DWP cyber incident as services taken offline",
+      "url": "https://www.computerweekly.com/news/366655538/Investigation-underway-into-DWP-cyber-security-incident-as-services-taken-offline",
+      "source": "Computer Weekly",
+      "date": "2026-11-27",
+      "summary": "UK Department for Work and Pensions took services offline following cyber incident detected yesterday. Investigation underway with National Cyber Security Centre and Government Cyber Coordination Centre. Currently no evidence of data loss or malicious actor involvement. Regular benefit and pension payments unaffected. Websites for pensions, universal credit and PIP impacted.",
+      "tags": [
+        "Cyber",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Understanding Violent and Non-Violent Right-Wing Extremist Activity Online: Part III – Implications and Future Directions",
+      "url": "https://gnet-research.org/2026/11/27/understanding-violent-and-non-violent-right-wing-extremist-activity-online-part-iii-implications-and-future-directions/",
+      "source": "GNET",
+      "date": "2026-11-27",
+      "summary": "Three-part research series on online posting behaviours of violent and non-violent right-wing extremists. This final part explores implications and future directions. Project aimed to develop risk-factor frameworks for law enforcement, intelligence agencies and tech companies to identify credible online threats beyond existing studies lacking comparison groups.",
+      "tags": [
+        "Terrorism",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "America Needs Homegrown Open-Weight Models",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeno2Nm05LUVIWFJpanB5aUtwTU1WVTVFa0M5Qk5tQ1lWMFNIMGowellMY1dfVVlMcV9LRFZHRVhmcVRtY0NwV0tMUmZIclYySE1mVXFVTVp3WlNHZHRDWDJMcEw4b3dYZXljRDl6NXJiY3BkSDVUUHBTaHZQWDFIOFlxX21LZw?oc=5",
+      "source": "Lawfare",
+      "date": "2026-11-27",
+      "summary": "No text supplied. Article title suggests discussion of open-weight artificial intelligence models and their development or deployment in the United States.",
+      "tags": [
+        "AI Governance"
+      ]
+    },
+    {
+      "title": "Leaked EU Draft Would Allow Mass Scanning of Private Messages",
+      "url": "https://reclaimthenet.org/leaked-eu-draft-would-allow-mass-scanning-of-private-messages",
+      "source": "Reclaim The Net",
+      "date": "2026-11-27",
+      "summary": "Leaked EU draft deal on Child Sexual Abuse Regulation ('Chat Control 2.0') reveals provision allowing 'independent administrative authority' to order mass scanning of private messages for up to 24 months without court order. Irish Presidency reportedly attempting to bypass Parliament negotiators. Final trilogue meeting scheduled December 8.",
+      "tags": [
+        "Child Safety",
+        "Privacy"
+      ]
+    },
+    {
+      "title": "USAID Files: Staff Said Taxpayers Were Footing Big Tech’s Disinformation Bill",
+      "url": "https://reclaimthenet.org/usaid-files-staff-said-taxpayers-were-footing-big-techs-disinformation-bill",
+      "source": "Reclaim The Net",
+      "date": "2026-11-27",
+      "summary": "USAID Files show January 2021 conversation where officials noted agency's anti-disinformation work effectively subsidised Big Tech by using taxpayer money to fund organisations flagging content to platforms. Officials suggested platforms should share costs rather than government ceasing funding. USAID monitors and flags content in Ethiopia, Ukraine, Moldova and Kenya.",
+      "tags": [
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "USAID Files: The Agency Wanted a Direct Line to Facebook for Takedowns",
+      "url": "https://reclaimthenet.org/usaid-files-the-agency-wanted-a-direct-line-to-facebook-for-takedowns",
+      "source": "Reclaim The Net",
+      "date": "2026-11-27",
+      "summary": "USAID Files reveal US government agency had direct access to Meta's policy team for content removal requests. November 2022 instance shows USAID official flagged Guatemalan page; Meta removed one violating post despite page overall complying with standards. USAID sought to establish 'streamlined' direct channels between Missions and Meta for future takedowns.",
+      "tags": [
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "USAID Files: Google Told US Officials It Might Rethink Twitter’s Place in Search",
+      "url": "https://reclaimthenet.org/usaid-files-google-told-us-officials-it-might-rethink-twitters-place-in-search",
+      "source": "Reclaim The Net",
+      "date": "2026-11-27",
+      "summary": "USAID Files show December 2022 State Department meeting where Google told US counter-disinformation officials it might reconsider Twitter's inclusion in Google Search carousel if Twitter handled moderation differently during elections. Meeting attended by Google Trust & Safety VP and State Department representatives from twelve bureaux.",
+      "tags": [
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Russia’s Unconventional War on Europe: Sabotage, Deterrence and Future Scenarios",
+      "url": "https://smallwarsjournal.com/2026/11/27/russias-unconventional-war-on-europe-sabotage-deterrence-and-future-scenarios/",
+      "source": "Small Wars Journal",
+      "date": "2026-11-27",
+      "summary": "IISS report examines Russia's unconventional war on Europe through sabotage targeting critical infrastructure. Despite Russian intelligence services' campaign, European military support for Ukraine continues, defence spending rose 12.6% in 2025, and NATO expanded surveillance. Report presents four scenarios to 2029.",
+      "tags": [
+        "Geopolitics",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "ICO reprimands Home Office over data inaccuracy in border system",
+      "url": "https://www.computerweekly.com/news/366655358/ICO-reprimands-Home-Office-over-data-inaccuracy-in-border-system",
+      "source": "Computer Weekly",
+      "date": "2026-11-27",
+      "summary": "ICO reprimanded Home Office for inaccurate data in Helios border system, developed with BAE Systems. Investigation found no measures to correct inaccuracies before launch, staff instructed not to include personal information in rectification requests, and uncertainty whether staff knew how to report errors.",
+      "tags": [
+        "Privacy",
+        "Cyber"
+      ]
+    },
+    {
+      "title": "How Long Is Long Enough? Crime Reporting Delays, Investigative Timing, and a Benchmark for Automated License Plate Reader (ALPR) Data Retention",
+      "url": "https://www.crimrxiv.com/pub/zuzf7rk9",
+      "source": "CrimRxiv",
+      "date": "2026-11-27",
+      "summary": "Examines Automated Licence Plate Reader data retention periods and their relationship to crime reporting delays and investigative timing. Analyses 3.32 million records to establish benchmark for appropriate retention periods.",
+      "tags": [
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "Briefing: State AGs sue SpaceX over Grok deepfakes",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPR1RwYXFWNmI2ZGh2VXlmS2lXRWxYcmZRc3VCUHIzQWg5VnhpamsyNV9tZjR1ZEs2QjZtVUN1ZmtTOW1OakVfT3VkYU9mMUJxa25TSTlfTEhEVjlVbG1QNVF1bkxTaWhjMlZKdUFZdHNjVUZVRWZ0Z0tmMkwyS1p3cw?oc=5",
+      "source": "Indicator",
+      "date": "2026-11-27",
+      "summary": "Covers briefing on state attorneys general suing SpaceX regarding Grok deepfakes.",
+      "tags": [
+        "AI Risks",
+        "Information Disorder"
+      ]
+    },
+    {
+      "title": "Afghanistan explosion kills 10 students and injures more than 100, official says",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XMk50RGlkOXd3WG1YOW56UHBybHV5TkpQVkN0RjdUR1k1bEdfMUZUeDRPLXBQcVVrTkN6ZUxVQUlkYkJSV1RRVjh3Y01UbkdLVTc0RXJ3aThxV2M?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-28",
+      "summary": "Covers explosion in Afghanistan that killed 10 students and injured more than 100.",
+      "tags": [
+        "Terrorism",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "Meloni Seethes at Zelenskyy for Not Warning Her on Libya Strike",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUFJ3cXRiMzRVc0Y3LUpwV0N3TGlDeTlkVzZhM20wem85YTJYVjVhVHduS05EcTZOenMxS2ZpdUlBUjVDZTBQWVNwMEo5dkhBSzBhcmRRRUw2S0wzYlFPZEtCSl9LV2VQX0xkYmxINk1laWN4emZrWFRPQk1wVmRVVWt4TnJPanNPRVBQWkR4WW55RDljZ1JPYUpoVUtFMTZUUnVxYjFMOHF6blNHbEJxRXBUOXE?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-27",
+      "summary": "Covers tensions between Italian Prime Minister Meloni and Ukrainian President Zelenskyy regarding Libya strike notification.",
+      "tags": [
+        "Geopolitics"
+      ]
+    },
+    {
+      "title": "Ukraine planning to destroy Putin’s prized bridge entirely",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaEp6UFZmdEtyZWQ2ZUVtZTlpazNQUWczOEs2c1RFeDltaWhJMWQ1N0s0OFVMOFIyaVV2WTczSF9QcnVIcUFtaHhoRVV4UzhyMmFzbC1nY3NrcURpRm5LV19FMGxyNWU2QklIQnZLRmVKMzBKMFdCV2hqQWN3a00wOUZXTWhYbnRkcDI5ZTZudkdaR3RwcG5WbGpEeWQwcFF5VjJxQi1lNDFyOXJxMUxv?oc=5",
+      "source": "NATO StratCom COE",
+      "date": "2026-11-28",
+      "summary": "Covers Ukraine's plans to destroy a bridge prioritised by Putin.",
+      "tags": [
+        "Geopolitics",
+        "Future Defence"
+      ]
+    },
+    {
+      "title": "News Probationers should do their own legwork instead of using AI warns report Police Oracle - Subscription at source",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb1YxMGhMWUduV1ZtN0NnREdFbmJVMmpFWExNaUNBQ2lwZERWdXdGTUxfT3BuOVZaSmJTR3VwRDVVdVZPRWQxWXlGVElsZjY4ZUl3Z1Bzak52S2hhQlZ0bkR6RF9tazF1Tm04U2wyS2YwWWY4bWVpNHRJekJpN0pybk55YnE2SGt4OHczUE9rcm1vUm1oS09Xd0RxODBMWE5ueXZPY1dmN1lLRkNSemVfOXkxX2MxN0gyYkVz?oc=5",
+      "source": "Policing Insight",
+      "date": "2026-11-27",
+      "summary": "Covers report warning police probationers should conduct their own investigative work rather than relying on artificial intelligence.",
+      "tags": [
+        "Future Policing"
+      ]
+    },
+    {
+      "title": "The Price of Cost-Cutting: What Next for UK Aid and Development Assistance?",
+      "url": "https://www.rusi.org/explore-our-research/publications/commentary/price-cost-cutting-what-next-uk-aid-and-development-assistance",
+      "source": "RUSI Commentary",
+      "date": "2026-11-27",
+      "summary": "Deep UK and Western aid cuts are fuelling insecurity across sub-Saharan Africa. Protecting British interests requires money paired with genuine strategic reform.",
+      "tags": [
+        "Geopolitics",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "The Price of Cost-Cutting: What Next for UK Aid and Development Assistance?",
+      "url": "https://www.rusi.org/explore-our-research/publications/commentary/price-cost-cutting-what-next-uk-aid-and-development-assistance",
+      "source": "RUSI Publications",
+      "date": "2026-11-27",
+      "summary": "Deep UK and Western aid cuts are fuelling insecurity across sub-Saharan Africa. Protecting British interests requires money paired with genuine strategic reform.",
+      "tags": [
+        "Geopolitics",
+        "Resilience"
+      ]
+    },
+    {
+      "title": "Japan’s education ministry discloses breach of government procurement system",
+      "url": "https://therecord.media/japan-education-ministry-cyberattack",
+      "source": "The Record",
+      "date": "2026-11-27",
+      "summary": "Japan's education ministry disclosed a hacker breach of its government procurement system, potentially exposing business information and email addresses.",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "title": "Software giant SAP confirms cyber incident amid reports of source code breach",
+      "url": "https://therecord.media/sap-germany-cyberattack-github",
+      "source": "The Record",
+      "date": "2026-11-27",
+      "summary": "SAP confirmed a cybersecurity incident after reports that hackers infiltrated its software development infrastructure, potentially accessing the company's source code.",
+      "tags": [
+        "Cyber"
+      ]
+    }
+  ]
+}
